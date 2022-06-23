@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCNF02_Create family invalid data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f140eec8-2fca-464e-a7b6-ca945d4b4b01</testCaseGuid>
+</TestCaseEntity>

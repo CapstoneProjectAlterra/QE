@@ -4,4 +4,24 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>OK</description>
+      <initValue>200</initValue>
+      <name>Status_200</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Bad Request</description>
+      <initValue>400</initValue>
+      <name>Status_400</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Unsupported Media Type</description>
+      <initValue>415</initValue>
+      <name>Status_415</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Not Found</description>
+      <initValue>404</initValue>
+      <name>Status_404</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
