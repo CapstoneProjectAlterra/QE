@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCGB02_GET BOOKING INVALID ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e339e64f-e1d8-46d5-ab3c-2a2a68363845</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCDB03_DEL WITHOUT ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>800839d7-76b4-4f33-89e6-5b6f83763c36</testCaseGuid>
+</TestCaseEntity>

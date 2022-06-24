@@ -24,4 +24,34 @@
       <initValue>404</initValue>
       <name>Status_404</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Unauthorized</description>
+      <initValue>401</initValue>
+      <name>Status_401</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Forbidden</description>
+      <initValue>403</initValue>
+      <name>Status_403</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Internal Server Error</description>
+      <initValue>500</initValue>
+      <name>Status_500</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Success'</initValue>
+      <name>update_success</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Method Not Allowed</description>
+      <initValue>405</initValue>
+      <name>Status_405</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXJuYW5kYSIsImlhdCI6MTY1NjA1NjczNSwiZXhwIjoxNjU2MTQzMTM1fQ.onOvqQ_IOLXNgMcfFu6hdrSlVLZMTyIIWPcVCapwrIo'</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCDB02_DEL INVALID ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fab9c009-cf64-457d-8042-41da3a1b6a5c</testCaseGuid>
+</TestCaseEntity>

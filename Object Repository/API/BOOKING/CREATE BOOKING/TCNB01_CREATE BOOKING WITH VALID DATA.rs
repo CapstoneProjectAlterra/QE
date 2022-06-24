@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>CreateNewFamily</name>
+   <name>TCNB01_CREATE BOOKING WITH VALID DATA</name>
    <tag></tag>
-   <elementGuidId>43fe9184-82b6-41ed-8091-f37ade214438</elementGuidId>
+   <elementGuidId>a80f8060-4c74-4772-956e-cc333b3c9c1d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;date_of_birth\&quot;: \&quot;15-12-2001\&quot;,\n  \&quot;email\&quot;: \&quot;haha@hihi.com\&quot;,\n  \&quot;gender\&quot;: \&quot;LAKI_LAKI\&quot;,\n  \&quot;id_card_address\&quot;: \&quot;string\&quot;,\n  \&quot;nik\&quot;: \&quot;161043292102202\&quot;,\n  \&quot;phone_number\&quot;: \&quot;08822113344\&quot;,\n  \&quot;profile\&quot;: {\n    \&quot;role\&quot;: \&quot;ADMIN\&quot;,\n    \&quot;user_id\&quot;: 0\n  },\n  \&quot;residence_address\&quot;: \&quot;string\&quot;,\n  \&quot;status_in_family\&quot;: \&quot;ANAK\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;booking_date\&quot;:\&quot;24-06-2022 16:19:02\&quot;,\n    \&quot;schedule\&quot;:{\n        \&quot;id\&quot;:2\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/family</restUrl>
+   <restUrl>http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/booking</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

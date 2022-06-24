@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCB02_GET ALL BOOKING WITHOUT TOKEN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3c88c33-2345-41be-93d9-5e8fd7e85fd9</testCaseGuid>
+</TestCaseEntity>
