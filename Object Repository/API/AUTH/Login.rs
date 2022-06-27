@@ -26,7 +26,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/auth/login</restUrl>
+   <restUrl>${GlobalVariable.url}/auth/login</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -35,6 +35,20 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.username</defaultValue>
+      <description></description>
+      <id>ccea4b05-c069-47d3-8465-c94272655aae</id>
+      <masked>false</masked>
+      <name>uname</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.password</defaultValue>
+      <description></description>
+      <id>6f4e5bb4-2ef8-4a83-bebb-b9b05349c37e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

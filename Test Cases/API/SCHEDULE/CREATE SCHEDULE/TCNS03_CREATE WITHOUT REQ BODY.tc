@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCNS03_CREATE WITHOUT REQ BODY</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd50f3c3-b7a1-4b8d-920a-449aaf84412f</testCaseGuid>
+</TestCaseEntity>

@@ -27,13 +27,13 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXJuYW5kYSIsImlhdCI6MTY1NjA1NjczNSwiZXhwIjoxNjU2MTQzMTM1fQ.onOvqQ_IOLXNgMcfFu6hdrSlVLZMTyIIWPcVCapwrIo</value>
+      <value>${GlobalVariable.token}</value>
    </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/booking/1</restUrl>
+   <restUrl>${GlobalVariable.url}/booking/1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

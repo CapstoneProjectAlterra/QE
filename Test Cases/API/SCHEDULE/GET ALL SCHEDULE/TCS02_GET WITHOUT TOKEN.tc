@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCS02_GET WITHOUT TOKEN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d7c42b1-1ad4-477a-a02a-bbc783e4de4d</testCaseGuid>
+</TestCaseEntity>
