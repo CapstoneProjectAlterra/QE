@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 for (i = 1; i <= 3; i++) {
-    Mobile.startApplication('C:\\Users\\Thinkpad X260\\Downloads\\vaccine_booking.apk', false)
+    Mobile.startApplication('C:\\Users\\Thinkpad X260\\Downloads\\app-release (1).apk', false)
 
     Mobile.tap(findTestObject('MOBILE/Register/Login-landing'), 0)
 
@@ -47,50 +47,51 @@ for (i = 1; i <= 3; i++) {
     Mobile.closeApplication()
 }
 
-for (i=1; i<=5; i++) {
-if (i == 4) {
-    Mobile.startApplication('C:\\Users\\Thinkpad X260\\Downloads\\vaccine_booking.apk', false)
+for (i = 1; i <= 5; i++) {
+    if (i == 4) {
+        Mobile.startApplication('C:\\Users\\Thinkpad X260\\Downloads\\vaccine_booking.apk', false)
 
-    Mobile.tap(findTestObject('MOBILE/Register/Login-landing'), 0)
+        Mobile.tap(findTestObject('MOBILE/Register/Login-landing'), 0)
 
-    Mobile.verifyElementExist(findTestObject('MOBILE/Login/Verify-login-page'), 0)
+        Mobile.verifyElementExist(findTestObject('MOBILE/Login/Verify-login-page'), 0)
 
-    Mobile.tap(findTestObject('MOBILE/Login/nik'), 0)
+        Mobile.tap(findTestObject('MOBILE/Login/nik'), 0)
 
-    Mobile.setText(findTestObject('MOBILE/Login/nik'), findTestData('dataLogin').getValue(1, i), 0)
+        Mobile.setText(findTestObject('MOBILE/Login/nik'), findTestData('dataLogin').getValue(1, i), 0)
 
-    Mobile.tap(findTestObject('MOBILE/Login/pass'), 0)
+        Mobile.tap(findTestObject('MOBILE/Login/pass'), 0)
 
-    Mobile.setText(findTestObject('MOBILE/Login/pass'), findTestData('dataLogin').getValue(2, i), 0)
+        Mobile.setText(findTestObject('MOBILE/Login/pass'), findTestData('dataLogin').getValue(2, i), 0)
 
-    Mobile.tap(findTestObject('MOBILE/Login/view pass'), 3)
+        Mobile.tap(findTestObject('MOBILE/Login/view pass'), 3)
 
-    Mobile.clearText(findTestObject('MOBILE/Login/pass'), 0)
+        Mobile.clearText(findTestObject('MOBILE/Login/pass'), 0)
 
-    Mobile.tap(findTestObject('MOBILE/Login/btn-login'), 0)
+        Mobile.tap(findTestObject('MOBILE/Login/btn-login'), 0)
 
-    Mobile.verifyElementExist(findTestObject('MOBILE/Login/required-pass'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-}else if (i == 5) {
-    Mobile.startApplication('C:\\Users\\Thinkpad X260\\Downloads\\vaccine_booking.apk', false)
+        Mobile.verifyElementExist(findTestObject('MOBILE/Login/required-pass'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+    } else if (i == 5) {
+        Mobile.startApplication('C:\\Users\\Thinkpad X260\\Downloads\\vaccine_booking.apk', false)
 
-    Mobile.tap(findTestObject('MOBILE/Register/Login-landing'), 0)
+        Mobile.tap(findTestObject('MOBILE/Register/Login-landing'), 0)
 
-    Mobile.verifyElementExist(findTestObject('MOBILE/Login/Verify-login-page'), 0)
+        Mobile.verifyElementExist(findTestObject('MOBILE/Login/Verify-login-page'), 0)
 
-    Mobile.tap(findTestObject('MOBILE/Login/nik'), 0)
+        Mobile.tap(findTestObject('MOBILE/Login/nik'), 0)
 
-    Mobile.setText(findTestObject('MOBILE/Login/nik'), findTestData('dataLogin').getValue(1, i), 0)
+        Mobile.setText(findTestObject('MOBILE/Login/nik'), findTestData('dataLogin').getValue(1, i), 0)
 
-    Mobile.tap(findTestObject('MOBILE/Login/pass'), 0)
+        Mobile.tap(findTestObject('MOBILE/Login/pass'), 0)
 
-    Mobile.setText(findTestObject('MOBILE/Login/pass'), findTestData('dataLogin').getValue(2, i), 0)
+        Mobile.setText(findTestObject('MOBILE/Login/pass'), findTestData('dataLogin').getValue(2, i), 0)
 
-    Mobile.tap(findTestObject('MOBILE/Login/view pass'), 3)
+        Mobile.tap(findTestObject('MOBILE/Login/view pass'), 3)
 
-    Mobile.tap(findTestObject('MOBILE/Login/btn-login'), 0)
+        Mobile.tap(findTestObject('MOBILE/Login/btn-login'), 0)
 
-    Mobile.verifyElementVisible(findTestObject('MOBILE/Login/verify-home'), 0)
+        Mobile.verifyElementVisible(findTestObject('MOBILE/Login/verify-home'), 0)
+    }
+    
+    Mobile.closeApplication()
 }
 
-Mobile.closeApplication()
-}

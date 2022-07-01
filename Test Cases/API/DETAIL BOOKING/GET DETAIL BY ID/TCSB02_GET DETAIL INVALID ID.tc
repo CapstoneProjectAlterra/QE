@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCSB02_GET DETAIL INVALID ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2973a03-b671-469e-af82-0680f5a8ba5c</testCaseGuid>
+</TestCaseEntity>

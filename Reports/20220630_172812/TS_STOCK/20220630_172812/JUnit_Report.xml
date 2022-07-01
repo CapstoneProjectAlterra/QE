@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_STOCK" time="17.021" tests="13" failures="1" errors="0">
+   <testsuite name="TS_STOCK" tests="13" failures="1" errors="0" time="17.021" skipped="0" timestamp="2022-06-30 17:28:16" hostname="Thinkpad X260 - DESKTOP-D9B57TC" id="Test Suites/TS_STOCK">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220630_172812\\TS_STOCK\\20220630_172812"/>
+         <property name="logFiles" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220630_172812\\TS_STOCK\\20220630_172812\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Thinkpad X260 - DESKTOP-D9B57TC"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/API/STOCK/CREATE STOCK/TCNST03_CREATE WITHOUT REQ BODY" time="3.76" classname="Test Cases/API/STOCK/CREATE STOCK/TCNST03_CREATE WITHOUT REQ BODY" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:17 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/CREATE STOCK/TCNST03_CREATE WITHOUT REQ BODY: Test Cases/API/STOCK/CREATE STOCK/TCNST03_CREATE WITHOUT REQ BODY
+
+2022-06-30 17:28:17 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/CREATE NEW STOCK/TCNST03_CREATE WITHOUT REQUEST BODY")): Send request successfully
+
+2022-06-30 17:28:20 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\0.har
+
+2022-06-30 17:28:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-06-30 17:28:21 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/CREATE STOCK/TCNST02_CREATE WITHOUT TOKEN" time="1.181" classname="Test Cases/API/STOCK/CREATE STOCK/TCNST02_CREATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:21 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/CREATE STOCK/TCNST02_CREATE WITHOUT TOKEN: Test Cases/API/STOCK/CREATE STOCK/TCNST02_CREATE WITHOUT TOKEN
+
+2022-06-30 17:28:21 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/CREATE NEW STOCK/TCNST02_CREATE WITHOUT TOKEN")): Send request successfully
+
+2022-06-30 17:28:22 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\1.har
+
+2022-06-30 17:28:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-06-30 17:28:22 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/CREATE STOCK/TCNST01_CREATE VALID STOCK" time="1.068" classname="Test Cases/API/STOCK/CREATE STOCK/TCNST01_CREATE VALID STOCK" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:22 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/CREATE STOCK/TCNST01_CREATE VALID STOCK: Test Cases/API/STOCK/CREATE STOCK/TCNST01_CREATE VALID STOCK
+
+2022-06-30 17:28:22 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/CREATE NEW STOCK/TCNST01_CREATE STOCK")): Send request successfully
+
+2022-06-30 17:28:23 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\2.har
+
+2022-06-30 17:28:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-06-30 17:28:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-06-30 17:28:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-06-30 17:28:23 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/GET ALL STOCK/TCST02_GET ALL WITHOUT TOKEN" time="0.878" classname="Test Cases/API/STOCK/GET ALL STOCK/TCST02_GET ALL WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:23 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/GET ALL STOCK/TCST02_GET ALL WITHOUT TOKEN: Test Cases/API/STOCK/GET ALL STOCK/TCST02_GET ALL WITHOUT TOKEN
+
+2022-06-30 17:28:23 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/GET ALL STOCK/TCST02_GET WITHOUT TOKEN")): Send request successfully
+
+2022-06-30 17:28:24 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\3.har
+
+2022-06-30 17:28:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-06-30 17:28:24 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK" time="0.937" classname="Test Cases/API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:24 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK: Test Cases/API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK
+
+2022-06-30 17:28:24 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK")): Send request successfully
+
+2022-06-30 17:28:25 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\4.har
+
+2022-06-30 17:28:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-06-30 17:28:25 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/GET STOCK BY ID/TCGST02_GET INVALID ID" time="0.992" classname="Test Cases/API/STOCK/GET STOCK BY ID/TCGST02_GET INVALID ID" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:25 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/GET STOCK BY ID/TCGST02_GET INVALID ID: Test Cases/API/STOCK/GET STOCK BY ID/TCGST02_GET INVALID ID
+
+2022-06-30 17:28:25 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/GET STOCK BY ID/TCGST02_GET STOCK INVALID")): Send request successfully
+
+2022-06-30 17:28:26 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\5.har
+
+2022-06-30 17:28:26 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-06-30 17:28:26 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID" time="1.303" classname="Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:26 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID: Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID
+
+2022-06-30 17:28:26 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/GET STOCK BY ID/TCGST01_GET STOCK VALID")): Send request successfully
+
+2022-06-30 17:28:27 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\6.har
+
+2022-06-30 17:28:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-06-30 17:28:27 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/UPDATE STOCK/TCUST04_UPDATE WITHOUT BODY" time="0.991" classname="Test Cases/API/STOCK/UPDATE STOCK/TCUST04_UPDATE WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:27 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/UPDATE STOCK/TCUST04_UPDATE WITHOUT BODY: Test Cases/API/STOCK/UPDATE STOCK/TCUST04_UPDATE WITHOUT BODY
+
+2022-06-30 17:28:28 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/UPDATE STOCK/TCUS04_UPDATE WITHOUT BODY")): Send request successfully
+
+2022-06-30 17:28:28 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\7.har
+
+2022-06-30 17:28:28 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-06-30 17:28:28 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/UPDATE STOCK/TCUST03_UPDATE WITHOUT ID" time="1.163" classname="Test Cases/API/STOCK/UPDATE STOCK/TCUST03_UPDATE WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:28 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/UPDATE STOCK/TCUST03_UPDATE WITHOUT ID: Test Cases/API/STOCK/UPDATE STOCK/TCUST03_UPDATE WITHOUT ID
+
+2022-06-30 17:28:29 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/UPDATE STOCK/TCUS03_UPDATE WITHOUT ID")): Send request successfully
+
+2022-06-30 17:28:29 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\8.har
+
+2022-06-30 17:28:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-06-30 17:28:29 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/UPDATE STOCK/TCUST02_UPDATE WITHOUT TOKEN" time="1.086" classname="Test Cases/API/STOCK/UPDATE STOCK/TCUST02_UPDATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:29 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/UPDATE STOCK/TCUST02_UPDATE WITHOUT TOKEN: Test Cases/API/STOCK/UPDATE STOCK/TCUST02_UPDATE WITHOUT TOKEN
+
+2022-06-30 17:28:30 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/UPDATE STOCK/TCUS02_UPDATE WITHOUT TOKEN")): Send request successfully
+
+2022-06-30 17:28:30 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\9.har
+
+2022-06-30 17:28:30 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-06-30 17:28:30 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK" time="0.959" classname="Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:30 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK: Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK
+
+2022-06-30 17:28:31 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/UPDATE STOCK/TCUS01_UPDATE VALID DATA")): Send request successfully
+
+2022-06-30 17:28:31 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\10.har
+
+2022-06-30 17:28:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-06-30 17:28:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-06-30 17:28:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-06-30 17:28:31 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/DELETE STOCK/TCDST01_DELETE VALID ID" time="0.94" classname="Test Cases/API/STOCK/DELETE STOCK/TCDST01_DELETE VALID ID" status="FAILED">
+         <failure type="FAILED" message="Test Cases/API/STOCK/DELETE STOCK/TCDST01_DELETE VALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCDST01_DELETE VALID ID.run(TCDST01_DELETE VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656584892742.run(TempTestSuite1656584892742.groovy:36)
+"/>
+         <system-out><![CDATA[2022-06-30 17:28:31 - [TEST_CASE][FAILED] - Test Cases/API/STOCK/DELETE STOCK/TCDST01_DELETE VALID ID: Test Cases/API/STOCK/DELETE STOCK/TCDST01_DELETE VALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCDST01_DELETE VALID ID.run(TCDST01_DELETE VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656584892742.run(TempTestSuite1656584892742.groovy:36)
+
+
+2022-06-30 17:28:32 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/DELETE STOCK/TCDST01-02")): Send request successfully
+
+2022-06-30 17:28:32 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\11.har
+
+2022-06-30 17:28:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:32 - [TEST_STEP][FAILED] - verifyResponseStatusCode(Response, Status_200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCDST01_DELETE VALID ID.run(TCDST01_DELETE VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656584892742.run(TempTestSuite1656584892742.groovy:36)
+)
+
+2022-06-30 17:28:32 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'
+
+2022-06-30 17:28:32 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCDST01_DELETE VALID ID.run(TCDST01_DELETE VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656584892742.run(TempTestSuite1656584892742.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-06-30 17:28:31 - [TEST_CASE][FAILED] - Test Cases/API/STOCK/DELETE STOCK/TCDST01_DELETE VALID ID: Test Cases/API/STOCK/DELETE STOCK/TCDST01_DELETE VALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCDST01_DELETE VALID ID.run(TCDST01_DELETE VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656584892742.run(TempTestSuite1656584892742.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/DELETE STOCK/TCDST_DELETE WITHOUT ID" time="1.189" classname="Test Cases/API/STOCK/DELETE STOCK/TCDST_DELETE WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-06-30 17:28:32 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/DELETE STOCK/TCDST_DELETE WITHOUT ID: Test Cases/API/STOCK/DELETE STOCK/TCDST_DELETE WITHOUT ID
+
+2022-06-30 17:28:33 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/DELETE STOCK/TCDST03_WITHOUT ID")): Send request successfully
+
+2022-06-30 17:28:33 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_172812\TS_STOCK\20220630_172812\requests\main\12.har
+
+2022-06-30 17:28:33 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 17:28:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-06-30 17:28:33 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-30 17:28:16 - [TEST_SUITE][FAILED] - TS_STOCK: Test Cases/API/STOCK/DELETE STOCK/TCDST01_DELETE VALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCDST01_DELETE VALID ID.run(TCDST01_DELETE VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656584892742.run(TempTestSuite1656584892742.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-06-30 17:28:16 - [TEST_SUITE][FAILED] - TS_STOCK: Test Cases/API/STOCK/DELETE STOCK/TCDST01_DELETE VALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCDST01_DELETE VALID ID.run(TCDST01_DELETE VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656584892742.run(TempTestSuite1656584892742.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

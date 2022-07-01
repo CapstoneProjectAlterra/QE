@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_FAMILY,,,,2022-07-01 18:04:55,2022-07-01 18:05:11,16.181s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body,,,,2022-07-01 18:04:56,2022-07-01 18:05:00,4.041s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/Negatif/CreateFamily_INVALID DATA - Copy""))",,,,2022-07-01 18:04:57,2022-07-01 18:05:00,3.185s,PASSED
+"verifyResponseStatusCode(Response, Status_400)",,,,2022-07-01 18:05:00,2022-07-01 18:05:00,0.036s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data,,,,2022-07-01 18:05:00,2022-07-01 18:05:02,2.181s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/Negatif/CreateFamily_INVALID DATA""))",,,,2022-07-01 18:05:00,2022-07-01 18:05:02,1.626s,PASSED
+"verifyResponseStatusCode(Response, Status_401)",,,,2022-07-01 18:05:02,2022-07-01 18:05:02,0.004s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family,,,,2022-07-01 18:05:02,2022-07-01 18:05:03,1.050s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/CreateNewFamily""))",,,,2022-07-01 18:05:03,2022-07-01 18:05:03,0.508s,PASSED
+"verifyResponseStatusCode(Response, Status_200)",,,,2022-07-01 18:05:03,2022-07-01 18:05:03,0.011s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data,,,,2022-07-01 18:05:03,2022-07-01 18:05:04,0.912s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/Negatif/GetAllFamily_INVALID DATA""))",,,,2022-07-01 18:05:04,2022-07-01 18:05:04,0.377s,PASSED
+"verifyResponseStatusCode(Response, Status_401)",,,,2022-07-01 18:05:04,2022-07-01 18:05:04,0.010s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data,,,,2022-07-01 18:05:04,2022-07-01 18:05:05,0.969s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/GetAllFamily""))",,,,2022-07-01 18:05:05,2022-07-01 18:05:05,0.422s,PASSED
+"verifyResponseStatusCode(Response, Status_200)",,,,2022-07-01 18:05:05,2022-07-01 18:05:05,0.007s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id,,,,2022-07-01 18:05:05,2022-07-01 18:05:06,0.908s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/Negatif/GetFamilyById""))",,,,2022-07-01 18:05:06,2022-07-01 18:05:06,0.389s,PASSED
+"verifyResponseStatusCode(Response, Status_401)",,,,2022-07-01 18:05:06,2022-07-01 18:05:06,0.005s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id,,,,2022-07-01 18:05:06,2022-07-01 18:05:07,1.009s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/GetFamilyById""))",,,,2022-07-01 18:05:06,2022-07-01 18:05:07,0.470s,PASSED
+"verifyResponseStatusCode(Response, Status_200)",,,,2022-07-01 18:05:07,2022-07-01 18:05:07,0.007s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY,,,,2022-07-01 18:05:07,2022-07-01 18:05:08,1.029s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/Negatif/TCUH04_UPDATE WITHOUT BODY""))",,,,2022-07-01 18:05:08,2022-07-01 18:05:08,0.414s,PASSED
+"verifyResponseStatusCode(Response, Status_400)",,,,2022-07-01 18:05:08,2022-07-01 18:05:08,0.004s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID,,,,2022-07-01 18:05:08,2022-07-01 18:05:09,1.307s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/Negatif/TCUH03_UPDATE WITHOUT ID""))",,,,2022-07-01 18:05:09,2022-07-01 18:05:09,0.684s,PASSED
+"verifyResponseStatusCode(Response, Status_405)",,,,2022-07-01 18:05:09,2022-07-01 18:05:09,0.005s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN,,,,2022-07-01 18:05:09,2022-07-01 18:05:10,0.945s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/Negatif/TCUH02_UPDATE WITHOUT TOKEN""))",,,,2022-07-01 18:05:10,2022-07-01 18:05:10,0.390s,PASSED
+"verifyResponseStatusCode(Response, Status_401)",,,,2022-07-01 18:05:10,2022-07-01 18:05:10,0.006s,PASSED
+,,,,,,,
+Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FACILITY,,,,2022-07-01 18:05:10,2022-07-01 18:05:11,1.194s,PASSED
+"Response = sendRequest(findTestObject(""API/FAMILY/UpdateFamilyById""))",,,,2022-07-01 18:05:11,2022-07-01 18:05:11,0.460s,PASSED
+"verifyResponseStatusCode(Response, Status_200)",,,,2022-07-01 18:05:11,2022-07-01 18:05:11,0.005s,PASSED
+"verifyElementPropertyValue(Response, statuscreate, update_success)",,,,2022-07-01 18:05:11,2022-07-01 18:05:11,0.086s,PASSED

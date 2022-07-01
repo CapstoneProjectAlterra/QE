@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>dataRegis</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>927bf64d-8969-4387-a809-ae6b85783184</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Harnanda 123 haha%40hi.com Haha_123</data>
+   <data>Harnanda+ 1234567890123435 hahah.com Haha_123</data>
+   <data>Harnanda+ 1234567890123435 haha%40hi.com haha</data>
+   <data>Harnanda+RA 1234567890123456 haha%40hi.com Haha_123</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>namalengkap</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>nik</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>email</name>
+      <size>4</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>pass</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/schedule/10</restUrl>
+   <restUrl>${GlobalVariable.url}/schedule/1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

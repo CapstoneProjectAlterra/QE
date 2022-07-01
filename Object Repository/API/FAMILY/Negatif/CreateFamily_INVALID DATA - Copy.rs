@@ -22,6 +22,13 @@
       <type>Main</type>
       <value>application/json</value>
    </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>${GlobalVariable.token}</value>
+   </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>

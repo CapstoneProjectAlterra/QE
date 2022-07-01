@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;username\&quot;:\&quot;harnanda\&quot;,\n    \&quot;email\&quot;:\&quot;haha@hihi.com\&quot;,\n    \&quot;password\&quot;:\&quot;haha123\&quot;,\n    \&quot;profile\&quot;:{\n        \&quot;role\&quot;:\&quot;ADMIN\&quot;\n    }\n}\n\n&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;username\&quot;:\&quot;HARAFIKA\&quot;,\n  \&quot;name\&quot; : \&quot;harnanda\&quot;,\n    \&quot;email\&quot;:\&quot;hah@hihi.com\&quot;,\n    \&quot;password\&quot;:\&quot;haha123\&quot;,\n    \&quot;profile\&quot;:{\n        \&quot;role\&quot;:\&quot;ADMIN\&quot;\n    }\n}\n\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

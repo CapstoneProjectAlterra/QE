@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 Response = WS.sendRequest(findTestObject('API/BOOKING/GET BOOKING BY ID/NEGATIF GET BOOKING ID'))
 
-WS.verifyResponseStatusCode(Response, GlobalVariable.Status_400)
+WS.verifyResponseStatusCode(Response, GlobalVariable.Status_500)
 

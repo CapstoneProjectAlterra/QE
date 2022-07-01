@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;booking_date\&quot;:\&quot;24-06-2022 16:19:02\&quot;,\n    \&quot;schedule\&quot;:{\n        \&quot;id\&quot;:2\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;booking_date\&quot;:\&quot;16-07-2022 16:29:02\&quot;,\n    \&quot;user\&quot;:{\n        \&quot;id\&quot;:2\n    },\n    \&quot;schedule\&quot;:{\n        \&quot;id\&quot;:1\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

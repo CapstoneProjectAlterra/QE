@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCDST02_DELETE INVALID ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6d79547-0f9b-4f73-a599-457e6e24e40a</testCaseGuid>
+</TestCaseEntity>

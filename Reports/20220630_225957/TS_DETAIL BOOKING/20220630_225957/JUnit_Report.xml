@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_DETAIL BOOKING" time="15.507" tests="11" failures="4" errors="0">
+   <testsuite name="TS_DETAIL BOOKING" tests="11" failures="4" errors="0" time="15.507" skipped="0" timestamp="2022-06-30 23:00:01" hostname="Thinkpad X260 - DESKTOP-D9B57TC" id="Test Suites/TS_DETAIL BOOKING">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220630_225957\\TS_DETAIL BOOKING\\20220630_225957"/>
+         <property name="logFiles" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220630_225957\\TS_DETAIL BOOKING\\20220630_225957\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Thinkpad X260 - DESKTOP-D9B57TC"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB03_WITHOUT BODY" time="4.022" classname="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB03_WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-06-30 23:00:02 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB03_WITHOUT BODY: Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB03_WITHOUT BODY
+
+2022-06-30 23:00:02 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/CREATE DETAIL BOOKING/TCCB03_CREATE DETAIL WITHOUT REQ BODY")): Send request successfully
+
+2022-06-30 23:00:06 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_225957\TS_DETAIL BOOKING\20220630_225957\requests\main\0.har
+
+2022-06-30 23:00:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 23:00:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-06-30 23:00:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN" time="0.7" classname="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN" status="FAILED">
+         <failure type="FAILED" message="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send request (Root cause: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.&lt;init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.&lt;init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at Script1656604421042.run(Script1656604421042.groovy:20)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.&lt;init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 19 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	... 28 more
+"/>
+         <system-out><![CDATA[2022-06-30 23:00:06 - [TEST_CASE][FAILED] - Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN: Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send request (Root cause: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at Script1656604421042.run(Script1656604421042.groovy:20)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 19 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	... 28 more
+
+
+2022-06-30 23:00:06 - [TEST_STEP][FAILED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/CREATE DETAIL BOOKING/TCCB02_CREATE DETAIL WITHOUT TOKEN")): Unable to send request (Root cause: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at Script1656604421042.run(Script1656604421042.groovy:20)
+	... 13 more
+)
+
+2022-06-30 23:00:06 - [MESSAGE][FAILED] - Unable to send request (Root cause: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at Script1656604421042.run(Script1656604421042.groovy:20)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2022-06-30 23:00:06 - [TEST_CASE][FAILED] - Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN: Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send request (Root cause: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at Script1656604421042.run(Script1656604421042.groovy:20)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 19 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	... 28 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB01_VALID DATA" time="1.277" classname="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB01_VALID DATA" status="PASSED">
+         <system-out><![CDATA[2022-06-30 23:00:06 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB01_VALID DATA: Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB01_VALID DATA
+
+2022-06-30 23:00:07 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/CREATE DETAIL BOOKING/TCCB01_CREATE DETAIL WITH VALID DATA")): Send request successfully
+
+2022-06-30 23:00:08 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_225957\TS_DETAIL BOOKING\20220630_225957\requests\main\1.har
+
+2022-06-30 23:00:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 23:00:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-06-30 23:00:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD04_WITHOUT BODY" time="0.949" classname="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD04_WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-06-30 23:00:08 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD04_WITHOUT BODY: Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD04_WITHOUT BODY
+
+2022-06-30 23:00:08 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/UPDATE DETAIL BY ID/TCUD04_UPDATE WITHOUT REQ BODY")): Send request successfully
+
+2022-06-30 23:00:09 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_225957\TS_DETAIL BOOKING\20220630_225957\requests\main\2.har
+
+2022-06-30 23:00:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 23:00:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-06-30 23:00:09 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID" time="1.593" classname="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID" status="FAILED">
+         <failure type="FAILED" message="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '405' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUD03_WITHOUT ID.run(TCUD03_WITHOUT ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+"/>
+         <system-out><![CDATA[2022-06-30 23:00:09 - [TEST_CASE][FAILED] - Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID: Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '405' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUD03_WITHOUT ID.run(TCUD03_WITHOUT ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+
+
+2022-06-30 23:00:09 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/UPDATE DETAIL BY ID/TCUD03_UPDATE WITHOUT ID")): Send request successfully
+
+2022-06-30 23:00:10 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_225957\TS_DETAIL BOOKING\20220630_225957\requests\main\3.har
+
+2022-06-30 23:00:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 23:00:10 - [TEST_STEP][FAILED] - verifyResponseStatusCode(Response, Status_405): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '405' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUD03_WITHOUT ID.run(TCUD03_WITHOUT ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+)
+
+2022-06-30 23:00:10 - [MESSAGE][FAILED] - Expected status code is '405' but actual status code is '400'
+
+2022-06-30 23:00:10 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '405' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUD03_WITHOUT ID.run(TCUD03_WITHOUT ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-06-30 23:00:09 - [TEST_CASE][FAILED] - Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID: Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '405' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUD03_WITHOUT ID.run(TCUD03_WITHOUT ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD02_WITHOUT TOKEN" time="1.161" classname="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD02_WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-06-30 23:00:10 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD02_WITHOUT TOKEN: Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD02_WITHOUT TOKEN
+
+2022-06-30 23:00:11 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/UPDATE DETAIL BY ID/TCUD02_UPDATE WITHOUT TOKEN")): Send request successfully
+
+2022-06-30 23:00:11 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_225957\TS_DETAIL BOOKING\20220630_225957\requests\main\4.har
+
+2022-06-30 23:00:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 23:00:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-06-30 23:00:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA" time="0.935" classname="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA" status="FAILED">
+         <failure type="FAILED" message="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUD01_VALID DATA.run(TCUD01_VALID DATA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+"/>
+         <system-out><![CDATA[2022-06-30 23:00:11 - [TEST_CASE][FAILED] - Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA: Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUD01_VALID DATA.run(TCUD01_VALID DATA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+
+
+2022-06-30 23:00:12 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/UPDATE DETAIL BY ID/TCUD01_UPDATE DETAIL")): Send request successfully
+
+2022-06-30 23:00:12 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_225957\TS_DETAIL BOOKING\20220630_225957\requests\main\5.har
+
+2022-06-30 23:00:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 23:00:12 - [TEST_STEP][FAILED] - verifyResponseStatusCode(Response, Status_200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUD01_VALID DATA.run(TCUD01_VALID DATA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+)
+
+2022-06-30 23:00:12 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'
+
+2022-06-30 23:00:12 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUD01_VALID DATA.run(TCUD01_VALID DATA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-06-30 23:00:11 - [TEST_CASE][FAILED] - Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA: Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUD01_VALID DATA.run(TCUD01_VALID DATA:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID" time="1.266" classname="Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID" status="FAILED">
+         <failure type="FAILED" message="Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '500' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCSB02_GET DETAIL INVALID ID.run(TCSB02_GET DETAIL INVALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+"/>
+         <system-out><![CDATA[2022-06-30 23:00:12 - [TEST_CASE][FAILED] - Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID: Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '500' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCSB02_GET DETAIL INVALID ID.run(TCSB02_GET DETAIL INVALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+
+
+2022-06-30 23:00:13 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/GET DETAIL BY ID/NEGATIF GET BOOKING ID")): Send request successfully
+
+2022-06-30 23:00:14 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_225957\TS_DETAIL BOOKING\20220630_225957\requests\main\6.har
+
+2022-06-30 23:00:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 23:00:14 - [TEST_STEP][FAILED] - verifyResponseStatusCode(Response, Status_500): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '500' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCSB02_GET DETAIL INVALID ID.run(TCSB02_GET DETAIL INVALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+)
+
+2022-06-30 23:00:14 - [MESSAGE][FAILED] - Expected status code is '500' but actual status code is '400'
+
+2022-06-30 23:00:14 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '500' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCSB02_GET DETAIL INVALID ID.run(TCSB02_GET DETAIL INVALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-06-30 23:00:12 - [TEST_CASE][FAILED] - Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID: Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '500' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCSB02_GET DETAIL INVALID ID.run(TCSB02_GET DETAIL INVALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB01_GET DETAIL ID" time="1.257" classname="Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB01_GET DETAIL ID" status="PASSED">
+         <system-out><![CDATA[2022-06-30 23:00:14 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB01_GET DETAIL ID: Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB01_GET DETAIL ID
+
+2022-06-30 23:00:14 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/GET DETAIL BY ID/POSITIF GET BOOKING ID")): Send request successfully
+
+2022-06-30 23:00:15 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_225957\TS_DETAIL BOOKING\20220630_225957\requests\main\7.har
+
+2022-06-30 23:00:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 23:00:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-06-30 23:00:15 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD02_GET ALL DETAIL WITHOUT TOKEN" time="0.931" classname="Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD02_GET ALL DETAIL WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-06-30 23:00:15 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD02_GET ALL DETAIL WITHOUT TOKEN: Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD02_GET ALL DETAIL WITHOUT TOKEN
+
+2022-06-30 23:00:15 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/GET ALL DETAIL BOOKING/NEGATIF GET ALL DETAIL WITHOUT TOKEN")): Send request successfully
+
+2022-06-30 23:00:16 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_225957\TS_DETAIL BOOKING\20220630_225957\requests\main\8.har
+
+2022-06-30 23:00:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 23:00:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-06-30 23:00:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD01_GET ALL DETAIL" time="0.889" classname="Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD01_GET ALL DETAIL" status="PASSED">
+         <system-out><![CDATA[2022-06-30 23:00:16 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD01_GET ALL DETAIL: Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD01_GET ALL DETAIL
+
+2022-06-30 23:00:16 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/GET ALL DETAIL BOOKING/POSITIF GET ALL DETAIL BOOKING")): Send request successfully
+
+2022-06-30 23:00:17 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_225957\TS_DETAIL BOOKING\20220630_225957\requests\main\9.har
+
+2022-06-30 23:00:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 23:00:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-06-30 23:00:17 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-30 23:00:01 - [TEST_SUITE][FAILED] - TS_DETAIL BOOKING: Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send request (Root cause: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at Script1656604421042.run(Script1656604421042.groovy:20)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 19 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	... 28 more]]></system-out>
+      <system-err><![CDATA[2022-06-30 23:00:01 - [TEST_SUITE][FAILED] - TS_DETAIL BOOKING: Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send request (Root cause: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at Script1656604421042.run(Script1656604421042.groovy:20)
+	... 13 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest(SendRequestKeyword.groovy:38)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.execute(SendRequestKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(WSBuiltInKeywords.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequest.call(Unknown Source)
+	at TCCB02_WITHOUT TOKEN.run(TCCB02_WITHOUT TOKEN:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656604797283.run(TempTestSuite1656604797283.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	at com.kms.katalon.core.webservice.common.DefaultHttpEntityEnclosingRequest.<init>(DefaultHttpEntityEnclosingRequest.java:20)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequestWithBody(RestfulClient.java:41)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:27)
+	at com.kms.katalon.core.webservice.common.RestfulClient.buildHttpRequest(RestfulClient.java:1)
+	at com.kms.katalon.core.webservice.common.BasicRequestor.send(BasicRequestor.java:55)
+	at com.kms.katalon.core.webservice.helper.WebServiceCommonHelper.sendRequest(WebServiceCommonHelper.java:28)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.doCall(SendRequestKeyword.groovy:40)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword$_sendRequest_closure1.call(SendRequestKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 19 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 67: http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/detail 
+	... 28 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+{"testCaseName":"Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body","testCaseId":"Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body"}
+{"testCaseName":"Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data","testCaseId":"Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data"}
+{"testCaseName":"Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family","testCaseId":"Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family"}
+{"testCaseName":"Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data","testCaseId":"Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data"}
+{"testCaseName":"Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data","testCaseId":"Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data"}
+{"testCaseName":"Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id","testCaseId":"Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id"}
+{"testCaseName":"Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id","testCaseId":"Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id"}
+{"testCaseName":"Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY","testCaseId":"Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY"}
+{"testCaseName":"Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID","testCaseId":"Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID"}
+{"testCaseName":"Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN","testCaseId":"Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN"}
+{"testCaseName":"Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FACILITY","testCaseId":"Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FACILITY"}

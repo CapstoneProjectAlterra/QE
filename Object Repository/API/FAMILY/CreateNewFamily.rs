@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;date_of_birth\&quot;: \&quot;15-12-2001\&quot;,\n  \&quot;email\&quot;: \&quot;haha@hihi.com\&quot;,\n  \&quot;gender\&quot;: \&quot;LAKI_LAKI\&quot;,\n  \&quot;id_card_address\&quot;: \&quot;string\&quot;,\n  \&quot;nik\&quot;: \&quot;161043292102202\&quot;,\n  \&quot;phone_number\&quot;: \&quot;08822113344\&quot;,\n  \&quot;profile\&quot;: {\n    \&quot;role\&quot;: \&quot;ADMIN\&quot;,\n    \&quot;user_id\&quot;: 0\n  },\n  \&quot;residence_address\&quot;: \&quot;string\&quot;,\n  \&quot;status_in_family\&quot;: \&quot;ANAK\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;date_of_birth\&quot;: \&quot;15-12-2001\&quot;,\n  \&quot;email\&quot;: \&quot;haha@hihi.com\&quot;,\n  \&quot;name\&quot; : \&quot;Serena\&quot;,\n  \&quot;gender\&quot;: \&quot;PEREMPUAN\&quot;,\n  \&quot;id_card_address\&quot;: \&quot;Pasir Jambu\&quot;,\n  \&quot;nik\&quot;: \&quot;161043292102202\&quot;,\n  \&quot;phone_number\&quot;: \&quot;08822113344\&quot;,\n  \&quot;profile\&quot;: {\n    \&quot;role\&quot;: \&quot;ADMIN\&quot;,\n    \&quot;user_id\&quot;: 1\n  },\n  \&quot;residence_address\&quot;: \&quot;string\&quot;,\n  \&quot;status_in_family\&quot;: \&quot;ANAK\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://ec2-3-237-105-224.compute-1.amazonaws.com:8080/api/v1/family</restUrl>
+   <restUrl>${GlobalVariable.url}/family</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

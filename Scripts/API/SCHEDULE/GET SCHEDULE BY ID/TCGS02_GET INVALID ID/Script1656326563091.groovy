@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 Response = WS.sendRequest(findTestObject('API/SCHEDULE/GET SCHEDULE BY ID/TCGS02_GET ID WITH INVALID DATA'))
 
-WS.verifyResponseStatusCode(Response, GlobalVariable.Status_400)
+WS.verifyResponseStatusCode(Response, GlobalVariable.Status_500)
 

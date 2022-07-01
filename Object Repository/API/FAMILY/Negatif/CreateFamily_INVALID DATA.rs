@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;date_of_birth\&quot;: \&quot;15-12-2001\&quot;,\n  \&quot;email\&quot;: \&quot;haha@hihi.com\&quot;,\n  \&quot;full_name\&quot;: \&quot;Harnanda \&quot;\n  \&quot;gender\&quot;: \&quot;LAKI_LAKI\&quot;,\n  \&quot;id_card_address\&quot;: \&quot;CIBINONG\&quot;,\n  \&quot;nik\&quot;: \&quot;172820391123456\&quot;,\n  \&quot;phone_number\&quot;: \&quot;08219823489\&quot;,\n  \&quot;residence_address\&quot;: \&quot;string\&quot;,\n  \&quot;status_in_family\&quot;: \&quot;ANAK\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

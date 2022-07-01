@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_FACILITY" time="22.84" tests="9" failures="0" errors="0">
+   <testsuite name="TS_FACILITY" tests="9" failures="0" errors="0" time="22.84" skipped="0" timestamp="2022-06-30 22:02:46" hostname="Thinkpad X260 - DESKTOP-D9B57TC" id="Test Suites/TS_FACILITY">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220630_220239\\TS_FACILITY\\20220630_220239"/>
+         <property name="logFiles" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220630_220239\\TS_FACILITY\\20220630_220239\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Thinkpad X260 - DESKTOP-D9B57TC"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/API/FACILITY/CREATE FACILITY/TCNH03_CREATE WITHOUT REQ BODY" time="6.037" classname="Test Cases/API/FACILITY/CREATE FACILITY/TCNH03_CREATE WITHOUT REQ BODY" status="PASSED">
+         <system-out><![CDATA[2022-06-30 22:02:46 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/CREATE FACILITY/TCNH03_CREATE WITHOUT REQ BODY: Test Cases/API/FACILITY/CREATE FACILITY/TCNH03_CREATE WITHOUT REQ BODY
+
+2022-06-30 22:02:47 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/CREATE NEW FACILITY/TCNH03_CREATE WITHOUT REQUEST BODY")): Send request successfully
+
+2022-06-30 22:02:52 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_220239\TS_FACILITY\20220630_220239\requests\main\0.har
+
+2022-06-30 22:02:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 22:02:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-06-30 22:02:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/CREATE FACILITY/TCNH02_CREATE WITHOUT TOKEN" time="2.433" classname="Test Cases/API/FACILITY/CREATE FACILITY/TCNH02_CREATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-06-30 22:02:52 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/CREATE FACILITY/TCNH02_CREATE WITHOUT TOKEN: Test Cases/API/FACILITY/CREATE FACILITY/TCNH02_CREATE WITHOUT TOKEN
+
+2022-06-30 22:02:53 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/CREATE NEW FACILITY/TCNH02_CREATE WITHOUT TOKEN")): Send request successfully
+
+2022-06-30 22:02:55 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_220239\TS_FACILITY\20220630_220239\requests\main\1.har
+
+2022-06-30 22:02:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 22:02:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-06-30 22:02:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/CREATE FACILITY/TCNH01_CREATE VALID FACILITY" time="2.125" classname="Test Cases/API/FACILITY/CREATE FACILITY/TCNH01_CREATE VALID FACILITY" status="PASSED">
+         <system-out><![CDATA[2022-06-30 22:02:55 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/CREATE FACILITY/TCNH01_CREATE VALID FACILITY: Test Cases/API/FACILITY/CREATE FACILITY/TCNH01_CREATE VALID FACILITY
+
+2022-06-30 22:02:56 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/CREATE NEW FACILITY/TCNH01_CREATE FACILITY")): Send request successfully
+
+2022-06-30 22:02:57 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_220239\TS_FACILITY\20220630_220239\requests\main\2.har
+
+2022-06-30 22:02:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 22:02:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-06-30 22:02:57 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-06-30 22:02:57 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-06-30 22:02:57 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH04_UPDATE WITHOUT BODY" time="1.549" classname="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH04_UPDATE WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-06-30 22:02:57 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/UPDATE FACILITY/TCUH04_UPDATE WITHOUT BODY: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH04_UPDATE WITHOUT BODY
+
+2022-06-30 22:02:58 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/UPDATE FACILITY/TCUH04_UPDATE WITHOUT BODY")): Send request successfully
+
+2022-06-30 22:02:58 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_220239\TS_FACILITY\20220630_220239\requests\main\3.har
+
+2022-06-30 22:02:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 22:02:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-06-30 22:02:58 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH03_UPDATE WITHOUT ID" time="3.141" classname="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH03_UPDATE WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-06-30 22:02:59 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/UPDATE FACILITY/TCUH03_UPDATE WITHOUT ID: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH03_UPDATE WITHOUT ID
+
+2022-06-30 22:02:59 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/UPDATE FACILITY/TCUH03_UPDATE WITHOUT ID")): Send request successfully
+
+2022-06-30 22:03:02 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_220239\TS_FACILITY\20220630_220239\requests\main\4.har
+
+2022-06-30 22:03:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 22:03:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_405): Verify response status code successfully
+
+2022-06-30 22:03:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH02_UPDATE WITHOUT TOKEN" time="1.524" classname="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH02_UPDATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-06-30 22:03:02 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/UPDATE FACILITY/TCUH02_UPDATE WITHOUT TOKEN: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH02_UPDATE WITHOUT TOKEN
+
+2022-06-30 22:03:03 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/UPDATE FACILITY/TCUH02_UPDATE WITHOUT TOKEN")): Send request successfully
+
+2022-06-30 22:03:03 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_220239\TS_FACILITY\20220630_220239\requests\main\5.har
+
+2022-06-30 22:03:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 22:03:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-06-30 22:03:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY" time="1.669" classname="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY" status="PASSED">
+         <system-out><![CDATA[2022-06-30 22:03:03 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY
+
+2022-06-30 22:03:04 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE VALID DATA")): Send request successfully
+
+2022-06-30 22:03:05 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_220239\TS_FACILITY\20220630_220239\requests\main\6.har
+
+2022-06-30 22:03:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 22:03:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-06-30 22:03:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-06-30 22:03:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-06-30 22:03:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/GET ALL FACILITY/TCH02_GET ALL WITHOUT TOKEN" time="1.593" classname="Test Cases/API/FACILITY/GET ALL FACILITY/TCH02_GET ALL WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-06-30 22:03:05 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/GET ALL FACILITY/TCH02_GET ALL WITHOUT TOKEN: Test Cases/API/FACILITY/GET ALL FACILITY/TCH02_GET ALL WITHOUT TOKEN
+
+2022-06-30 22:03:06 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/GET ALL FACILITY/TCHF02_GET WITHOUT TOKEN")): Send request successfully
+
+2022-06-30 22:03:07 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_220239\TS_FACILITY\20220630_220239\requests\main\7.har
+
+2022-06-30 22:03:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 22:03:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-06-30 22:03:07 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/GET ALL FACILITY/TCH01_GET ALL FACILITY" time="1.898" classname="Test Cases/API/FACILITY/GET ALL FACILITY/TCH01_GET ALL FACILITY" status="PASSED">
+         <system-out><![CDATA[2022-06-30 22:03:07 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/GET ALL FACILITY/TCH01_GET ALL FACILITY: Test Cases/API/FACILITY/GET ALL FACILITY/TCH01_GET ALL FACILITY
+
+2022-06-30 22:03:08 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/GET ALL FACILITY/TCHF01_GET ALL FACILITY")): Send request successfully
+
+2022-06-30 22:03:08 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220630_220239\TS_FACILITY\20220630_220239\requests\main\8.har
+
+2022-06-30 22:03:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-30 22:03:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-06-30 22:03:09 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-30 22:02:46 - [TEST_SUITE][PASSED] - TS_FACILITY: Test Cases/API/FACILITY/GET ALL FACILITY/TCH01_GET ALL FACILITY]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

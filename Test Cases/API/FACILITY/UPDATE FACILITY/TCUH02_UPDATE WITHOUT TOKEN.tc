@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCUH02_UPDATE WITHOUT TOKEN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd6dfdb5-bbe6-435a-a264-a550241de724</testCaseGuid>
+</TestCaseEntity>

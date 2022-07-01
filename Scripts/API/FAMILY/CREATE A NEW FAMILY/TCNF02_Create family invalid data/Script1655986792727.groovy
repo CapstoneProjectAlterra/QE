@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 Response = WS.sendRequest(findTestObject('API/FAMILY/Negatif/CreateFamily_INVALID DATA'))
 
-WS.verifyResponseStatusCode(Response, GlobalVariable.Status_404)
+WS.verifyResponseStatusCode(Response, GlobalVariable.Status_401)
 

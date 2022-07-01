@@ -84,12 +84,6 @@
       <testCaseId>Test Cases/API/SCHEDULE/DELETE SCHEDULE/TCDS01_DELETE VALID ATA</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>62b345c5-85e9-47c9-a823-d956ea067908</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/SCHEDULE/DELETE SCHEDULE/TCDS02_DELETE INVALID ID</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8df2bb90-6a15-4f93-86f7-3099a2a8c1e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

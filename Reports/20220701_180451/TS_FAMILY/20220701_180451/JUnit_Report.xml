@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_FAMILY" time="16.181" tests="11" failures="0" errors="0">
+   <testsuite name="TS_FAMILY" tests="11" failures="0" errors="0" time="16.181" skipped="0" timestamp="2022-07-01 18:04:55" hostname="Thinkpad X260 - DESKTOP-D9B57TC" id="Test Suites/TS_FAMILY">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220701_180451\\TS_FAMILY\\20220701_180451"/>
+         <property name="logFiles" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220701_180451\\TS_FAMILY\\20220701_180451\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Thinkpad X260 - DESKTOP-D9B57TC"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body" time="4.041" classname="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:04:56 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body: Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body
+
+2022-07-01 18:04:57 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/CreateFamily_INVALID DATA - Copy")): Send request successfully
+
+2022-07-01 18:05:00 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\0.har
+
+2022-07-01 18:05:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-01 18:05:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data" time="2.181" classname="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:05:00 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data: Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data
+
+2022-07-01 18:05:00 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/CreateFamily_INVALID DATA")): Send request successfully
+
+2022-07-01 18:05:02 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\1.har
+
+2022-07-01 18:05:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-01 18:05:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family" time="1.05" classname="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:05:02 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family: Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family
+
+2022-07-01 18:05:03 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/CreateNewFamily")): Send request successfully
+
+2022-07-01 18:05:03 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\2.har
+
+2022-07-01 18:05:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-01 18:05:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data" time="0.912" classname="Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:05:03 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data: Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data
+
+2022-07-01 18:05:04 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/GetAllFamily_INVALID DATA")): Send request successfully
+
+2022-07-01 18:05:04 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\3.har
+
+2022-07-01 18:05:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-01 18:05:04 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data" time="0.969" classname="Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:05:04 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data: Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data
+
+2022-07-01 18:05:05 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/GetAllFamily")): Send request successfully
+
+2022-07-01 18:05:05 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\4.har
+
+2022-07-01 18:05:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-01 18:05:05 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id" time="0.908" classname="Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:05:05 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id: Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id
+
+2022-07-01 18:05:06 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/GetFamilyById")): Send request successfully
+
+2022-07-01 18:05:06 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\5.har
+
+2022-07-01 18:05:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-01 18:05:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id" time="1.009" classname="Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:05:06 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id: Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id
+
+2022-07-01 18:05:06 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/GetFamilyById")): Send request successfully
+
+2022-07-01 18:05:07 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\6.har
+
+2022-07-01 18:05:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-01 18:05:07 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY" time="1.029" classname="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:05:07 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY: Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY
+
+2022-07-01 18:05:08 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/TCUH04_UPDATE WITHOUT BODY")): Send request successfully
+
+2022-07-01 18:05:08 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\7.har
+
+2022-07-01 18:05:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-01 18:05:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID" time="1.307" classname="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:05:08 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID: Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID
+
+2022-07-01 18:05:09 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/TCUH03_UPDATE WITHOUT ID")): Send request successfully
+
+2022-07-01 18:05:09 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\8.har
+
+2022-07-01 18:05:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_405): Verify response status code successfully
+
+2022-07-01 18:05:09 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN" time="0.945" classname="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:05:09 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN: Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN
+
+2022-07-01 18:05:10 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/TCUH02_UPDATE WITHOUT TOKEN")): Send request successfully
+
+2022-07-01 18:05:10 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\9.har
+
+2022-07-01 18:05:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-01 18:05:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FACILITY" time="1.194" classname="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FACILITY" status="PASSED">
+         <system-out><![CDATA[2022-07-01 18:05:10 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FACILITY: Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FACILITY
+
+2022-07-01 18:05:11 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/UpdateFamilyById")): Send request successfully
+
+2022-07-01 18:05:11 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220701_180451\TS_FAMILY\20220701_180451\requests\main\10.har
+
+2022-07-01 18:05:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-01 18:05:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-01 18:05:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-01 18:05:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-07-01 18:05:11 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-01 18:04:55 - [TEST_SUITE][PASSED] - TS_FAMILY: Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FACILITY]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

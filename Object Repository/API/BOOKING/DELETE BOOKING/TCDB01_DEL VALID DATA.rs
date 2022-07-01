@@ -29,7 +29,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/booking/1</restUrl>
+   <restUrl>${GlobalVariable.url}/booking/11</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCBD02_GET ALL DETAIL WITHOUT TOKEN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16ee3f96-9e44-43b2-84f6-baba777da73f</testCaseGuid>
+</TestCaseEntity>
