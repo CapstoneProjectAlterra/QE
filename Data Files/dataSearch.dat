@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>dataLogin</name>
+   <name>dataSearch</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>26b4cef3-dce3-4de1-8b1f-fe045a5da767</dataFileGUID>
+   <dataFileGUID>7e2d96b8-c052-41fb-b804-b60d61e5cb45</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>123456789512 Haha_123</data>
-   <data>1234567890784512 Haha_</data>
-   <data>1234567890784511 Haha_321</data>
-   <data>1234567890784512 Haha_123</data>
-   <data>1234567890123456 Haha_123</data>
-   <data>null null</data>
+   <data>1%40</data>
+   <data>london</data>
+   <data>Depok</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>NIK</name>
-      <size>6</size>
-   </internalDataColumns>
-   <internalDataColumns>
-      <columnIndex>1</columnIndex>
-      <name>Password</name>
-      <size>6</size>
+      <name>keyword</name>
+      <size>3</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

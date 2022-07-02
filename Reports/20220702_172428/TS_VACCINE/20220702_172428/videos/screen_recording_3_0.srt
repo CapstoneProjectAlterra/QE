@@ -1,0 +1,8 @@
+1
+00:00:04,379 --> 00:00:05,868
+1. Response = sendRequest(findTestObject("API/VACCINE/CREATE NEW VACCINE/TCNV01_CREATE VACCINE"))
+
+2
+00:00:05,869 --> 00:00:05,968
+5. verifyResponseStatusCode(Response, Status_200)
+

@@ -22,9 +22,29 @@
 			<location>C:/Users/THINKP~1/AppData/Local/Temp/Katalon/Web Services/kat-125688048010296415.groovy</location>
 		</link>
 		<link>
+			<name>kat-1354601240931415183.groovy</name>
+			<type>1</type>
+			<location>C:/Users/THINKP~1/AppData/Local/Temp/Katalon/Web Services/kat-1354601240931415183.groovy</location>
+		</link>
+		<link>
+			<name>kat-3653407029895573764.groovy</name>
+			<type>1</type>
+			<location>C:/Users/THINKP~1/AppData/Local/Temp/Katalon/Web Services/kat-3653407029895573764.groovy</location>
+		</link>
+		<link>
+			<name>kat-6024322727333079895.groovy</name>
+			<type>1</type>
+			<location>C:/Users/THINKP~1/AppData/Local/Temp/Katalon/Web Services/kat-6024322727333079895.groovy</location>
+		</link>
+		<link>
 			<name>kat-692046446723746177.groovy</name>
 			<type>1</type>
 			<location>C:/Users/THINKP~1/AppData/Local/Temp/Katalon/Web Services/kat-692046446723746177.groovy</location>
+		</link>
+		<link>
+			<name>kat-7420213635540292189.groovy</name>
+			<type>1</type>
+			<location>C:/Users/THINKP~1/AppData/Local/Temp/Katalon/Web Services/kat-7420213635540292189.groovy</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
@@ -291,6 +311,24 @@
 		</filter>
 		<filter>
 			<id>1656685666422</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1656757155947</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1656757155983</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
