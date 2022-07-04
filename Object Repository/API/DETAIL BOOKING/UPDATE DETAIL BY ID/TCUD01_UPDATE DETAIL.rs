@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;booking_id\&quot;:1,\n    \&quot;family_id\&quot;:1,\n    \&quot;booking_status\&quot;:\&quot;CANCELLED_BY_CITIZEN\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;booking_status\&quot;:\&quot;DECLINED\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/detail/update?booking_id=1&amp;family_id=1</restUrl>
+   <restUrl>${GlobalVariable.url}/detail/update?booking_id=2&amp;family_id=5</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

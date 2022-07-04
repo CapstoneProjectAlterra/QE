@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;date_of_birth\&quot;: \&quot;15-12-2001\&quot;,\n  \&quot;name\&quot; : \&quot;Harnanda\&quot;,\n  \&quot;email\&quot;: \&quot;haha@hihi.com\&quot;,\n  \&quot;gender\&quot;: \&quot;LAKI_LAKI\&quot;,\n  \&quot;id_card_address\&quot;: \&quot;string\&quot;,\n  \&quot;nik\&quot;: \&quot;161043292102202\&quot;,\n  \&quot;phone_number\&quot;: \&quot;08822113344\&quot;,\n  \&quot;profile\&quot;: {\n    \&quot;role\&quot;: \&quot;ADMIN\&quot;,\n    \&quot;user_id\&quot;: 1\n  },\n  \&quot;residence_address\&quot;: \&quot;string\&quot;,\n  \&quot;status_in_family\&quot;: \&quot;ANAK\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;date_of_birth\&quot;: \&quot;04-12-2005\&quot;,\n  \&quot;email\&quot;: \&quot;haha@hihi.com\&quot;,\n  \&quot;name\&quot; : \&quot;Alda\&quot;,\n  \&quot;gender\&quot;: \&quot;PEREMPUAN\&quot;,\n  \&quot;id_card_address\&quot;: \&quot;Pasir Jambu\&quot;,\n  \&quot;nik\&quot;: \&quot;161043292102202\&quot;,\n  \&quot;phone_number\&quot;: \&quot;08822113344\&quot;,\n  \&quot;place_of_birth\&quot; : \&quot;Banjarnegara\&quot;,\n  \&quot;profile\&quot;: {\n    \&quot;user_id\&quot;: 4\n  },\n  \&quot;residence_address\&quot;: \&quot;Cibinong\&quot;,\n  \&quot;status_in_family\&quot;: \&quot;SAUDARA\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/family/11</restUrl>
+   <restUrl>${GlobalVariable.url}/family/5</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

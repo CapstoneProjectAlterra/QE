@@ -13850,10 +13850,7 @@ com.kms.katalon.core.exception.StepFailedException: Expected status code is &amp
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2022-07-01T20:58:45</date>
   <millis>1656683925730</millis>

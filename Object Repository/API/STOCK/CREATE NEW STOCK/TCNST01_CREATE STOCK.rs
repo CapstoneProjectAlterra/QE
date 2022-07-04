@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;facility_id\&quot;: 2,\n  \&quot;stock\&quot;: 500,\n  \&quot;vaccine_id\&quot;: 1\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;facility_id\&quot;: 3,\n  \&quot;stock\&quot;: 500,\n  \&quot;vaccine_id\&quot;: 2\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

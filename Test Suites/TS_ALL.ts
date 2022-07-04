@@ -198,28 +198,28 @@
       <testCaseId>Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FAMILY</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c4932dee-9078-42f7-bf06-8955811fcb1c</guid>
+      <guid>0d933dd0-90f8-4a2a-9647-cf2b6d35bf3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/STOCK/UPDATE STOCK/TCUST04_UPDATE WITHOUT BODY</testCaseId>
+      <testCaseId>Test Cases/API/STOCK/CREATE STOCK/TCNST03_CREATE WITHOUT REQ BODY</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>30200df6-c074-4a4c-a5f0-e59b3d813c0d</guid>
+      <guid>f65561ae-323f-4bfa-816e-4506774b5313</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/STOCK/UPDATE STOCK/TCUST03_UPDATE WITHOUT ID</testCaseId>
+      <testCaseId>Test Cases/API/STOCK/CREATE STOCK/TCNST02_CREATE WITHOUT TOKEN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5be28478-6b31-4a8d-b032-9716a1d7cad5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/STOCK/CREATE STOCK/TCNST01_CREATE VALID STOCK</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b7580e16-62d8-4f2a-9373-a376b86871b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API/STOCK/UPDATE STOCK/TCUST02_UPDATE WITHOUT TOKEN</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>170d1c8d-f2ea-4b41-a698-61988a75e4de</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>228e5b60-d4b9-4f07-93e0-5fdb61692006</guid>
@@ -246,46 +246,40 @@
       <testCaseId>Test Cases/API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0d933dd0-90f8-4a2a-9647-cf2b6d35bf3e</guid>
+      <guid>c4932dee-9078-42f7-bf06-8955811fcb1c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/STOCK/CREATE STOCK/TCNST03_CREATE WITHOUT REQ BODY</testCaseId>
+      <testCaseId>Test Cases/API/STOCK/UPDATE STOCK/TCUST04_UPDATE WITHOUT BODY</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f65561ae-323f-4bfa-816e-4506774b5313</guid>
+      <guid>30200df6-c074-4a4c-a5f0-e59b3d813c0d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/STOCK/CREATE STOCK/TCNST02_CREATE WITHOUT TOKEN</testCaseId>
+      <testCaseId>Test Cases/API/STOCK/UPDATE STOCK/TCUST03_UPDATE WITHOUT ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5be28478-6b31-4a8d-b032-9716a1d7cad5</guid>
+      <guid>170d1c8d-f2ea-4b41-a698-61988a75e4de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/STOCK/CREATE STOCK/TCNST01_CREATE VALID STOCK</testCaseId>
+      <testCaseId>Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>96af164b-b775-4007-a025-564280209dec</guid>
+      <guid>ba8279c1-f4fd-4efa-b72e-c173ac78833a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS04_UPDATE WITHOUT BODY</testCaseId>
+      <testCaseId>Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS03_CREATE WITHOUT REQ BODY</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ab5314e9-a228-4bf8-9860-d971b229e1ca</guid>
+      <guid>db592c0b-29b8-476b-bb05-77250cd912be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS03_UPDATE WITHOUT ID</testCaseId>
+      <testCaseId>Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS02_CREATE WITHOUT TOKEN</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f990a662-51e2-4f9d-9e68-e6c8818478ea</guid>
+      <guid>3e13b554-65c9-4e86-891d-f5e91234e701</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS02_UPDATE WITHOUT TOKEN</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0f71b917-c0d0-4705-b254-152f9e65e6e0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS01_UPDATE SCHEDULE BY ID</testCaseId>
+      <testCaseId>Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS01_CREATE NEW SCHEDULE</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a134dba6-1f4b-43da-9406-c7fe76716c12</guid>
@@ -312,46 +306,46 @@
       <testCaseId>Test Cases/API/SCHEDULE/GET ALL SCHEDULE/TCS01_GET ALL SCHEDULE</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ba8279c1-f4fd-4efa-b72e-c173ac78833a</guid>
+      <guid>96af164b-b775-4007-a025-564280209dec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS03_CREATE WITHOUT REQ BODY</testCaseId>
+      <testCaseId>Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS04_UPDATE WITHOUT BODY</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>db592c0b-29b8-476b-bb05-77250cd912be</guid>
+      <guid>0f71b917-c0d0-4705-b254-152f9e65e6e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS02_CREATE WITHOUT TOKEN</testCaseId>
+      <testCaseId>Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS01_UPDATE SCHEDULE BY ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e13b554-65c9-4e86-891d-f5e91234e701</guid>
+      <guid>ab5314e9-a228-4bf8-9860-d971b229e1ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS01_CREATE NEW SCHEDULE</testCaseId>
+      <testCaseId>Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS03_UPDATE WITHOUT ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e9cdd47a-e17d-4368-b05e-3dd545fc0ead</guid>
+      <guid>f990a662-51e2-4f9d-9e68-e6c8818478ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/BOOKING/UPDATE BOOKING/TCUB04_WITHOUT BODY</testCaseId>
+      <testCaseId>Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS02_UPDATE WITHOUT TOKEN</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>35f41a07-f92b-4bd6-a4e9-72a008ab9771</guid>
+      <guid>eb511afa-e304-49e5-b87b-1f5d3e954865</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/BOOKING/UPDATE BOOKING/TCUB03_WITHOUT ID</testCaseId>
+      <testCaseId>Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB03_WITHOUT BODY</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>404dd3ed-2386-42be-9648-24c90517e254</guid>
+      <guid>6296cbc0-f6d9-4e25-8faf-dd7a8bdb69f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/BOOKING/UPDATE BOOKING/TCUB02_WITHOUT TOKEN</testCaseId>
+      <testCaseId>Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB02_WITHOUT TOKEN</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e7b434e5-4fc1-4c5f-998e-3f6d3fc906dc</guid>
+      <guid>471719d1-7798-47c3-8bef-e53569eee1b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/BOOKING/UPDATE BOOKING/TCUB01_VALID DATA</testCaseId>
+      <testCaseId>Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB01_VALID DATA</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>63d59e2a-6120-448b-8bb5-9450a519b95a</guid>
@@ -378,22 +372,28 @@
       <testCaseId>Test Cases/API/BOOKING/GET ALL BOOKING/TCB01_GET ALL BOOKING</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>eb511afa-e304-49e5-b87b-1f5d3e954865</guid>
+      <guid>e7b434e5-4fc1-4c5f-998e-3f6d3fc906dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB03_WITHOUT BODY</testCaseId>
+      <testCaseId>Test Cases/API/BOOKING/UPDATE BOOKING/TCUB01_VALID DATA</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6296cbc0-f6d9-4e25-8faf-dd7a8bdb69f6</guid>
+      <guid>e9cdd47a-e17d-4368-b05e-3dd545fc0ead</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB02_WITHOUT TOKEN</testCaseId>
+      <testCaseId>Test Cases/API/BOOKING/UPDATE BOOKING/TCUB04_WITHOUT BODY</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>471719d1-7798-47c3-8bef-e53569eee1b2</guid>
+      <guid>35f41a07-f92b-4bd6-a4e9-72a008ab9771</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB01_VALID DATA</testCaseId>
+      <testCaseId>Test Cases/API/BOOKING/UPDATE BOOKING/TCUB03_WITHOUT ID</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>404dd3ed-2386-42be-9648-24c90517e254</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/BOOKING/UPDATE BOOKING/TCUB02_WITHOUT TOKEN</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8161330b-b42e-4ced-a7d4-bc4bd0e05548</guid>
@@ -406,6 +406,54 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/API/BOOKING/COUNT BOOKING/TC01_COUNT BY SCHEDULE ID</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3b8e06d-bead-4780-9508-ae844ae5f571</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB03_WITHOUT BODY</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0a9a1150-5aa6-4162-95cd-b31e8caa10d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4e60ae2-b318-4b65-b5d2-ec3c11664000</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB01_VALID DATA</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>852dfb8a-2c99-487f-bf41-e1a3fc041921</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>43d2e510-71c4-43ea-95b2-322418e45149</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB01_GET DETAIL ID</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>80588f63-4697-4780-b342-80cb7761bce9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD01_GET ALL DETAIL</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>361f5cf9-8b67-42ba-8a65-a847246fbf3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD02_GET ALL DETAIL WITHOUT TOKEN</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2c21c74b-8b33-404a-9e2c-d44cc5456a02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e2f7bde0-fcdb-460f-b282-e3d5878025f9</guid>
@@ -426,51 +474,51 @@
       <testCaseId>Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD02_WITHOUT TOKEN</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2c21c74b-8b33-404a-9e2c-d44cc5456a02</guid>
+      <guid>ce5b4420-652e-43b6-b84f-6fd1777b4e32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA</testCaseId>
+      <testCaseId>Test Cases/API/AUTH/USER/GET ALL USER/TCU02_GET ALL WITHOUT TOKEN</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>852dfb8a-2c99-487f-bf41-e1a3fc041921</guid>
+      <guid>5e5285a6-33c3-4f89-8dca-648e2c507b62</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID</testCaseId>
+      <testCaseId>Test Cases/API/AUTH/USER/GET ALL USER/TCU01_GET ALL VALID USER</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>43d2e510-71c4-43ea-95b2-322418e45149</guid>
+      <guid>22491597-d85e-4be9-af3e-2ce4e8d4a4d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB01_GET DETAIL ID</testCaseId>
+      <testCaseId>Test Cases/API/AUTH/USER/GET USER BY ID/TCUI02_GET USER BY INVALID ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>361f5cf9-8b67-42ba-8a65-a847246fbf3e</guid>
+      <guid>2960b939-36bf-4768-83fa-41bb7f4aeb6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD02_GET ALL DETAIL WITHOUT TOKEN</testCaseId>
+      <testCaseId>Test Cases/API/AUTH/USER/GET USER BY ID/TCUI01_GET USER BY VALID ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>80588f63-4697-4780-b342-80cb7761bce9</guid>
+      <guid>08d35e1c-a9c5-41f1-8dba-e9bd32f3b4be</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD01_GET ALL DETAIL</testCaseId>
+      <testCaseId>Test Cases/API/AUTH/USER/UPDATE USER/TCU04_UPDATE WITHOUT BODY</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e3b8e06d-bead-4780-9508-ae844ae5f571</guid>
+      <guid>324bd5db-0f8b-4550-8e95-371fd48f1cb0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB03_WITHOUT BODY</testCaseId>
+      <testCaseId>Test Cases/API/AUTH/USER/UPDATE USER/TCU03_UPDATE WITHOUT ID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0a9a1150-5aa6-4162-95cd-b31e8caa10d8</guid>
+      <guid>e6b34dc4-a9b3-4dad-8dae-83fcc894fcbb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN</testCaseId>
+      <testCaseId>Test Cases/API/AUTH/USER/UPDATE USER/TCU02_UPDATE WITHOUT TOKEN</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e4e60ae2-b318-4b65-b5d2-ec3c11664000</guid>
+      <guid>9b9dbc19-0773-4695-a551-33f0656d0689</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB01_VALID DATA</testCaseId>
+      <testCaseId>Test Cases/API/AUTH/USER/UPDATE USER/TCU01_UPDATE VALID USER</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

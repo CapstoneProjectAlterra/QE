@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;dose\&quot;: \&quot;DOSIS_2\&quot;,\n  \&quot;operational_hour_end\&quot;: \&quot;18:30:00\&quot;,\n  \&quot;operational_hour_start\&quot;: \&quot;10:00:00\&quot;,\n  \&quot;quota\&quot;: 100,\n  \&quot;vaccination_date\&quot;: \&quot;16-11-2022\&quot;,\n  \&quot;facility\&quot; : {\n      \&quot;id\&quot; : 1\n  },\n  \&quot;vaccine\&quot; :{\n      \&quot;id\&quot; : 1\n  }\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;dose\&quot;: \&quot;DOSIS_2\&quot;,\n  \&quot;operational_hour_end\&quot;: \&quot;18:30:00\&quot;,\n  \&quot;operational_hour_start\&quot;: \&quot;10:00:00\&quot;,\n  \&quot;quota\&quot;: 700,\n  \&quot;vaccination_date\&quot;: \&quot;16-11-2022\&quot;,\n  \&quot;facility\&quot; : {\n      \&quot;id\&quot; : 3\n  },\n  \&quot;vaccine\&quot; :{\n      \&quot;id\&quot; : 1\n  }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/schedule/1</restUrl>
+   <restUrl>${GlobalVariable.url}/schedule/5</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

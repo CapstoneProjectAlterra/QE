@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_MOBILE" time="151.343" tests="3" failures="1" errors="0">
+   <testsuite name="TS_MOBILE" tests="3" failures="1" errors="0" time="151.343" skipped="0" timestamp="2022-07-04 18:12:39" hostname="Thinkpad X260 - DESKTOP-D9B57TC" id="Test Suites/TS_MOBILE">
+      <properties>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220704_181233\\TS_MOBILE\\20220704_181233"/>
+         <property name="logFiles" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220704_181233\\TS_MOBILE\\20220704_181233\\appium.log, C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220704_181233\\TS_MOBILE\\20220704_181233\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220704_181233\\TS_MOBILE\\20220704_181233\\1656933309561.png"/>
+         <property name="hostName" value="Thinkpad X260 - DESKTOP-D9B57TC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="21061119AG"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="413290790507"/>
+         <property name="deviceName" value="Xiaomi 21061119AG (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/MOBILE/AUTH/TC_LoginPositif" time="37.786" classname="Test Cases/MOBILE/AUTH/TC_LoginPositif" status="PASSED">
+         <system-out><![CDATA[2022-07-04 18:12:40 - [TEST_CASE][PASSED] - Test Cases/MOBILE/AUTH/TC_LoginPositif: Test Cases/MOBILE/AUTH/TC_LoginPositif
+
+2022-07-04 18:12:40 - [TEST_STEP][PASSED] - startApplication("C:\Users\Thinkpad X260\Downloads\vaccine_booking.apk", false): Started app at: 'C:\Users\Thinkpad X260\Downloads\vaccine_booking.apk'
+
+2022-07-04 18:12:45 - [MESSAGE][INFO] - Appium server started on port 58,847
+
+2022-07-04 18:13:03 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Thinkpad X260\Downloads\vaccine_booking.apk'
+
+2022-07-04 18:13:03 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Register/Login-landing"), 0): Tapped on element 'Object Repository/MOBILE/Register/Login-landing'
+
+2022-07-04 18:13:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Register/Login-landing'
+
+2022-07-04 18:13:04 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Login/Verify-login-page"), 0): Element 'Object Repository/MOBILE/Login/Verify-login-page' is exist
+
+2022-07-04 18:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:05 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Login/Verify-login-page' is exist
+
+2022-07-04 18:13:05 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Login/nik"), 0): Tapped on element 'Object Repository/MOBILE/Login/nik'
+
+2022-07-04 18:13:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Login/nik'
+
+2022-07-04 18:13:07 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Login/nik"), findTestData("dataLogin").getValue(1, 5), 0): Text '1234567890123456' has been set to element 'Object Repository/MOBILE/Login/nik'
+
+2022-07-04 18:13:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:07 - [MESSAGE][PASSED] - Text '1234567890123456' has been set to element 'Object Repository/MOBILE/Login/nik'
+
+2022-07-04 18:13:07 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Login/pass"), 0): Tapped on element 'Object Repository/MOBILE/Login/pass'
+
+2022-07-04 18:13:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Login/pass'
+
+2022-07-04 18:13:08 - [TEST_STEP][PASSED] - setText(findTestObject("MOBILE/Login/pass"), findTestData("dataLogin").getValue(2, 5), 0): Text 'Haha_123' has been set to element 'Object Repository/MOBILE/Login/pass'
+
+2022-07-04 18:13:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:09 - [MESSAGE][PASSED] - Text 'Haha_123' has been set to element 'Object Repository/MOBILE/Login/pass'
+
+2022-07-04 18:13:09 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Login/view pass"), 0): Tapped on element 'Object Repository/MOBILE/Login/view pass'
+
+2022-07-04 18:13:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Login/view pass'
+
+2022-07-04 18:13:10 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/Login/btn-login"), 0): Tapped on element 'Object Repository/MOBILE/Login/btn-login'
+
+2022-07-04 18:13:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/Login/btn-login'
+
+2022-07-04 18:13:12 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/Login/verify-home"), 0): Element 'Object Repository/MOBILE/Login/verify-home' is exist
+
+2022-07-04 18:13:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:17 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/Login/verify-home' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOBILE/HOME/news/TCN01_View News" time="18.389" classname="Test Cases/MOBILE/HOME/news/TCN01_View News" status="PASSED">
+         <system-out><![CDATA[2022-07-04 18:13:17 - [TEST_CASE][PASSED] - Test Cases/MOBILE/HOME/news/TCN01_View News: Test Cases/MOBILE/HOME/news/TCN01_View News
+
+2022-07-04 18:13:18 - [TEST_STEP][PASSED] - startApplication("C:\Users\Thinkpad X260\Downloads\vaccine_booking.apk", false): Started app at: 'C:\Users\Thinkpad X260\Downloads\vaccine_booking.apk'
+
+2022-07-04 18:13:27 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Thinkpad X260\Downloads\vaccine_booking.apk'
+
+2022-07-04 18:13:27 - [TEST_STEP][PASSED] - tapAndHold(findTestObject("MOBILE/home/news page"), 0, 0): Tapped and held on element 'Object Repository/MOBILE/home/news page' with duration (default)
+
+2022-07-04 18:13:27 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+2022-07-04 18:13:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:33 - [MESSAGE][PASSED] - Tapped and held on element 'Object Repository/MOBILE/home/news page' with duration (default)
+
+2022-07-04 18:13:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("MOBILE/home/verify news page"), 0): Element 'Object Repository/MOBILE/home/verify news page' is exist
+
+2022-07-04 18:13:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:36 - [MESSAGE][PASSED] - Element 'Object Repository/MOBILE/home/verify news page' is exist]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MOBILE/HOME/search/TCS01_Search with invalid key" time="94.576" classname="Test Cases/MOBILE/HOME/search/TCS01_Search with invalid key" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MOBILE/HOME/search/TCS01_Search with invalid key FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/vaksinasi-search/verify-result-depol' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1604)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at TCS01_Search with invalid key.run(TCS01_Search with invalid key:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656933153368.run(TempTestSuite1656933153368.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-04 18:13:36 - [TEST_CASE][FAILED] - Test Cases/MOBILE/HOME/search/TCS01_Search with invalid key: Test Cases/MOBILE/HOME/search/TCS01_Search with invalid key FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/vaksinasi-search/verify-result-depol' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1604)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at TCS01_Search with invalid key.run(TCS01_Search with invalid key:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656933153368.run(TempTestSuite1656933153368.groovy:36)
+
+
+2022-07-04 18:13:36 - [TEST_STEP][FAILED] - for ([i = 1, i <= 3, (i++)]): null
+
+2022-07-04 18:13:36 - [TEST_STEP][PASSED] - startApplication("C:\Users\Thinkpad X260\Downloads\app-release (1).apk", false): Started app at: 'C:\Users\Thinkpad X260\Downloads\app-release (1).apk'
+
+2022-07-04 18:13:47 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Thinkpad X260\Downloads\app-release (1).apk'
+
+2022-07-04 18:13:47 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/home/vaksinasi button"), 0): Tapped on element 'Object Repository/MOBILE/home/vaksinasi button'
+
+2022-07-04 18:13:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/home/vaksinasi button'
+
+2022-07-04 18:13:50 - [TEST_STEP][PASSED] - tap(findTestObject("vaksinasi-search/search box"), 0): Tapped on element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:13:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:13:51 - [TEST_STEP][PASSED] - setText(findTestObject("vaksinasi-search/search box"), findTestData("dataSearch").getValue(1, i), 0): Text '1@' has been set to element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:13:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:52 - [MESSAGE][PASSED] - Text '1@' has been set to element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:13:52 - [TEST_STEP][PASSED] - tap(findTestObject("vaksinasi-search/search button"), 0): Tapped on element 'Object Repository/vaksinasi-search/search button'
+
+2022-07-04 18:13:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/vaksinasi-search/search button'
+
+2022-07-04 18:13:54 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): Element 'Object Repository/vaksinasi-search/verify-result null' is exist
+
+2022-07-04 18:13:54 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("vaksinasi-search/verify-result null"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/vaksinasi-search/verify-result null' is exist
+
+2022-07-04 18:13:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:13:54 - [MESSAGE][PASSED] - Element 'Object Repository/vaksinasi-search/verify-result null' is exist
+
+2022-07-04 18:13:54 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-07-04 18:13:55 - [MESSAGE][PASSED] - Close app successfully
+
+2022-07-04 18:13:55 - [TEST_STEP][PASSED] - startApplication("C:\Users\Thinkpad X260\Downloads\app-release (1).apk", false): Started app at: 'C:\Users\Thinkpad X260\Downloads\app-release (1).apk'
+
+2022-07-04 18:13:56 - [MESSAGE][INFO] - Appium server started on port 59,454
+
+2022-07-04 18:14:08 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Thinkpad X260\Downloads\app-release (1).apk'
+
+2022-07-04 18:14:08 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/home/vaksinasi button"), 0): Tapped on element 'Object Repository/MOBILE/home/vaksinasi button'
+
+2022-07-04 18:14:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:14:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/home/vaksinasi button'
+
+2022-07-04 18:14:12 - [TEST_STEP][PASSED] - tap(findTestObject("vaksinasi-search/search box"), 0): Tapped on element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:14:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:14:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:14:14 - [TEST_STEP][PASSED] - setText(findTestObject("vaksinasi-search/search box"), findTestData("dataSearch").getValue(1, i), 0): Text 'london' has been set to element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:14:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:14:14 - [MESSAGE][PASSED] - Text 'london' has been set to element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:14:14 - [TEST_STEP][PASSED] - tap(findTestObject("vaksinasi-search/search button"), 0): Tapped on element 'Object Repository/vaksinasi-search/search button'
+
+2022-07-04 18:14:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:14:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/vaksinasi-search/search button'
+
+2022-07-04 18:14:16 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): Element 'Object Repository/vaksinasi-search/verify-result null' is exist
+
+2022-07-04 18:14:16 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("vaksinasi-search/verify-result null"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/vaksinasi-search/verify-result null' is exist
+
+2022-07-04 18:14:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:14:16 - [MESSAGE][PASSED] - Element 'Object Repository/vaksinasi-search/verify-result null' is exist
+
+2022-07-04 18:14:16 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-07-04 18:14:16 - [MESSAGE][PASSED] - Close app successfully
+
+2022-07-04 18:14:16 - [TEST_STEP][PASSED] - startApplication("C:\Users\Thinkpad X260\Downloads\app-release (1).apk", false): Started app at: 'C:\Users\Thinkpad X260\Downloads\app-release (1).apk'
+
+2022-07-04 18:14:18 - [MESSAGE][INFO] - Appium server started on port 59,649
+
+2022-07-04 18:14:30 - [MESSAGE][PASSED] - Started app at: 'C:\Users\Thinkpad X260\Downloads\app-release (1).apk'
+
+2022-07-04 18:14:30 - [TEST_STEP][PASSED] - tap(findTestObject("MOBILE/home/vaksinasi button"), 0): Tapped on element 'Object Repository/MOBILE/home/vaksinasi button'
+
+2022-07-04 18:14:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:14:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MOBILE/home/vaksinasi button'
+
+2022-07-04 18:14:34 - [TEST_STEP][PASSED] - tap(findTestObject("vaksinasi-search/search box"), 0): Tapped on element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:14:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:14:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("vaksinasi-search/search box"), findTestData("dataSearch").getValue(1, i), 0): Text 'Depok' has been set to element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:14:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:14:37 - [MESSAGE][PASSED] - Text 'Depok' has been set to element 'Object Repository/vaksinasi-search/search box'
+
+2022-07-04 18:14:37 - [TEST_STEP][PASSED] - tap(findTestObject("vaksinasi-search/search button"), 0): Tapped on element 'Object Repository/vaksinasi-search/search button'
+
+2022-07-04 18:14:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:14:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/vaksinasi-search/search button'
+
+2022-07-04 18:14:39 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): null
+
+2022-07-04 18:14:39 - [TEST_STEP][FAILED] - else: Element 'Object Repository/vaksinasi-search/verify-result-depol' not found
+
+2022-07-04 18:14:39 - [TEST_STEP][FAILED] - verifyElementExist(findTestObject("vaksinasi-search/verify-result-depol"), 0, CONTINUE_ON_FAILURE): Element 'Object Repository/vaksinasi-search/verify-result-depol' not found
+
+2022-07-04 18:14:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-04 18:15:10 - [MESSAGE][FAILED] - Element 'Object Repository/vaksinasi-search/verify-result-depol' not found
+[[ATTACHMENT|C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220704_181233\\TS_MOBILE\\20220704_181233\\1656933309561.png]]
+
+2022-07-04 18:15:10 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-07-04 18:15:10 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[2022-07-04 18:13:36 - [TEST_CASE][FAILED] - Test Cases/MOBILE/HOME/search/TCS01_Search with invalid key: Test Cases/MOBILE/HOME/search/TCS01_Search with invalid key FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/vaksinasi-search/verify-result-depol' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1604)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at TCS01_Search with invalid key.run(TCS01_Search with invalid key:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656933153368.run(TempTestSuite1656933153368.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-04 18:12:39 - [TEST_SUITE][FAILED] - TS_MOBILE: Test Cases/MOBILE/HOME/search/TCS01_Search with invalid key FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/vaksinasi-search/verify-result-depol' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1604)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at TCS01_Search with invalid key.run(TCS01_Search with invalid key:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656933153368.run(TempTestSuite1656933153368.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-07-04 18:12:39 - [TEST_SUITE][FAILED] - TS_MOBILE: Test Cases/MOBILE/HOME/search/TCS01_Search with invalid key FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Element 'Object Repository/vaksinasi-search/verify-result-depol' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.doCall(VerifyElementExistKeyword.groovy:77)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword$_verifyElementExist_closure1.call(VerifyElementExistKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.verifyElementExist(VerifyElementExistKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementExistKeyword.execute(VerifyElementExistKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementExist(MobileBuiltInKeywords.groovy:1604)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementExist$4.call(Unknown Source)
+	at TCS01_Search with invalid key.run(TCS01_Search with invalid key:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656933153368.run(TempTestSuite1656933153368.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

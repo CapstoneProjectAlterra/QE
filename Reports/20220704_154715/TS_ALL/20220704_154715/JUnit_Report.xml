@@ -1,0 +1,1872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_ALL" time="144.814" tests="77" failures="5" errors="0">
+   <testsuite name="TS_ALL" tests="77" failures="5" errors="0" time="144.814" skipped="0" timestamp="2022-07-04 15:47:22" hostname="Thinkpad X260 - DESKTOP-D9B57TC" id="Test Suites/TS_ALL">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220704_154715\\TS_ALL\\20220704_154715"/>
+         <property name="logFiles" value="C:\\Users\\Thinkpad X260\\git\\CapstoneAPI\\Reports\\20220704_154715\\TS_ALL\\20220704_154715\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Thinkpad X260 - DESKTOP-D9B57TC"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/API/VACCINE/CREATE VACCINE/TCNV03_CREATE WITHOUT REQ BODY" time="5.958" classname="Test Cases/API/VACCINE/CREATE VACCINE/TCNV03_CREATE WITHOUT REQ BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:23 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/CREATE VACCINE/TCNV03_CREATE WITHOUT REQ BODY: Test Cases/API/VACCINE/CREATE VACCINE/TCNV03_CREATE WITHOUT REQ BODY
+
+2022-07-04 15:47:24 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/CREATE NEW VACCINE/TCV03_CREATE WITHOUT REQUEST BODY")): Send request successfully
+
+2022-07-04 15:47:29 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\0.har
+
+2022-07-04 15:47:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:47:29 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/VACCINE/CREATE VACCINE/TCNV02_CREATE WITHOUT TOKEN" time="1.741" classname="Test Cases/API/VACCINE/CREATE VACCINE/TCNV02_CREATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:29 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/CREATE VACCINE/TCNV02_CREATE WITHOUT TOKEN: Test Cases/API/VACCINE/CREATE VACCINE/TCNV02_CREATE WITHOUT TOKEN
+
+2022-07-04 15:47:30 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/CREATE NEW VACCINE/TCNV02_CREATE WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:47:31 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\1.har
+
+2022-07-04 15:47:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:47:31 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/VACCINE/GET ALL VACCINE/TCV02_GET ALL WITHOUT TOKEN" time="1.358" classname="Test Cases/API/VACCINE/GET ALL VACCINE/TCV02_GET ALL WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:31 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/GET ALL VACCINE/TCV02_GET ALL WITHOUT TOKEN: Test Cases/API/VACCINE/GET ALL VACCINE/TCV02_GET ALL WITHOUT TOKEN
+
+2022-07-04 15:47:32 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/GET ALL VACCINE/TCV02_GET WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:47:32 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\2.har
+
+2022-07-04 15:47:32 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:47:32 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/VACCINE/GET ALL VACCINE/TCV01_GET ALL VACCINE" time="2.015" classname="Test Cases/API/VACCINE/GET ALL VACCINE/TCV01_GET ALL VACCINE" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:32 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/GET ALL VACCINE/TCV01_GET ALL VACCINE: Test Cases/API/VACCINE/GET ALL VACCINE/TCV01_GET ALL VACCINE
+
+2022-07-04 15:47:33 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/GET ALL VACCINE/TCV01_GET ALL VACCINE")): Send request successfully
+
+2022-07-04 15:47:34 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\3.har
+
+2022-07-04 15:47:34 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:47:34 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/VACCINE/CREATE VACCINE/TCNV01_CREATE VALID VACCINE" time="1.826" classname="Test Cases/API/VACCINE/CREATE VACCINE/TCNV01_CREATE VALID VACCINE" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:34 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/CREATE VACCINE/TCNV01_CREATE VALID VACCINE: Test Cases/API/VACCINE/CREATE VACCINE/TCNV01_CREATE VALID VACCINE
+
+2022-07-04 15:47:35 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/CREATE NEW VACCINE/TCNV01_CREATE VACCINE")): Send request successfully
+
+2022-07-04 15:47:36 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\4.har
+
+2022-07-04 15:47:36 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:47:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-04 15:47:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-07-04 15:47:36 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/VACCINE/GET VACCINE BY ID/TCGV02_GET INVALID ID" time="1.473" classname="Test Cases/API/VACCINE/GET VACCINE BY ID/TCGV02_GET INVALID ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:36 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/GET VACCINE BY ID/TCGV02_GET INVALID ID: Test Cases/API/VACCINE/GET VACCINE BY ID/TCGV02_GET INVALID ID
+
+2022-07-04 15:47:37 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/GET VACCINE BY ID/TCGV02_GET VACCINE INVALID")): Send request successfully
+
+2022-07-04 15:47:37 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\5.har
+
+2022-07-04 15:47:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:47:37 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/VACCINE/GET VACCINE BY ID/TCGSV01_GET VALID ID" time="2.469" classname="Test Cases/API/VACCINE/GET VACCINE BY ID/TCGSV01_GET VALID ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:38 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/GET VACCINE BY ID/TCGSV01_GET VALID ID: Test Cases/API/VACCINE/GET VACCINE BY ID/TCGSV01_GET VALID ID
+
+2022-07-04 15:47:39 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/GET VACCINE BY ID/TCGV01_GET VACCINE VALID")): Send request successfully
+
+2022-07-04 15:47:40 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\6.har
+
+2022-07-04 15:47:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:47:40 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/VACCINE/UPDATE VACCINE/TCUV04_UPDATE WITHOUT BODY" time="5.102" classname="Test Cases/API/VACCINE/UPDATE VACCINE/TCUV04_UPDATE WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:40 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/UPDATE VACCINE/TCUV04_UPDATE WITHOUT BODY: Test Cases/API/VACCINE/UPDATE VACCINE/TCUV04_UPDATE WITHOUT BODY
+
+2022-07-04 15:47:41 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/UPDATE VACCINE/TCUV04_UPDATE WITHOUT BODY")): Send request successfully
+
+2022-07-04 15:47:45 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\7.har
+
+2022-07-04 15:47:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:47:45 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/VACCINE/UPDATE VACCINE/TCUV03_UPDATE WITHOUT ID" time="2.528" classname="Test Cases/API/VACCINE/UPDATE VACCINE/TCUV03_UPDATE WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:45 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/UPDATE VACCINE/TCUV03_UPDATE WITHOUT ID: Test Cases/API/VACCINE/UPDATE VACCINE/TCUV03_UPDATE WITHOUT ID
+
+2022-07-04 15:47:47 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/UPDATE VACCINE/TCUV03_UPDATE WITHOUT ID")): Send request successfully
+
+2022-07-04 15:47:48 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\8.har
+
+2022-07-04 15:47:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_405): Verify response status code successfully
+
+2022-07-04 15:47:48 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/VACCINE/UPDATE VACCINE/TCUV02_UPDATE WITHOUT TOKEN" time="1.588" classname="Test Cases/API/VACCINE/UPDATE VACCINE/TCUV02_UPDATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:48 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/UPDATE VACCINE/TCUV02_UPDATE WITHOUT TOKEN: Test Cases/API/VACCINE/UPDATE VACCINE/TCUV02_UPDATE WITHOUT TOKEN
+
+2022-07-04 15:47:49 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/UPDATE VACCINE/TCUV02_UPDATE WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:47:49 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\9.har
+
+2022-07-04 15:47:49 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:47:49 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/VACCINE/UPDATE VACCINE/TCUV01_UPDATE VACCINE" time="1.797" classname="Test Cases/API/VACCINE/UPDATE VACCINE/TCUV01_UPDATE VACCINE" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:49 - [TEST_CASE][PASSED] - Test Cases/API/VACCINE/UPDATE VACCINE/TCUV01_UPDATE VACCINE: Test Cases/API/VACCINE/UPDATE VACCINE/TCUV01_UPDATE VACCINE
+
+2022-07-04 15:47:50 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/VACCINE/UPDATE VACCINE/TCUV01_UPDATE VALID DATA")): Send request successfully
+
+2022-07-04 15:47:51 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\10.har
+
+2022-07-04 15:47:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:47:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-04 15:47:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-07-04 15:47:51 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/CREATE FACILITY/TCNH03_CREATE WITHOUT REQ BODY" time="1.54" classname="Test Cases/API/FACILITY/CREATE FACILITY/TCNH03_CREATE WITHOUT REQ BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:51 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/CREATE FACILITY/TCNH03_CREATE WITHOUT REQ BODY: Test Cases/API/FACILITY/CREATE FACILITY/TCNH03_CREATE WITHOUT REQ BODY
+
+2022-07-04 15:47:52 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/CREATE NEW FACILITY/TCNH03_CREATE WITHOUT REQUEST BODY")): Send request successfully
+
+2022-07-04 15:47:53 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\11.har
+
+2022-07-04 15:47:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:47:53 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/CREATE FACILITY/TCNH02_CREATE WITHOUT TOKEN" time="1.934" classname="Test Cases/API/FACILITY/CREATE FACILITY/TCNH02_CREATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:53 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/CREATE FACILITY/TCNH02_CREATE WITHOUT TOKEN: Test Cases/API/FACILITY/CREATE FACILITY/TCNH02_CREATE WITHOUT TOKEN
+
+2022-07-04 15:47:54 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/CREATE NEW FACILITY/TCNH02_CREATE WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:47:55 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\12.har
+
+2022-07-04 15:47:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:47:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/CREATE FACILITY/TCNH01_CREATE VALID FACILITY" time="1.688" classname="Test Cases/API/FACILITY/CREATE FACILITY/TCNH01_CREATE VALID FACILITY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:55 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/CREATE FACILITY/TCNH01_CREATE VALID FACILITY: Test Cases/API/FACILITY/CREATE FACILITY/TCNH01_CREATE VALID FACILITY
+
+2022-07-04 15:47:56 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/CREATE NEW FACILITY/TCNH01_CREATE FACILITY")): Send request successfully
+
+2022-07-04 15:47:56 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\13.har
+
+2022-07-04 15:47:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:47:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-04 15:47:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-07-04 15:47:56 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/GET ALL FACILITY/TCH02_GET ALL WITHOUT TOKEN" time="1.373" classname="Test Cases/API/FACILITY/GET ALL FACILITY/TCH02_GET ALL WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:56 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/GET ALL FACILITY/TCH02_GET ALL WITHOUT TOKEN: Test Cases/API/FACILITY/GET ALL FACILITY/TCH02_GET ALL WITHOUT TOKEN
+
+2022-07-04 15:47:57 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/GET ALL FACILITY/TCHF02_GET WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:47:58 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\14.har
+
+2022-07-04 15:47:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:47:58 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/GET ALL FACILITY/TCH01_GET ALL FACILITY" time="1.603" classname="Test Cases/API/FACILITY/GET ALL FACILITY/TCH01_GET ALL FACILITY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:58 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/GET ALL FACILITY/TCH01_GET ALL FACILITY: Test Cases/API/FACILITY/GET ALL FACILITY/TCH01_GET ALL FACILITY
+
+2022-07-04 15:47:59 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/GET ALL FACILITY/TCHF01_GET ALL FACILITY")): Send request successfully
+
+2022-07-04 15:47:59 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\15.har
+
+2022-07-04 15:47:59 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:47:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:47:59 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH04_UPDATE WITHOUT BODY" time="1.49" classname="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH04_UPDATE WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:47:59 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/UPDATE FACILITY/TCUH04_UPDATE WITHOUT BODY: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH04_UPDATE WITHOUT BODY
+
+2022-07-04 15:48:00 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/UPDATE FACILITY/TCUH04_UPDATE WITHOUT BODY")): Send request successfully
+
+2022-07-04 15:48:01 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\16.har
+
+2022-07-04 15:48:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:48:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH03_UPDATE WITHOUT ID" time="2.01" classname="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH03_UPDATE WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:01 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/UPDATE FACILITY/TCUH03_UPDATE WITHOUT ID: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH03_UPDATE WITHOUT ID
+
+2022-07-04 15:48:02 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/UPDATE FACILITY/TCUH03_UPDATE WITHOUT ID")): Send request successfully
+
+2022-07-04 15:48:03 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\17.har
+
+2022-07-04 15:48:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_405): Verify response status code successfully
+
+2022-07-04 15:48:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH02_UPDATE WITHOUT TOKEN" time="1.545" classname="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH02_UPDATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:03 - [TEST_CASE][PASSED] - Test Cases/API/FACILITY/UPDATE FACILITY/TCUH02_UPDATE WITHOUT TOKEN: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH02_UPDATE WITHOUT TOKEN
+
+2022-07-04 15:48:04 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/UPDATE FACILITY/TCUH02_UPDATE WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:48:05 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\18.har
+
+2022-07-04 15:48:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:48:05 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY" time="1.78" classname="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY" status="FAILED">
+         <failure type="FAILED" message="Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FACILITY.run(TCUH01_UPDATE FACILITY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-04 15:48:05 - [TEST_CASE][FAILED] - Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FACILITY.run(TCUH01_UPDATE FACILITY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+
+
+2022-07-04 15:48:05 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE VALID DATA")): Send request successfully
+
+2022-07-04 15:48:06 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\19.har
+
+2022-07-04 15:48:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:06 - [TEST_STEP][FAILED] - verifyResponseStatusCode(Response, Status_200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FACILITY.run(TCUH01_UPDATE FACILITY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+)
+
+2022-07-04 15:48:06 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'
+
+2022-07-04 15:48:06 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FACILITY.run(TCUH01_UPDATE FACILITY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-07-04 15:48:05 - [TEST_CASE][FAILED] - Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FACILITY.run(TCUH01_UPDATE FACILITY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body" time="1.735" classname="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:06 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body: Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF03_Create Family Without Body
+
+2022-07-04 15:48:07 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/CreateFamily_INVALID DATA - Copy")): Send request successfully
+
+2022-07-04 15:48:08 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\20.har
+
+2022-07-04 15:48:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:48:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data" time="1.654" classname="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:08 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data: Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF02_Create family invalid data
+
+2022-07-04 15:48:09 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/CreateFamily_INVALID DATA")): Send request successfully
+
+2022-07-04 15:48:10 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\21.har
+
+2022-07-04 15:48:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:48:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family" time="1.49" classname="Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:10 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family: Test Cases/API/FAMILY/CREATE A NEW FAMILY/TCNF01_Create a new family
+
+2022-07-04 15:48:11 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/CreateNewFamily")): Send request successfully
+
+2022-07-04 15:48:11 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\22.har
+
+2022-07-04 15:48:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:48:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data" time="1.4" classname="Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:11 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data: Test Cases/API/FAMILY/GET ALL FAMILY/TCF02_Get Family with invalid data
+
+2022-07-04 15:48:12 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/GetAllFamily_INVALID DATA")): Send request successfully
+
+2022-07-04 15:48:13 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\23.har
+
+2022-07-04 15:48:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:48:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data" time="1.634" classname="Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:13 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data: Test Cases/API/FAMILY/GET ALL FAMILY/TCF01_Get Family with valid data
+
+2022-07-04 15:48:14 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/GetAllFamily")): Send request successfully
+
+2022-07-04 15:48:14 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\24.har
+
+2022-07-04 15:48:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:48:14 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id" time="1.445" classname="Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:14 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id: Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF02_Get Family with invalid id
+
+2022-07-04 15:48:15 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/GetFamilyById")): Send request successfully
+
+2022-07-04 15:48:16 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\25.har
+
+2022-07-04 15:48:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:48:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id" time="1.625" classname="Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id" status="FAILED">
+         <failure type="FAILED" message="Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCGF01_Get Family By Id.run(TCGF01_Get Family By Id:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-04 15:48:16 - [TEST_CASE][FAILED] - Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id: Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCGF01_Get Family By Id.run(TCGF01_Get Family By Id:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+
+
+2022-07-04 15:48:17 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/GetFamilyById")): Send request successfully
+
+2022-07-04 15:48:17 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\26.har
+
+2022-07-04 15:48:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:17 - [TEST_STEP][FAILED] - verifyResponseStatusCode(Response, Status_200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCGF01_Get Family By Id.run(TCGF01_Get Family By Id:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+)
+
+2022-07-04 15:48:17 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '500'
+
+2022-07-04 15:48:18 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCGF01_Get Family By Id.run(TCGF01_Get Family By Id:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-07-04 15:48:16 - [TEST_CASE][FAILED] - Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id: Test Cases/API/FAMILY/GET FAMILY BY ID/TCGF01_Get Family By Id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '500'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCGF01_Get Family By Id.run(TCGF01_Get Family By Id:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY" time="2.029" classname="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:18 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY: Test Cases/API/FAMILY/UPDATE FAMILY/TCUH04_UPDATE WITHOUT BODY
+
+2022-07-04 15:48:19 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/TCUH04_UPDATE WITHOUT BODY")): Send request successfully
+
+2022-07-04 15:48:20 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\27.har
+
+2022-07-04 15:48:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:48:20 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID" time="1.853" classname="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:20 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID: Test Cases/API/FAMILY/UPDATE FAMILY/TCUH03_UPDATE WITHOUT ID
+
+2022-07-04 15:48:20 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/TCUH03_UPDATE WITHOUT ID")): Send request successfully
+
+2022-07-04 15:48:21 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\28.har
+
+2022-07-04 15:48:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_405): Verify response status code successfully
+
+2022-07-04 15:48:21 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN" time="1.561" classname="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:22 - [TEST_CASE][PASSED] - Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN: Test Cases/API/FAMILY/UPDATE FAMILY/TCUH02_UPDATE WITHOUT TOKEN
+
+2022-07-04 15:48:22 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/Negatif/TCUH02_UPDATE WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:48:23 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\29.har
+
+2022-07-04 15:48:23 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:48:23 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FAMILY" time="1.98" classname="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FAMILY" status="FAILED">
+         <failure type="FAILED" message="Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FAMILY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FAMILY.run(TCUH01_UPDATE FAMILY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-04 15:48:23 - [TEST_CASE][FAILED] - Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FAMILY: Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FAMILY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FAMILY.run(TCUH01_UPDATE FAMILY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+
+
+2022-07-04 15:48:24 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/FAMILY/UpdateFamilyById")): Send request successfully
+
+2022-07-04 15:48:25 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\30.har
+
+2022-07-04 15:48:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:25 - [TEST_STEP][FAILED] - verifyResponseStatusCode(Response, Status_200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FAMILY.run(TCUH01_UPDATE FAMILY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+)
+
+2022-07-04 15:48:25 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'
+
+2022-07-04 15:48:25 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FAMILY.run(TCUH01_UPDATE FAMILY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-07-04 15:48:23 - [TEST_CASE][FAILED] - Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FAMILY: Test Cases/API/FAMILY/UPDATE FAMILY/TCUH01_UPDATE FAMILY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FAMILY.run(TCUH01_UPDATE FAMILY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/UPDATE STOCK/TCUST04_UPDATE WITHOUT BODY" time="1.782" classname="Test Cases/API/STOCK/UPDATE STOCK/TCUST04_UPDATE WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:25 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/UPDATE STOCK/TCUST04_UPDATE WITHOUT BODY: Test Cases/API/STOCK/UPDATE STOCK/TCUST04_UPDATE WITHOUT BODY
+
+2022-07-04 15:48:26 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/UPDATE STOCK/TCUS04_UPDATE WITHOUT BODY")): Send request successfully
+
+2022-07-04 15:48:27 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\31.har
+
+2022-07-04 15:48:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:48:27 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/UPDATE STOCK/TCUST03_UPDATE WITHOUT ID" time="2.15" classname="Test Cases/API/STOCK/UPDATE STOCK/TCUST03_UPDATE WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:27 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/UPDATE STOCK/TCUST03_UPDATE WITHOUT ID: Test Cases/API/STOCK/UPDATE STOCK/TCUST03_UPDATE WITHOUT ID
+
+2022-07-04 15:48:28 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/UPDATE STOCK/TCUS03_UPDATE WITHOUT ID")): Send request successfully
+
+2022-07-04 15:48:29 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\32.har
+
+2022-07-04 15:48:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:48:29 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/UPDATE STOCK/TCUST02_UPDATE WITHOUT TOKEN" time="1.987" classname="Test Cases/API/STOCK/UPDATE STOCK/TCUST02_UPDATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:29 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/UPDATE STOCK/TCUST02_UPDATE WITHOUT TOKEN: Test Cases/API/STOCK/UPDATE STOCK/TCUST02_UPDATE WITHOUT TOKEN
+
+2022-07-04 15:48:30 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/UPDATE STOCK/TCUS02_UPDATE WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:48:31 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\33.har
+
+2022-07-04 15:48:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:48:31 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK" time="1.973" classname="Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK" status="FAILED">
+         <failure type="FAILED" message="Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUST01_UPDATE STOCK.run(TCUST01_UPDATE STOCK:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-04 15:48:31 - [TEST_CASE][FAILED] - Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK: Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUST01_UPDATE STOCK.run(TCUST01_UPDATE STOCK:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+
+
+2022-07-04 15:48:32 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/UPDATE STOCK/TCUS01_UPDATE VALID DATA")): Send request successfully
+
+2022-07-04 15:48:33 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\34.har
+
+2022-07-04 15:48:33 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:33 - [TEST_STEP][FAILED] - verifyResponseStatusCode(Response, Status_200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUST01_UPDATE STOCK.run(TCUST01_UPDATE STOCK:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+)
+
+2022-07-04 15:48:33 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'
+
+2022-07-04 15:48:33 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUST01_UPDATE STOCK.run(TCUST01_UPDATE STOCK:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-07-04 15:48:31 - [TEST_CASE][FAILED] - Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK: Test Cases/API/STOCK/UPDATE STOCK/TCUST01_UPDATE STOCK FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUST01_UPDATE STOCK.run(TCUST01_UPDATE STOCK:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/GET STOCK BY ID/TCGST02_GET INVALID ID" time="2.025" classname="Test Cases/API/STOCK/GET STOCK BY ID/TCGST02_GET INVALID ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:33 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/GET STOCK BY ID/TCGST02_GET INVALID ID: Test Cases/API/STOCK/GET STOCK BY ID/TCGST02_GET INVALID ID
+
+2022-07-04 15:48:34 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/GET STOCK BY ID/TCGST02_GET STOCK INVALID")): Send request successfully
+
+2022-07-04 15:48:35 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\35.har
+
+2022-07-04 15:48:35 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:35 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:48:35 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID" time="1.742" classname="Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID" status="FAILED">
+         <failure type="FAILED" message="Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCGST01_GET VALID ID.run(TCGST01_GET VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+"/>
+         <system-out><![CDATA[2022-07-04 15:48:35 - [TEST_CASE][FAILED] - Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID: Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCGST01_GET VALID ID.run(TCGST01_GET VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+
+
+2022-07-04 15:48:36 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/GET STOCK BY ID/TCGST01_GET STOCK VALID")): Send request successfully
+
+2022-07-04 15:48:37 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\36.har
+
+2022-07-04 15:48:37 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:37 - [TEST_STEP][FAILED] - verifyResponseStatusCode(Response, Status_200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCGST01_GET VALID ID.run(TCGST01_GET VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+)
+
+2022-07-04 15:48:37 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '400'
+
+2022-07-04 15:48:37 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCGST01_GET VALID ID.run(TCGST01_GET VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2022-07-04 15:48:35 - [TEST_CASE][FAILED] - Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID: Test Cases/API/STOCK/GET STOCK BY ID/TCGST01_GET VALID ID FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCGST01_GET VALID ID.run(TCGST01_GET VALID ID:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/GET ALL STOCK/TCST02_GET ALL WITHOUT TOKEN" time="1.546" classname="Test Cases/API/STOCK/GET ALL STOCK/TCST02_GET ALL WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:37 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/GET ALL STOCK/TCST02_GET ALL WITHOUT TOKEN: Test Cases/API/STOCK/GET ALL STOCK/TCST02_GET ALL WITHOUT TOKEN
+
+2022-07-04 15:48:38 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/GET ALL STOCK/TCST02_GET WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:48:39 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\37.har
+
+2022-07-04 15:48:39 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:48:39 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK" time="1.646" classname="Test Cases/API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:39 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK: Test Cases/API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK
+
+2022-07-04 15:48:40 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/GET ALL STOCK/TCST01_GET ALL STOCK")): Send request successfully
+
+2022-07-04 15:48:40 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\38.har
+
+2022-07-04 15:48:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:48:40 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/CREATE STOCK/TCNST03_CREATE WITHOUT REQ BODY" time="2.306" classname="Test Cases/API/STOCK/CREATE STOCK/TCNST03_CREATE WITHOUT REQ BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:40 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/CREATE STOCK/TCNST03_CREATE WITHOUT REQ BODY: Test Cases/API/STOCK/CREATE STOCK/TCNST03_CREATE WITHOUT REQ BODY
+
+2022-07-04 15:48:42 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/CREATE NEW STOCK/TCNST03_CREATE WITHOUT REQUEST BODY")): Send request successfully
+
+2022-07-04 15:48:43 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\39.har
+
+2022-07-04 15:48:43 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:48:43 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/CREATE STOCK/TCNST02_CREATE WITHOUT TOKEN" time="1.944" classname="Test Cases/API/STOCK/CREATE STOCK/TCNST02_CREATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:43 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/CREATE STOCK/TCNST02_CREATE WITHOUT TOKEN: Test Cases/API/STOCK/CREATE STOCK/TCNST02_CREATE WITHOUT TOKEN
+
+2022-07-04 15:48:44 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/CREATE NEW STOCK/TCNST02_CREATE WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:48:45 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\40.har
+
+2022-07-04 15:48:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:48:45 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/STOCK/CREATE STOCK/TCNST01_CREATE VALID STOCK" time="1.623" classname="Test Cases/API/STOCK/CREATE STOCK/TCNST01_CREATE VALID STOCK" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:45 - [TEST_CASE][PASSED] - Test Cases/API/STOCK/CREATE STOCK/TCNST01_CREATE VALID STOCK: Test Cases/API/STOCK/CREATE STOCK/TCNST01_CREATE VALID STOCK
+
+2022-07-04 15:48:45 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/STOCK/CREATE NEW STOCK/TCNST01_CREATE STOCK")): Send request successfully
+
+2022-07-04 15:48:46 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\41.har
+
+2022-07-04 15:48:46 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:48:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-04 15:48:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-07-04 15:48:46 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS04_UPDATE WITHOUT BODY" time="1.597" classname="Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS04_UPDATE WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:46 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS04_UPDATE WITHOUT BODY: Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS04_UPDATE WITHOUT BODY
+
+2022-07-04 15:48:47 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/UPDATE SCHEDULE BY ID/TCUS04_UPDATE WITHOUT BODY")): Send request successfully
+
+2022-07-04 15:48:48 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\42.har
+
+2022-07-04 15:48:48 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:48:48 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS03_UPDATE WITHOUT ID" time="1.966" classname="Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS03_UPDATE WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:48 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS03_UPDATE WITHOUT ID: Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS03_UPDATE WITHOUT ID
+
+2022-07-04 15:48:49 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/UPDATE SCHEDULE BY ID/TCUS03_UPDATE WITHOUT ID")): Send request successfully
+
+2022-07-04 15:48:50 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\43.har
+
+2022-07-04 15:48:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_405): Verify response status code successfully
+
+2022-07-04 15:48:50 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS02_UPDATE WITHOUT TOKEN" time="1.665" classname="Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS02_UPDATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:50 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS02_UPDATE WITHOUT TOKEN: Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS02_UPDATE WITHOUT TOKEN
+
+2022-07-04 15:48:51 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/UPDATE SCHEDULE BY ID/TCUS02_UPDATE WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:48:51 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\44.har
+
+2022-07-04 15:48:51 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:48:51 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS01_UPDATE SCHEDULE BY ID" time="1.887" classname="Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS01_UPDATE SCHEDULE BY ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:52 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS01_UPDATE SCHEDULE BY ID: Test Cases/API/SCHEDULE/UPDATE SCHEDULE/TCUS01_UPDATE SCHEDULE BY ID
+
+2022-07-04 15:48:52 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/UPDATE SCHEDULE BY ID/TCUS01_UPDATE VALID DATA")): Send request successfully
+
+2022-07-04 15:48:53 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\45.har
+
+2022-07-04 15:48:53 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:48:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-04 15:48:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-07-04 15:48:53 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/GET SCHEDULE BY ID/TCGS02_GET INVALID ID" time="1.341" classname="Test Cases/API/SCHEDULE/GET SCHEDULE BY ID/TCGS02_GET INVALID ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:53 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/GET SCHEDULE BY ID/TCGS02_GET INVALID ID: Test Cases/API/SCHEDULE/GET SCHEDULE BY ID/TCGS02_GET INVALID ID
+
+2022-07-04 15:48:54 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/GET SCHEDULE BY ID/TCGS02_GET ID WITH INVALID DATA")): Send request successfully
+
+2022-07-04 15:48:55 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\46.har
+
+2022-07-04 15:48:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_500): Verify response status code successfully
+
+2022-07-04 15:48:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/GET SCHEDULE BY ID/TCGS01_GET VALID DATA" time="1.781" classname="Test Cases/API/SCHEDULE/GET SCHEDULE BY ID/TCGS01_GET VALID DATA" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:55 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/GET SCHEDULE BY ID/TCGS01_GET VALID DATA: Test Cases/API/SCHEDULE/GET SCHEDULE BY ID/TCGS01_GET VALID DATA
+
+2022-07-04 15:48:56 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/GET SCHEDULE BY ID/TCGS01_GET ID WITH VALID DATA")): Send request successfully
+
+2022-07-04 15:48:57 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\47.har
+
+2022-07-04 15:48:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:48:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/GET ALL SCHEDULE/TCS02_GET WITHOUT TOKEN" time="2.533" classname="Test Cases/API/SCHEDULE/GET ALL SCHEDULE/TCS02_GET WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:57 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/GET ALL SCHEDULE/TCS02_GET WITHOUT TOKEN: Test Cases/API/SCHEDULE/GET ALL SCHEDULE/TCS02_GET WITHOUT TOKEN
+
+2022-07-04 15:48:58 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/GET ALL SCHEDULE/TCS02_GET SCHEDULE WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:48:59 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\48.har
+
+2022-07-04 15:48:59 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:48:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:48:59 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/GET ALL SCHEDULE/TCS01_GET ALL SCHEDULE" time="1.673" classname="Test Cases/API/SCHEDULE/GET ALL SCHEDULE/TCS01_GET ALL SCHEDULE" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:48:59 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/GET ALL SCHEDULE/TCS01_GET ALL SCHEDULE: Test Cases/API/SCHEDULE/GET ALL SCHEDULE/TCS01_GET ALL SCHEDULE
+
+2022-07-04 15:49:00 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/GET ALL SCHEDULE/TCS01_GET VALID SCHEDULE")): Send request successfully
+
+2022-07-04 15:49:01 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\49.har
+
+2022-07-04 15:49:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS03_CREATE WITHOUT REQ BODY" time="1.345" classname="Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS03_CREATE WITHOUT REQ BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:01 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS03_CREATE WITHOUT REQ BODY: Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS03_CREATE WITHOUT REQ BODY
+
+2022-07-04 15:49:02 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/CREATE NEW SCHEDULE/TCNS03_Create without req body")): Send request successfully
+
+2022-07-04 15:49:02 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\50.har
+
+2022-07-04 15:49:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:49:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS02_CREATE WITHOUT TOKEN" time="1.61" classname="Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS02_CREATE WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:02 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS02_CREATE WITHOUT TOKEN: Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS02_CREATE WITHOUT TOKEN
+
+2022-07-04 15:49:03 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/CREATE NEW SCHEDULE/TCNS02_Create without token")): Send request successfully
+
+2022-07-04 15:49:04 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\51.har
+
+2022-07-04 15:49:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:49:04 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS01_CREATE NEW SCHEDULE" time="1.59" classname="Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS01_CREATE NEW SCHEDULE" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:04 - [TEST_CASE][PASSED] - Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS01_CREATE NEW SCHEDULE: Test Cases/API/SCHEDULE/CREATE SCHEDULE/TCNS01_CREATE NEW SCHEDULE
+
+2022-07-04 15:49:05 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/SCHEDULE/CREATE NEW SCHEDULE/TCNS01_Create with valid data")): Send request successfully
+
+2022-07-04 15:49:05 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\52.har
+
+2022-07-04 15:49:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-04 15:49:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, statuscreate, update_success): Verify element property value successfully
+
+2022-07-04 15:49:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/UPDATE BOOKING/TCUB04_WITHOUT BODY" time="1.495" classname="Test Cases/API/BOOKING/UPDATE BOOKING/TCUB04_WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:05 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/UPDATE BOOKING/TCUB04_WITHOUT BODY: Test Cases/API/BOOKING/UPDATE BOOKING/TCUB04_WITHOUT BODY
+
+2022-07-04 15:49:06 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/UPDATE BOOKING BY ID/TCUB04_UPDATE BOOKING WITHOUT REQ BODY")): Send request successfully
+
+2022-07-04 15:49:07 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\53.har
+
+2022-07-04 15:49:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:49:07 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/UPDATE BOOKING/TCUB03_WITHOUT ID" time="1.954" classname="Test Cases/API/BOOKING/UPDATE BOOKING/TCUB03_WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:07 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/UPDATE BOOKING/TCUB03_WITHOUT ID: Test Cases/API/BOOKING/UPDATE BOOKING/TCUB03_WITHOUT ID
+
+2022-07-04 15:49:08 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/UPDATE BOOKING BY ID/TCUB03_UPDATE BOOKING WITHOUT ID")): Send request successfully
+
+2022-07-04 15:49:09 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\54.har
+
+2022-07-04 15:49:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_405): Verify response status code successfully
+
+2022-07-04 15:49:09 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/UPDATE BOOKING/TCUB02_WITHOUT TOKEN" time="1.481" classname="Test Cases/API/BOOKING/UPDATE BOOKING/TCUB02_WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:09 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/UPDATE BOOKING/TCUB02_WITHOUT TOKEN: Test Cases/API/BOOKING/UPDATE BOOKING/TCUB02_WITHOUT TOKEN
+
+2022-07-04 15:49:10 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/UPDATE BOOKING BY ID/TCUB02_UPDATE BOOKING WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:49:10 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\55.har
+
+2022-07-04 15:49:10 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:49:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/UPDATE BOOKING/TCUB01_VALID DATA" time="1.723" classname="Test Cases/API/BOOKING/UPDATE BOOKING/TCUB01_VALID DATA" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:10 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/UPDATE BOOKING/TCUB01_VALID DATA: Test Cases/API/BOOKING/UPDATE BOOKING/TCUB01_VALID DATA
+
+2022-07-04 15:49:11 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/UPDATE BOOKING BY ID/TCUB01_UPDATE BOOKING")): Send request successfully
+
+2022-07-04 15:49:12 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\56.har
+
+2022-07-04 15:49:12 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-04 15:49:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "status.message", update_success): Verify element property value successfully
+
+2022-07-04 15:49:12 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/GET BOOKING BY ID/TCGB02_GET BOOKING INVALID ID" time="1.549" classname="Test Cases/API/BOOKING/GET BOOKING BY ID/TCGB02_GET BOOKING INVALID ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:12 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/GET BOOKING BY ID/TCGB02_GET BOOKING INVALID ID: Test Cases/API/BOOKING/GET BOOKING BY ID/TCGB02_GET BOOKING INVALID ID
+
+2022-07-04 15:49:13 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/GET BOOKING BY ID/NEGATIF GET BOOKING ID")): Send request successfully
+
+2022-07-04 15:49:14 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\57.har
+
+2022-07-04 15:49:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_500): Verify response status code successfully
+
+2022-07-04 15:49:14 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/GET BOOKING BY ID/TCGB01_GET BOOKING ID" time="1.854" classname="Test Cases/API/BOOKING/GET BOOKING BY ID/TCGB01_GET BOOKING ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:14 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/GET BOOKING BY ID/TCGB01_GET BOOKING ID: Test Cases/API/BOOKING/GET BOOKING BY ID/TCGB01_GET BOOKING ID
+
+2022-07-04 15:49:15 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/GET BOOKING BY ID/POSITIF GET BOOKING ID")): Send request successfully
+
+2022-07-04 15:49:16 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\58.har
+
+2022-07-04 15:49:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/GET ALL BOOKING/TCB02_GET ALL BOOKING WITHOUT TOKEN" time="1.672" classname="Test Cases/API/BOOKING/GET ALL BOOKING/TCB02_GET ALL BOOKING WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:16 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/GET ALL BOOKING/TCB02_GET ALL BOOKING WITHOUT TOKEN: Test Cases/API/BOOKING/GET ALL BOOKING/TCB02_GET ALL BOOKING WITHOUT TOKEN
+
+2022-07-04 15:49:17 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/GET ALL BOOKING/NEGATIF GET ALL BOOKING WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:49:17 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\59.har
+
+2022-07-04 15:49:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:49:17 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/GET ALL BOOKING/TCB01_GET ALL BOOKING" time="1.506" classname="Test Cases/API/BOOKING/GET ALL BOOKING/TCB01_GET ALL BOOKING" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:17 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/GET ALL BOOKING/TCB01_GET ALL BOOKING: Test Cases/API/BOOKING/GET ALL BOOKING/TCB01_GET ALL BOOKING
+
+2022-07-04 15:49:18 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/GET ALL BOOKING/POSITIF GET ALL BOOKING")): Send request successfully
+
+2022-07-04 15:49:19 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\60.har
+
+2022-07-04 15:49:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:19 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB03_WITHOUT BODY" time="1.571" classname="Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB03_WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:19 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB03_WITHOUT BODY: Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB03_WITHOUT BODY
+
+2022-07-04 15:49:20 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/CREATE BOOKING/TCNB03_CREATE BOOKING WITHOUT REQ BODY")): Send request successfully
+
+2022-07-04 15:49:20 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\61.har
+
+2022-07-04 15:49:20 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:49:20 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB02_WITHOUT TOKEN" time="1.532" classname="Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB02_WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:21 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB02_WITHOUT TOKEN: Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB02_WITHOUT TOKEN
+
+2022-07-04 15:49:21 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/CREATE BOOKING/TCNB02_CREATE BOOKING WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:49:22 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\62.har
+
+2022-07-04 15:49:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:49:22 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB01_VALID DATA" time="1.711" classname="Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB01_VALID DATA" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:22 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB01_VALID DATA: Test Cases/API/BOOKING/CREATE NEW BOOKING/TCNB01_VALID DATA
+
+2022-07-04 15:49:23 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/CREATE BOOKING/TCNB01_CREATE BOOKING WITH VALID DATA")): Send request successfully
+
+2022-07-04 15:49:24 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\63.har
+
+2022-07-04 15:49:24 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:24 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/COUNT BOOKING/TC02_COUNT WITHOUT SCHEDULE" time="1.497" classname="Test Cases/API/BOOKING/COUNT BOOKING/TC02_COUNT WITHOUT SCHEDULE" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:24 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/COUNT BOOKING/TC02_COUNT WITHOUT SCHEDULE: Test Cases/API/BOOKING/COUNT BOOKING/TC02_COUNT WITHOUT SCHEDULE
+
+2022-07-04 15:49:25 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/COUNT BOOKING/TCC02_WITHOUT SCHEDULE")): Send request successfully
+
+2022-07-04 15:49:25 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\64.har
+
+2022-07-04 15:49:25 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:49:25 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/BOOKING/COUNT BOOKING/TC01_COUNT BY SCHEDULE ID" time="1.677" classname="Test Cases/API/BOOKING/COUNT BOOKING/TC01_COUNT BY SCHEDULE ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:25 - [TEST_CASE][PASSED] - Test Cases/API/BOOKING/COUNT BOOKING/TC01_COUNT BY SCHEDULE ID: Test Cases/API/BOOKING/COUNT BOOKING/TC01_COUNT BY SCHEDULE ID
+
+2022-07-04 15:49:26 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/BOOKING/COUNT BOOKING/TCC01_BY SCHEDULE ID")): Send request successfully
+
+2022-07-04 15:49:27 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\65.har
+
+2022-07-04 15:49:27 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:27 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD04_WITHOUT BODY" time="1.649" classname="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD04_WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:27 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD04_WITHOUT BODY: Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD04_WITHOUT BODY
+
+2022-07-04 15:49:28 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/UPDATE DETAIL BY ID/TCUD04_UPDATE WITHOUT REQ BODY")): Send request successfully
+
+2022-07-04 15:49:29 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\66.har
+
+2022-07-04 15:49:29 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:49:29 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID" time="1.922" classname="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:29 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID: Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD03_WITHOUT ID
+
+2022-07-04 15:49:30 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/UPDATE DETAIL BY ID/TCUD03_UPDATE WITHOUT ID")): Send request successfully
+
+2022-07-04 15:49:31 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\67.har
+
+2022-07-04 15:49:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:49:31 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD02_WITHOUT TOKEN" time="1.838" classname="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD02_WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:31 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD02_WITHOUT TOKEN: Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD02_WITHOUT TOKEN
+
+2022-07-04 15:49:32 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/UPDATE DETAIL BY ID/TCUD02_UPDATE WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:49:33 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\68.har
+
+2022-07-04 15:49:33 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:49:33 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA" time="1.71" classname="Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:33 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA: Test Cases/API/DETAIL BOOKING/UPDATE DETAIL BOOKING/TCUD01_VALID DATA
+
+2022-07-04 15:49:33 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/UPDATE DETAIL BY ID/TCUD01_UPDATE DETAIL")): Send request successfully
+
+2022-07-04 15:49:34 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\69.har
+
+2022-07-04 15:49:34 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-07-04 15:49:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "status.message", update_success): Verify element property value successfully
+
+2022-07-04 15:49:34 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID" time="1.629" classname="Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:34 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID: Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB02_GET DETAIL INVALID ID
+
+2022-07-04 15:49:35 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/GET DETAIL BY ID/NEGATIF GET BOOKING ID")): Send request successfully
+
+2022-07-04 15:49:36 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\70.har
+
+2022-07-04 15:49:36 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:49:36 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB01_GET DETAIL ID" time="2.177" classname="Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB01_GET DETAIL ID" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:36 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB01_GET DETAIL ID: Test Cases/API/DETAIL BOOKING/GET DETAIL BY ID/TCSB01_GET DETAIL ID
+
+2022-07-04 15:49:37 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/GET DETAIL BY ID/POSITIF GET BOOKING ID")): Send request successfully
+
+2022-07-04 15:49:38 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\71.har
+
+2022-07-04 15:49:38 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:38 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:38 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD02_GET ALL DETAIL WITHOUT TOKEN" time="1.579" classname="Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD02_GET ALL DETAIL WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:38 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD02_GET ALL DETAIL WITHOUT TOKEN: Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD02_GET ALL DETAIL WITHOUT TOKEN
+
+2022-07-04 15:49:39 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/GET ALL DETAIL BOOKING/NEGATIF GET ALL DETAIL WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:49:40 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\72.har
+
+2022-07-04 15:49:40 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:49:40 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD01_GET ALL DETAIL" time="1.573" classname="Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD01_GET ALL DETAIL" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:40 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD01_GET ALL DETAIL: Test Cases/API/DETAIL BOOKING/GET ALL DETAIL BOOKING/TCBD01_GET ALL DETAIL
+
+2022-07-04 15:49:41 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/GET ALL DETAIL BOOKING/POSITIF GET ALL DETAIL BOOKING")): Send request successfully
+
+2022-07-04 15:49:41 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\73.har
+
+2022-07-04 15:49:41 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:41 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB03_WITHOUT BODY" time="1.59" classname="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB03_WITHOUT BODY" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:41 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB03_WITHOUT BODY: Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB03_WITHOUT BODY
+
+2022-07-04 15:49:42 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/CREATE DETAIL BOOKING/TCCB03_CREATE DETAIL WITHOUT REQ BODY")): Send request successfully
+
+2022-07-04 15:49:43 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\74.har
+
+2022-07-04 15:49:43 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_400): Verify response status code successfully
+
+2022-07-04 15:49:43 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN" time="1.889" classname="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:43 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN: Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB02_WITHOUT TOKEN
+
+2022-07-04 15:49:44 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/CREATE DETAIL BOOKING/TCCB02_CREATE DETAIL WITHOUT TOKEN")): Send request successfully
+
+2022-07-04 15:49:45 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\75.har
+
+2022-07-04 15:49:45 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_401): Verify response status code successfully
+
+2022-07-04 15:49:45 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB01_VALID DATA" time="1.78" classname="Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB01_VALID DATA" status="PASSED">
+         <system-out><![CDATA[2022-07-04 15:49:45 - [TEST_CASE][PASSED] - Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB01_VALID DATA: Test Cases/API/DETAIL BOOKING/CREATE NEW DETAIL/TCCB01_VALID DATA
+
+2022-07-04 15:49:46 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("API/DETAIL BOOKING/CREATE DETAIL BOOKING/TCCB01_CREATE DETAIL WITH VALID DATA")): Send request successfully
+
+2022-07-04 15:49:47 - [MESSAGE][INFO] - HAR: C:\Users\Thinkpad X260\git\CapstoneAPI\Reports\20220704_154715\TS_ALL\20220704_154715\requests\main\76.har
+
+2022-07-04 15:49:47 - [MESSAGE][PASSED] - Send request successfully
+
+2022-07-04 15:49:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, Status_200): Verify response status code successfully
+
+2022-07-04 15:49:47 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-04 15:47:22 - [TEST_SUITE][FAILED] - TS_ALL: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FACILITY.run(TCUH01_UPDATE FACILITY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-07-04 15:47:22 - [TEST_SUITE][FAILED] - TS_ALL: Test Cases/API/FACILITY/UPDATE FACILITY/TCUH01_UPDATE FACILITY FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '400'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.access$1(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$0.call(Unknown Source)
+	at TCUH01_UPDATE FACILITY.run(TCUH01_UPDATE FACILITY:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656924435053.run(TempTestSuite1656924435053.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

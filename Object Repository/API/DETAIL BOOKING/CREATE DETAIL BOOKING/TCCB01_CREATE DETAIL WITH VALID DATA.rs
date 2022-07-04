@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;booking_id\&quot;:\&quot;2\&quot;,\n    \&quot;family_id\&quot;:\&quot;1\&quot;,\n    \&quot;booking_status\&quot;:\&quot;COMPLETED\&quot;,\n    \&quot;family\&quot;:{\n        \&quot;id\&quot;:1\n    },\n    \&quot;booking\&quot;:{\n        \&quot;id\&quot;:2\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;booking_id\&quot;:\&quot;2\&quot;,\n    \&quot;family_id\&quot;:\&quot;9\&quot;,\n    \&quot;booking_status\&quot;:\&quot;COMPLETED\&quot;\n    \n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

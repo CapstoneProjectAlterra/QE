@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_MOBILE,,,,2022-07-04 18:12:39,2022-07-04 18:15:10,2m - 31.343s,FAILED
+,,,,,,,
+Test Cases/MOBILE/AUTH/TC_LoginPositif,,,,2022-07-04 18:12:40,2022-07-04 18:13:17,37.786s,PASSED
+"startApplication(""C:\Users\Thinkpad X260\Downloads\vaccine_booking.apk"", false)",,,,2022-07-04 18:12:40,2022-07-04 18:13:03,22.157s,PASSED
+"tap(findTestObject(""MOBILE/Register/Login-landing""), 0)",,,,2022-07-04 18:13:03,2022-07-04 18:13:04,1.530s,PASSED
+"verifyElementExist(findTestObject(""MOBILE/Login/Verify-login-page""), 0)",,,,2022-07-04 18:13:04,2022-07-04 18:13:05,1.172s,PASSED
+"tap(findTestObject(""MOBILE/Login/nik""), 0)",,,,2022-07-04 18:13:05,2022-07-04 18:13:07,1.462s,PASSED
+"setText(findTestObject(""MOBILE/Login/nik""), findTestData(""dataLogin"").getValue(1, 5), 0)",,,,2022-07-04 18:13:07,2022-07-04 18:13:07,0.582s,PASSED
+"tap(findTestObject(""MOBILE/Login/pass""), 0)",,,,2022-07-04 18:13:07,2022-07-04 18:13:08,0.922s,PASSED
+"setText(findTestObject(""MOBILE/Login/pass""), findTestData(""dataLogin"").getValue(2, 5), 0)",,,,2022-07-04 18:13:08,2022-07-04 18:13:09,1.028s,PASSED
+"tap(findTestObject(""MOBILE/Login/view pass""), 0)",,,,2022-07-04 18:13:09,2022-07-04 18:13:10,1.180s,PASSED
+"tap(findTestObject(""MOBILE/Login/btn-login""), 0)",,,,2022-07-04 18:13:10,2022-07-04 18:13:12,1.691s,PASSED
+"verifyElementExist(findTestObject(""MOBILE/Login/verify-home""), 0)",,,,2022-07-04 18:13:12,2022-07-04 18:13:17,5.343s,PASSED
+,,,,,,,
+Test Cases/MOBILE/HOME/news/TCN01_View News,,,,2022-07-04 18:13:17,2022-07-04 18:13:36,18.389s,PASSED
+"startApplication(""C:\Users\Thinkpad X260\Downloads\vaccine_booking.apk"", false)",,,,2022-07-04 18:13:18,2022-07-04 18:13:27,8.889s,PASSED
+"tapAndHold(findTestObject(""MOBILE/home/news page""), 0, 0)",,,,2022-07-04 18:13:27,2022-07-04 18:13:33,5.853s,PASSED
+"verifyElementExist(findTestObject(""MOBILE/home/verify news page""), 0)",,,,2022-07-04 18:13:33,2022-07-04 18:13:36,3.139s,PASSED
+,,,,,,,
+Test Cases/MOBILE/HOME/search/TCS01_Search with invalid key,,,,2022-07-04 18:13:36,2022-07-04 18:15:10,1m - 34.576s,FAILED
+"for ([i = 1, i <= 3, (i++)])",,,,2022-07-04 18:13:36,2022-07-04 18:15:10,1m - 34.103s,FAILED

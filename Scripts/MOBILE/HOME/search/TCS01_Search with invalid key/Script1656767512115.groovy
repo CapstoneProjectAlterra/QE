@@ -29,9 +29,9 @@ for (i = 1; i <= 3; i++) {
     Mobile.tap(findTestObject('vaksinasi-search/search button'), 0)
 
     if ((i == 1) | (i == 2)) {
-        Mobile.verifyElementExist(findTestObject('vaksinasi-search/verify-result null'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+        Mobile.verifyElementExist(findTestObject('vaksinasi-search/alert - Pencarian Tidak Ditemukan'), 0, FailureHandling.CONTINUE_ON_FAILURE)
     } else {
-        Mobile.verifyElementExist(findTestObject('vaksinasi-search/verify-result-depol'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+        Mobile.verifyElementExist(findTestObject('vaksinasi-search/VERIFY-FMC'), 0, FailureHandling.CONTINUE_ON_FAILURE)
     }
     
     Mobile.closeApplication()

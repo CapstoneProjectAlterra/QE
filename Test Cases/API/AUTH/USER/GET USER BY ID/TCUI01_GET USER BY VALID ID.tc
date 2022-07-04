@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCUI01_GET USER BY VALID ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02e68590-b453-4258-99e5-69d3dc0c0b20</testCaseGuid>
+</TestCaseEntity>
