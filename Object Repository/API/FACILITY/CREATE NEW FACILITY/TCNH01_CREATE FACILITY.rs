@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;facility_name\&quot;: \&quot;RSUD CIBINONG\&quot;,\n    \&quot;img_url\&quot;: \&quot;https://tbindonesia.or.id/wp-content/uploads/2020/06/RSUD-Cibinong-2.jpg\&quot;,\n    \&quot;street_name\&quot;: \&quot;Jl. KSR Dadi Kusmayadi No.27, Tengah, Kec. Cibinong, Kabupaten Bogor, Jawa Barat \&quot;,\n    \&quot;office_number\&quot;: 1,\n    \&quot;village_name\&quot;: \&quot;CIKARET\&quot;,\n    \&quot;district\&quot;: \&quot;CIBINONG\&quot;,\n    \&quot;city\&quot;: \&quot;BOGOR\&quot;,\n    \&quot;province\&quot;: \&quot;JAWA BARAT\&quot;,\n    \&quot;postal_code\&quot;: 16914,\n    \&quot;profile\&quot;:{\n        \&quot;user_id\&quot;:5\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;facility_name\&quot;: \&quot;Rumah Sakit Citama\&quot;,\n    \&quot;img_url\&quot;: \&quot;https://play-lh.googleusercontent.com/3VjNECMlOHcuuZhFHhrX2QrRD8tuCD-OytgpcEbiC9aa81cGEtQYu0IRf-M2TtE0GsiE\&quot;,\n    \&quot;street_name\&quot;: \&quot; Jl. Pabuaran No.52, Pabuaran, Kecamatan Bojonggede, Kabupaten Bogor, Jawa Barat\&quot;,\n    \&quot;office_number\&quot;: 1,\n    \&quot;village_name\&quot;: \&quot;PABUARAN\&quot;,\n    \&quot;district\&quot;: \&quot;BOJONGGEDE\&quot;,\n    \&quot;city\&quot;: \&quot;BOGOR\&quot;,\n    \&quot;province\&quot;: \&quot;JAWA BARAT\&quot;,\n    \&quot;postal_code\&quot;: 16320,\n    \&quot;profile\&quot;:{\n        \&quot;user_id\&quot;:5\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

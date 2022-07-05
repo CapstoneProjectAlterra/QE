@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOYW5kYSIsImlhdCI6MTY1Njk0MjcwNSwiZXhwIjoxNjU3MDI5MTA1fQ.XMvC8b6QDHu98LfGaUSy3U6V2swAM6o8dQQj3_49sQM'</initValue>
+      <initValue>'Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOYW5kYSIsImlhdCI6MTY1NzAxMjUxNywiZXhwIjoxNjU3MDk4OTE3fQ.qGFdKRgsxW8EAoadqQv8DdnmZqRAlONv6ZWypty-J0Y'</initValue>
       <name>token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

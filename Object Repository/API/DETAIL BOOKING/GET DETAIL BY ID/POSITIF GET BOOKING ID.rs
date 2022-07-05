@@ -29,7 +29,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/detail/search?booking_id=2&amp;family_id=5</restUrl>
+   <restUrl>${GlobalVariable.url}/detail/search?booking_id=2&amp;family_id=11</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
