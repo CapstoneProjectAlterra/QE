@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Register</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ff9ab165-1301-4994-999a-f9b2b6b58064</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>1234 Harnanada harnanda%40email.com Haha1234 Haha1234</data>
+   <data>1234A Harnanda harnanda%40email.com Haha1234 Haha1234</data>
+   <data>1234567890123456 Harnanda1 harnanda%40email.com Haha1234 Haha1234</data>
+   <data>1234567890123456 Harnanda harnanda Haha1234 Haha1234</data>
+   <data>1234567890123456 Harnanda harnanda%40email.com haha123 Haha1234</data>
+   <data>null Harnanda harnanda%40email.com Haha1234 Haha1234</data>
+   <data>null null null null null</data>
+   <data>1234567890123456 Harnanda harnanda%40email.com Haha1234 Haha1234</data>
+   <data>1234567891234567 Regita regita%40email.com Regita1234 Regita1234</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>nik</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>nama</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>email</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>pass</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>confirm pass</name>
+      <size>9</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
