@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Search Vaccine</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>6391a401-cb4b-46fb-b15a-d6acfe0991c8</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>null</data>
+   <data>1111</data>
+   <data>london</data>
+   <data>Jawa+Timur</data>
+   <data>Banyuwangi</data>
+   <data>444</data>
+   <data>muhamadiyah</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>search</name>
+      <size>7</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

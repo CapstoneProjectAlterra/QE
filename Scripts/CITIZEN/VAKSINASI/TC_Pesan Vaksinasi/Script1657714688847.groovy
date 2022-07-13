@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('CITIZEN/VAKSINASI/TC_Health Facility'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/date'))
 
-WebUI.navigateToUrl('https://dev-getvaccine-16.netlify.app/')
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/tgl 21'))
 
-WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/login btn'))
+WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/jadwal'), 
+    0)
 
-WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Login  GetVaccine/VerifyLoginPage'))
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/jadwal'))
 
-WebUI.setText(findTestObject('CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'), '1234123412341234')
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/jadwal'))
 
-WebUI.setText(findTestObject('CITIZEN/Page_Login  GetVaccine/input_Password_basic_password'), 'Haechan123')
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/Taeil'))
 
-WebUI.click(findTestObject('CITIZEN/Page_Login  GetVaccine/eye'))
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/btn pesan vaksin'))
 
-WebUI.click(findTestObject('CITIZEN/Page_Login  GetVaccine/button_Login'))
-
-WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Home  GetVaccine/navbar'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/verify tiket'), 
+    0)
 

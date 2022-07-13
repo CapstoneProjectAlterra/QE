@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ButtonDaftar Vaksinasi</name>
+   <name>1996</name>
    <tag></tag>
-   <elementGuidId>fda12d69-4012-47ec-ad92-e4cf9e602a98</elementGuidId>
+   <elementGuidId>9ad1a31d-ee85-4531-84dc-635d9c397e22</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;root&quot;]/main/div[1]/div[1]/button</value>
+         <value>/html/body/div[3]/div/div/div/div/div/div[2]/table/tbody/tr[3]/td[2]/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

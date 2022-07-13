@@ -31,7 +31,7 @@ for (i = 1; i <= 5; i++) {
     WebUI.setText(findTestObject('CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'), findTestData('CITIZEN/Login').getValue(
             1, i))
 
-    WebUI.setText(findTestObject('CITIZEN/password'), findTestData('CITIZEN/Login').getValue(2, i))
+    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/password'), findTestData('CITIZEN/Login').getValue(2, i))
 
     WebUI.click(findTestObject('CITIZEN/Page_Login  GetVaccine/eye'))
 

@@ -17,23 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('CITIZEN/VAKSINASI/Positif/TC_Search Positif'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Search/verify hasil rumah sakit'))
 
-WebUI.navigateToUrl('https://dev-getvaccine-16.netlify.app/')
-
-WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/login btn'))
-
-WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Login  GetVaccine/VerifyLoginPage'))
-
-WebUI.setText(findTestObject('CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'), '1234123412341234')
-
-WebUI.setText(findTestObject('CITIZEN/Page_Login  GetVaccine/input_Password_basic_password'), 'Haechan123')
-
-WebUI.click(findTestObject('CITIZEN/Page_Login  GetVaccine/eye'))
-
-WebUI.click(findTestObject('CITIZEN/Page_Login  GetVaccine/button_Login'))
-
-WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Home  GetVaccine/navbar'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/verify rs muhamadiyah'), 
+    0)
 

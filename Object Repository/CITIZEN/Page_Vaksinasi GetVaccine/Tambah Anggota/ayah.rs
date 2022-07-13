@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>alert nik harus angka login</name>
+   <name>ayah</name>
    <tag></tag>
-   <elementGuidId>9561b94f-3d26-45c7-87c8-8431613ce8e1</elementGuidId>
+   <elementGuidId>9d2b73dd-8b44-4692-9dd1-5e9455afb716</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;basic&quot;]/div[2]/div[2]/div[2]/div</value>
+         <value>//*[@id=&quot;add family member_status_in_family&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

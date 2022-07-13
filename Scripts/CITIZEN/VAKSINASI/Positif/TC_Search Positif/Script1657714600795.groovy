@@ -17,23 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('CITIZEN/AUTH/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/vaksinasi menu'))
 
-WebUI.navigateToUrl('https://dev-getvaccine-16.netlify.app/')
+WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/verify vaksinasi page'), 0)
 
-WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/login btn'))
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Search/search bar'))
 
-WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Login  GetVaccine/VerifyLoginPage'))
+WebUI.clearText(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Search/search bar'))
 
-WebUI.setText(findTestObject('CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'), '1234123412341234')
+WebUI.setText(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Search/search bar'), 'Muhamadiyah')
 
-WebUI.setText(findTestObject('CITIZEN/Page_Login  GetVaccine/input_Password_basic_password'), 'Haechan123')
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Search/button search'))
 
-WebUI.click(findTestObject('CITIZEN/Page_Login  GetVaccine/eye'))
-
-WebUI.click(findTestObject('CITIZEN/Page_Login  GetVaccine/button_Login'))
-
-WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Home  GetVaccine/navbar'), 0, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Search/verify hasil rumah sakit'), 0)
 
