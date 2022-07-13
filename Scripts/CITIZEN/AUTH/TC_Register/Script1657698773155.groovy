@@ -28,31 +28,33 @@ for (i = 1; i <= 6; i++) {
 
     WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/h2_Register'))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'), findTestData('Register').getValue(
+    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'), findTestData('CITIZEN/Register').getValue(
             1, i))
 
     WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'), findTestData(
-            'Register').getValue(2, i))
+            'CITIZEN/Register').getValue(2, i))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'), findTestData(
-            'Register').getValue(3, i))
+    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'), findTestData('CITIZEN/Register').getValue(
+            3, i))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'), findTestData(
-            'Register').getValue(4, i))
+    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'), findTestData('CITIZEN/Register').getValue(
+            4, i))
 
     WebUI.click(findTestObject('CITIZEN/Page_Login  GetVaccine/eye'))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'), 
-        findTestData('Register').getValue(5, i))
+    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'), findTestData(
+            'CITIZEN/Register').getValue(5, i))
 
     WebUI.click(findTestObject('CITIZEN/Page_Login  GetVaccine/eye'))
 
     WebUI.click(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/button_Register'))
 
     if (i == 1) {
-        WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/div_Masukkan minimal 16 karakter'), FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/div_Masukkan minimal 16 karakter'), 
+            FailureHandling.CONTINUE_ON_FAILURE)
     } else if (i == 2) {
-        WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/div_Inputan Harus Berupa Angka'), FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/div_Inputan Harus Berupa Angka'), 
+            FailureHandling.CONTINUE_ON_FAILURE)
     } else if (i == 3) {
         WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/div_Karakter yang diizinkan spasi, huruf ka_922eed'), 
             FailureHandling.CONTINUE_ON_FAILURE)
@@ -62,7 +64,8 @@ for (i = 1; i <= 6; i++) {
         WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/div_Password harus berupa kombinasi huruf b_9d7790'), 
             FailureHandling.CONTINUE_ON_FAILURE)
 
-        WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/div_Password minimal 8 karakter'), FailureHandling.CONTINUE_ON_FAILURE)
+        WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/div_Password minimal 8 karakter'), 
+            FailureHandling.CONTINUE_ON_FAILURE)
 
         WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/div_Password yang dimasukkan tidak sama den_ea25f1'), 
             FailureHandling.CONTINUE_ON_FAILURE)
@@ -84,20 +87,20 @@ for (i = 7; i <= 9; i++) {
 
     WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/h2_Register'))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'), findTestData('Register').getValue(
+    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'), findTestData('CITIZEN/Register').getValue(
             1, i))
 
     WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'), findTestData(
-            'Register').getValue(2, i))
+            'CITIZEN/Register').getValue(2, i))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'), findTestData(
-            'Register').getValue(3, i))
+    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'), findTestData('CITIZEN/Register').getValue(
+            3, i))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'), findTestData(
-            'Register').getValue(4, i))
+    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'), findTestData('CITIZEN/Register').getValue(
+            4, i))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'), 
-        findTestData('Register').getValue(5, i))
+    WebUI.setText(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'), findTestData(
+            'CITIZEN/Register').getValue(5, i))
 
     WebUI.click(findTestObject('CITIZEN/Page_Registrasi  GetVaccine/button_Register'))
 
