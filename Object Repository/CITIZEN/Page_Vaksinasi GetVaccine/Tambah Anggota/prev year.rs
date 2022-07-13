@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'ant-picker-header-super-prev-btn']</value>
+         <value>//*[@class = 'ant-picker-header-super-prev-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,7 +15,7 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>class</name>
       <type>Main</type>
       <value>ant-picker-header-super-prev-btn</value>
    </webElementProperties>

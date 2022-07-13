@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>TambahAnggota</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>5f3f05d1-e945-4433-b00b-f4a34225861e</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>AAAA Qian+Kun China kun%40nct.com 08822992200 Jakarta Jakarta</data>
+   <data>12345 Qian+Kun China kun%40nct.com 08822992200 Jakarta Jakarta</data>
+   <data>7890789078907890 Kun China kun%40nct.com 08822992200 Jakarta Jakarta</data>
+   <data>7890789078907890 Qian+Kun China kunnct.com 08822992200 Jakarta akarta</data>
+   <data>7890789078907890 Qian+Kun China kun%40nct.com 0882299A Jakarta Jakarta</data>
+   <data>7890789078907890 Qian+Kun China kun%40nct.com 08822992200 11 22</data>
+   <data>7890789078907890 null China kun%40nct.com 08822992200 Jakarta Jakarta</data>
+   <data>null null null null null null null</data>
+   <data>7890789078907890 Qian+Kun China kun%40nct.com 08822992200 Jakarta Jakarta</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>NIK</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Nama</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Tempat Lahir</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>Email</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>TLP</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>Alamat</name>
+      <size>9</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>Domisili</name>
+      <size>9</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
