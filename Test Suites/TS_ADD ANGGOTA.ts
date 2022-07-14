@@ -15,6 +15,6 @@
       <guid>271b8167-0736-4eb8-b57e-3b780bd02803</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Tambah Anggota</testCaseId>
+      <testCaseId>Test Cases/CITIZEN/VAKSINASI/TC_Tambah Anggota</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
