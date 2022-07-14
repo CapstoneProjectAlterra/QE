@@ -6,12 +6,11 @@
    <elementGuidId>5067c1d3-9a00-4988-9a89-4f0e45f6aaca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;add family member&quot;]/div[1]/div[2]/div[2]/div[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;add family member&quot;]/div[1]/div[2]/div[2]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

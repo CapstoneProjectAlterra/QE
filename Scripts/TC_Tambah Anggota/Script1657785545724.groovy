@@ -28,22 +28,16 @@ for (i = 1; i <= 7; i++) {
 
     WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/btn tambah anggota'))
 
-    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/nik'))
+    WebUI.setText(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/input_NIK_add family member_NIK'), 
+        findTestData('CITIZEN/TambahAnggota').getValue(1, i))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/nik'), findTestData('CITIZEN/TambahAnggota').getValue(
-            1, i))
+    WebUI.setText(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/input_Nama Lengkap_add family member_name'), 
+        findTestData('CITIZEN/TambahAnggota').getValue(2, i))
 
-    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/Nama'))
+    WebUI.setText(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/input_Tempat Lahir_add family member_place__8ffebd'), 
+        findTestData('CITIZEN/TambahAnggota').getValue(3, i))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/Nama'), findTestData('CITIZEN/TambahAnggota').getValue(
-            2, i))
-
-    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/tp lahir'))
-
-    WebUI.setText(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/tp lahir'), findTestData('CITIZEN/TambahAnggota').getValue(
-            3, i))
-
-    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/date click'))
+    WebUI.click(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/div_Tanggal Lahir_ant-picker-input'))
 
     WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/year'))
 
@@ -59,59 +53,71 @@ for (i = 1; i <= 7; i++) {
 
     WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/tgl 1'))
 
-    WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/div_Laki - Laki'))
+    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/jk sebelum'))
 
-    WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/div_Saudara'))
+    WebUI.click(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/div_Laki - Laki'))
 
-    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/email'))
+    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/hubungan'))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/email'), findTestData('CITIZEN/TambahAnggota').getValue(
-            4, i))
+    WebUI.click(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/div_Saudara'))
 
-    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/telp'))
+    WebUI.setText(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/input_Email_add family member_email'), 
+        findTestData('CITIZEN/TambahAnggota').getValue(4, i))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/telp'), findTestData('CITIZEN/TambahAnggota').getValue(
-            5, i))
+    WebUI.setText(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/input_Nomor Telepon_add family member_phone_number'), 
+        findTestData('CITIZEN/TambahAnggota').getValue(5, i))
 
-    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alamat'))
+    WebUI.setText(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/input_Alamat KTP_add family member_id_card_address'), 
+        findTestData('CITIZEN/TambahAnggota').getValue(6, i))
 
-    WebUI.setText(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alamat'), findTestData('CITIZEN/TambahAnggota').getValue(
-            6, i))
+    WebUI.setText(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/input_Alamat Saat ini_add family member_res_c155da'), 
+        findTestData('CITIZEN/TambahAnggota').getValue(7, i))
 
-    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/domisili'))
-
-    WebUI.setText(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/domisili'), findTestData('CITIZEN/TambahAnggota').getValue(
-            7, i))
-
-    WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/submit'))
+    WebUI.click(findTestObject('Object Repository/CITIZEN/Page_undefined  GetVaccine/span_Submit'))
 
     if (i == 1) {
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alert inpputan harus angka'), 
             0)
+
+        WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/close'))
     } else if (i == 2) {
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alert nik inputan harus 16'), 
             0)
+
+        WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/close'))
     } else if (i == 3) {
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alert nama lengkap kurang 4'), 
             0)
+
+        WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/close'))
     } else if (i == 4) {
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alert email'), 0)
+
+        WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/close'))
     } else if (i == 5) {
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alert telp huruf'), 
             0)
 
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alert telp kurang'), 
             0)
+
+        WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/close'))
     } else if (i == 6) {
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alert alamat'), 0)
 
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alert dom'), 0)
+
+        WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/close'))
     } else if (i == 7) {
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alert nama kosong'), 
             0)
+
+        WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/close'))
     } else if (i == 8) {
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/alert form tambah anggota blank'), 
             0)
+
+        WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/close'))
     } else {
         WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/verify berhasil tambah anggota'), 
             0)

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>alert form tambah anggota blank</name>
+   <name>close</name>
    <tag></tag>
-   <elementGuidId>3e2c476e-7d93-4279-a271-bb1192d010d2</elementGuidId>
+   <elementGuidId>5ba3d2e9-605e-4b65-939a-e81488826b9c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[3]/div/div[2]/div/div[2]/div[2]</value>
+         <value>/html/body/div[2]/div/div[2]/div/div[2]/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

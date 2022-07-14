@@ -1,0 +1,12 @@
+1
+00:00:01,029 --> 00:00:02,316
+1. callTestCase(findTestCase("CITIZEN/AUTH/Login"), [:], STOP_ON_FAILURE)
+
+2
+00:00:02,331 --> 00:00:06,900
+1. openBrowser("")
+
+3
+00:00:06,902 --> 00:00:07,202
+5. maximizeWindow()
+
