@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ADMIN/AUTH/Positif/TC_LoginPositif'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ADMIN/KELOLA SESI/TC_Search'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/SEARCH/kelola sesi'))
 
@@ -39,13 +39,15 @@ WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetV
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end'))
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_16'))
+WebUI.scrollToElement(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/jam 15'), 0)
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_OK'))
+WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/jam 15'))
+
+WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/ok jam sesudah'))
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Dosis 1_ant-radio-input'))
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'))
+WebUI.setText(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'), '100')
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Tambah Sesi'))
 
