@@ -39,7 +39,7 @@ WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetV
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end'))
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/jam 14'))
+WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_16'))
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_OK'))
 
