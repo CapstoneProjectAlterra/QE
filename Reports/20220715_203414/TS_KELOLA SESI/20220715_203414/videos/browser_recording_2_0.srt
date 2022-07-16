@@ -1,0 +1,8 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. for ([i = 1, i <= 5, (i++)])
+
+2
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Dashboard/overview"))
+

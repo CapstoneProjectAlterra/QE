@@ -1,0 +1,144 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. for ([i = 1, i <= 5, (i++)])
+
+2
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Dashboard/overview"))
+
+3
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi"))
+
+4
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"))
+
+5
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i))
+
+6
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search"))
+
+7
+00:00:00,000 --> 00:00:00,000
+21. if (i == 1 | i == 2)
+
+8
+00:00:00,000 --> 00:00:00,000
+1. verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify no data"), 0)
+
+9
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Dashboard/overview"))
+
+10
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi"))
+
+11
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"))
+
+12
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i))
+
+13
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search"))
+
+14
+00:00:00,000 --> 00:00:00,000
+21. if (i == 1 | i == 2)
+
+15
+00:00:00,000 --> 00:00:00,000
+1. verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify no data"), 0)
+
+16
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Dashboard/overview"))
+
+17
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi"))
+
+18
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"))
+
+19
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i))
+
+20
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search"))
+
+21
+00:00:00,000 --> 00:00:00,000
+21. if (i == 1 | i == 2)
+
+22
+00:00:00,000 --> 00:00:00,000
+2. verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify sinovac"), 0)
+
+23
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Dashboard/overview"))
+
+24
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi"))
+
+25
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"))
+
+26
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i))
+
+27
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search"))
+
+28
+00:00:00,000 --> 00:00:00,000
+21. if (i == 1 | i == 2)
+
+29
+00:00:00,000 --> 00:00:00,000
+3. verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify dosis 1"), 0)
+
+30
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Dashboard/overview"))
+
+31
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi"))
+
+32
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"))
+
+33
+00:00:00,000 --> 00:00:00,000
+13. setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i))
+
+34
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search"))
+
+35
+00:00:00,000 --> 00:00:00,000
+21. if (i == 1 | i == 2)
+
+36
+00:00:00,000 --> 00:00:00,000
+4. verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify tgl 15"), 0)
+

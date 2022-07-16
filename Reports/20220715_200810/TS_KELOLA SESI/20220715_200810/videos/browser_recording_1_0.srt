@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("https://dev-getvaccine-16.netlify.app/admin/")
+
+2
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+3
+00:00:00,000 --> 00:00:00,000
+9. verifyElementPresent(findTestObject("ADMIN/Adm-Login/verify login page"), 0)
+
+4
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("ADMIN/Adm-Login/username"))
+
+5
+00:00:00,000 --> 00:00:00,000
+17. setText(findTestObject("ADMIN/Adm-Login/username"), "harnanda")
+
+6
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("ADMIN/Adm-Login/password"))
+
+7
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("ADMIN/Adm-Login/password"), "haha")
+
+8
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("ADMIN/Adm-Login/eye"))
+
+9
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("ADMIN/Adm-Login/btn login"))
+

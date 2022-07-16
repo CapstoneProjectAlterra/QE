@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('ADMIN/Kelola Sesi/SEARCH/kelola sesi'))
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/verify kelola page'), 0)
+
+WebUI.click(findTestObject('ADMIN/Kelola Sesi/DELETE SESI/icon delete'))
+
+WebUI.click(findTestObject('ADMIN/Kelola Sesi/DELETE SESI/yes delete'))
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/verify kelola page'), 0)
+

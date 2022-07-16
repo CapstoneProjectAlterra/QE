@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi"))
+
+2
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/button_Tambah Data"))
+
+3
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/select vaksin"))
+
+4
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_SINOVAC"))
+
+5
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date"))
+

@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_KELOLA SESI,Chrome 103.0.5060.114,,,2022-07-15 19:51:55,2022-07-15 19:55:39,3m - 44.468s,FAILED
+,,,,,,,
+Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif,Chrome 103.0.5060.114,,,2022-07-15 19:51:56,2022-07-15 19:52:23,27.268s,PASSED
+"openBrowser(""https://dev-getvaccine-16.netlify.app/admin/"")",Chrome 103.0.5060.114,,,2022-07-15 19:51:56,2022-07-15 19:52:18,21.897s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-15 19:52:18,2022-07-15 19:52:19,0.284s,PASSED
+"verifyElementPresent(findTestObject(""ADMIN/Adm-Login/verify login page""), 0)",Chrome 103.0.5060.114,,,2022-07-15 19:52:19,2022-07-15 19:52:19,0.616s,PASSED
+"click(findTestObject(""ADMIN/Adm-Login/username""))",Chrome 103.0.5060.114,,,2022-07-15 19:52:19,2022-07-15 19:52:20,0.569s,PASSED
+"setText(findTestObject(""ADMIN/Adm-Login/username""), ""harnanda"")",Chrome 103.0.5060.114,,,2022-07-15 19:52:20,2022-07-15 19:52:21,0.805s,PASSED
+"click(findTestObject(""ADMIN/Adm-Login/password""))",Chrome 103.0.5060.114,,,2022-07-15 19:52:21,2022-07-15 19:52:21,0.447s,PASSED
+"setText(findTestObject(""ADMIN/Adm-Login/password""), ""haha"")",Chrome 103.0.5060.114,,,2022-07-15 19:52:21,2022-07-15 19:52:22,0.745s,PASSED
+"click(findTestObject(""ADMIN/Adm-Login/eye""))",Chrome 103.0.5060.114,,,2022-07-15 19:52:22,2022-07-15 19:52:22,0.535s,PASSED
+"click(findTestObject(""ADMIN/Adm-Login/btn login""))",Chrome 103.0.5060.114,,,2022-07-15 19:52:22,2022-07-15 19:52:23,0.566s,PASSED
+,,,,,,,
+Test Cases/ADMIN/KELOLA SESI/TC_Search,Chrome 103.0.5060.114,,,2022-07-15 19:52:23,2022-07-15 19:53:37,1m - 14.302s,PASSED
+"for ([i = 1, i <= 5, (i++)])",Chrome 103.0.5060.114,,,2022-07-15 19:52:24,2022-07-15 19:53:37,1m - 13.540s,PASSED
+,,,,,,,
+Test Cases/ADMIN/KELOLA SESI/TC_Tambah Data Sesi,Chrome 103.0.5060.114,,,2022-07-15 19:53:37,2022-07-15 19:54:10,33.131s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/SEARCH/kelola sesi""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:38,2022-07-15 19:53:38,0.441s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/button_Tambah Data""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:38,2022-07-15 19:53:39,0.563s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/select vaksin""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:39,2022-07-15 19:53:39,0.553s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_SINOVAC""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:39,2022-07-15 19:53:40,0.487s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:40,2022-07-15 19:53:41,0.647s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_27""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:41,2022-07-15 19:53:41,0.682s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:41,2022-07-15 19:53:42,0.698s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/jam 7""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:42,2022-07-15 19:53:42,0.555s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_OK""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:42,2022-07-15 19:53:43,0.550s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:43,2022-07-15 19:53:44,0.568s,PASSED
+"scrollToElement(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/jam 15""), 0)",Chrome 103.0.5060.114,,,2022-07-15 19:53:44,2022-07-15 19:53:44,0.455s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/jam 15""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:44,2022-07-15 19:53:44,0.443s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/ok jam sesudah""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:44,2022-07-15 19:53:45,0.631s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Dosis 1_ant-radio-input""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:45,2022-07-15 19:53:46,0.591s,PASSED
+"setText(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Kuota_quota""), ""100"")",Chrome 103.0.5060.114,,,2022-07-15 19:53:46,2022-07-15 19:53:47,0.812s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Tambah Sesi""))",Chrome 103.0.5060.114,,,2022-07-15 19:53:47,2022-07-15 19:53:47,0.628s,PASSED
+"verifyElementPresent(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Data berhasil ditambahkan""), 0)",Chrome 103.0.5060.114,,,2022-07-15 19:53:47,2022-07-15 19:54:10,23.209s,PASSED
+,,,,,,,
+Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi,Chrome 103.0.5060.114,,,2022-07-15 19:54:10,2022-07-15 19:54:52,41.767s,FAILED
+"click(findTestObject(""ADMIN/Dashboard/overview""))",Chrome 103.0.5060.114,,,2022-07-15 19:54:11,2022-07-15 19:54:11,0.494s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/SEARCH/kelola sesi""))",Chrome 103.0.5060.114,,,2022-07-15 19:54:11,2022-07-15 19:54:14,2.107s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/EDIT SESI/icon detail""))",Chrome 103.0.5060.114,,,2022-07-15 19:54:14,2022-07-15 19:54:20,6.335s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start""))",Chrome 103.0.5060.114,,,2022-07-15 19:54:20,2022-07-15 19:54:20,0.621s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/EDIT SESI/jam 9""), STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-15 19:54:20,2022-07-15 19:54:52,31.655s,FAILED
+,,,,,,,
+Test Cases/ADMIN/KELOLA SESI/TC_View Detail Sesi,Chrome 103.0.5060.114,,,2022-07-15 19:54:52,2022-07-15 19:55:00,8.157s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/Detail Sesi/icon detail""))",Chrome 103.0.5060.114,,,2022-07-15 19:54:53,2022-07-15 19:54:58,4.928s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/Detail Sesi/verify detail sesi page""))",Chrome 103.0.5060.114,,,2022-07-15 19:54:58,2022-07-15 19:55:00,2.466s,PASSED
+,,,,,,,
+Test Cases/ADMIN/KELOLA SESI/TC_Delete,Chrome 103.0.5060.114,,,2022-07-15 19:55:00,2022-07-15 19:55:39,39.195s,FAILED
+"click(findTestObject(""ADMIN/Kelola Sesi/SEARCH/kelola sesi""))",Chrome 103.0.5060.114,,,2022-07-15 19:55:01,2022-07-15 19:55:02,0.540s,PASSED
+"verifyElementPresent(findTestObject(""ADMIN/Kelola Sesi/verify kelola page""), 0)",Chrome 103.0.5060.114,,,2022-07-15 19:55:02,2022-07-15 19:55:08,5.842s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/DELETE SESI/icon delete""))",Chrome 103.0.5060.114,,,2022-07-15 19:55:08,2022-07-15 19:55:08,0.475s,PASSED
+"click(findTestObject(""ADMIN/Kelola Sesi/DELETE SESI/yes delete""))",Chrome 103.0.5060.114,,,2022-07-15 19:55:08,2022-07-15 19:55:39,31.359s,FAILED

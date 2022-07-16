@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi"))
+
+2
+00:00:00,000 --> 00:00:00,000
+5. verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/verify kelola page"), 0)
+
+3
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("ADMIN/Kelola Sesi/DELETE SESI/icon delete"))
+
+4
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("ADMIN/Kelola Sesi/DELETE SESI/yes delete"))
+

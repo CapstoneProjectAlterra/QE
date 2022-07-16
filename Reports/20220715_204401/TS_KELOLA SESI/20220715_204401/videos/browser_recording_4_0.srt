@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Dashboard/overview"))
+
+2
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi"))
+
+3
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("ADMIN/Kelola Sesi/EDIT SESI/icon detail"))
+
+4
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start"))
+
+5
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("ADMIN/Kelola Sesi/EDIT SESI/Jam 10"), STOP_ON_FAILURE)
+
+6
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("ADMIN/Kelola Sesi/EDIT SESI/ok"))
+

@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ADMIN/AUTH/Positif/TC_LoginPositif'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('ADMIN/Dashboard/overview'))
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/SEARCH/kelola sesi'))
@@ -27,7 +25,7 @@ WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/icon detail'))
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start'))
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/jam 9'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/Jam 10'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/ok'))
 

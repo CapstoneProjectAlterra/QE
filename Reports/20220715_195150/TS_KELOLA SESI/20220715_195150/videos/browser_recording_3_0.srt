@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi"))
+
+2
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/button_Tambah Data"))
+
+3
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/select vaksin"))
+
+4
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_SINOVAC"))
+
+5
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date"))
+
+6
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_27"))
+
+7
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start"))
+
+8
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/jam 7"))
+
+9
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_OK"))
+
+10
+00:00:00,000 --> 00:00:00,000
+37. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end"))
+
+11
+00:00:00,000 --> 00:00:00,000
+41. scrollToElement(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/jam 15"), 0)
+
+12
+00:00:00,000 --> 00:00:00,000
+45. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/jam 15"))
+
+13
+00:00:00,000 --> 00:00:00,000
+49. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/ok jam sesudah"))
+
+14
+00:00:00,000 --> 00:00:00,000
+53. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Dosis 1_ant-radio-input"))
+
+15
+00:00:00,000 --> 00:00:00,000
+57. setText(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Kuota_quota"), "100")
+
+16
+00:00:00,000 --> 00:00:00,000
+61. click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Tambah Sesi"))
+
+17
+00:00:00,000 --> 00:00:00,000
+65. verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Data berhasil ditambahkan"), 0)
+

@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_KELOLA SESI" time="224.468" tests="6" failures="2" errors="0">
+   <testsuite name="TS_KELOLA SESI" tests="6" failures="2" errors="0" time="224.468" skipped="0" timestamp="2022-07-15 19:51:55" hostname="Thinkpad X260 - DESKTOP-D9B57TC" id="Test Suites/TS_KELOLA SESI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thinkpad X260\\git\\CapstoneWEBSITE\\Reports\\20220715_195150\\TS_KELOLA SESI\\20220715_195150"/>
+         <property name="logFiles" value="C:\\Users\\Thinkpad X260\\git\\CapstoneWEBSITE\\Reports\\20220715_195150\\TS_KELOLA SESI\\20220715_195150\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Thinkpad X260\\git\\CapstoneWEBSITE\\Reports\\20220715_195150\\TS_KELOLA SESI\\20220715_195150\\1657889692356.png, C:\\Users\\Thinkpad X260\\git\\CapstoneWEBSITE\\Reports\\20220715_195150\\TS_KELOLA SESI\\20220715_195150\\1657889739850.png"/>
+         <property name="hostName" value="Thinkpad X260 - DESKTOP-D9B57TC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.222.4"/>
+         <property name="sessionId" value="40691631b8d7d6d1f08d73b96c5b1abf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif" time="27.268" classname="Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif" status="PASSED">
+         <system-out><![CDATA[2022-07-15 19:51:56 - [TEST_CASE][PASSED] - Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif: Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif
+
+2022-07-15 19:51:56 - [TEST_STEP][PASSED] - openBrowser("https://dev-getvaccine-16.netlify.app/admin/"): Browser is opened with url: 'https://dev-getvaccine-16.netlify.app/admin/'
+
+2022-07-15 19:51:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-15 19:51:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-15 19:52:01 - [MESSAGE][WARNING] - FFmpeg was not installed! Browser Recording will be disabled. Please follow this document to install FFmpeg first: https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder
+
+2022-07-15 19:52:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-getvaccine-16.netlify.app/admin/'
+
+2022-07-15 19:52:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-15 19:52:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-15 19:52:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Adm-Login/verify login page"), 0): Object 'Object Repository/ADMIN/Adm-Login/verify login page' is present
+
+2022-07-15 19:52:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-15 19:52:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Adm-Login/verify login page' is present
+
+2022-07-15 19:52:19 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Adm-Login/username")): Object: 'Object Repository/ADMIN/Adm-Login/username' is clicked on
+
+2022-07-15 19:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Adm-Login/username' is clicked on
+
+2022-07-15 19:52:20 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Adm-Login/username"), "harnanda"): Text 'harnanda' is set on object 'Object Repository/ADMIN/Adm-Login/username'
+
+2022-07-15 19:52:21 - [MESSAGE][PASSED] - Text 'harnanda' is set on object 'Object Repository/ADMIN/Adm-Login/username'
+
+2022-07-15 19:52:21 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Adm-Login/password")): Object: 'Object Repository/ADMIN/Adm-Login/password' is clicked on
+
+2022-07-15 19:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Adm-Login/password' is clicked on
+
+2022-07-15 19:52:21 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Adm-Login/password"), "haha"): Text 'haha' is set on object 'Object Repository/ADMIN/Adm-Login/password'
+
+2022-07-15 19:52:22 - [MESSAGE][PASSED] - Text 'haha' is set on object 'Object Repository/ADMIN/Adm-Login/password'
+
+2022-07-15 19:52:22 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Adm-Login/eye")): Object: 'Object Repository/ADMIN/Adm-Login/eye' is clicked on
+
+2022-07-15 19:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Adm-Login/eye' is clicked on
+
+2022-07-15 19:52:22 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Adm-Login/btn login")): Object: 'Object Repository/ADMIN/Adm-Login/btn login' is clicked on
+
+2022-07-15 19:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Adm-Login/btn login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/TC_Search" time="74.302" classname="Test Cases/ADMIN/KELOLA SESI/TC_Search" status="PASSED">
+         <system-out><![CDATA[2022-07-15 19:52:23 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/TC_Search: Test Cases/ADMIN/KELOLA SESI/TC_Search
+
+2022-07-15 19:52:24 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify tgl 15' is present
+
+2022-07-15 19:52:24 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:52:28 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:52:29 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-15 19:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-15 19:52:37 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i)): Text 'asd' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-15 19:52:38 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-15 19:52:38 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-15 19:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-15 19:52:38 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-15 19:52:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify no data"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-15 19:52:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-15 19:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-15 19:52:39 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:52:39 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:52:41 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-15 19:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-15 19:52:48 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i)): Text 'dosis 3' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-15 19:52:49 - [MESSAGE][PASSED] - Text 'dosis 3' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-15 19:52:49 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-15 19:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-15 19:52:50 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-15 19:52:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify no data"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-15 19:52:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-15 19:52:50 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-15 19:52:50 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:52:51 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:52:52 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-15 19:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-15 19:52:59 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i)): Text 'sinovac' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-15 19:53:00 - [MESSAGE][PASSED] - Text 'sinovac' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-15 19:53:00 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-15 19:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-15 19:53:00 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): null
+
+2022-07-15 19:53:00 - [TEST_STEP][PASSED] - else if (i == 3): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify sinovac' is present
+
+2022-07-15 19:53:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify sinovac"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify sinovac' is present
+
+2022-07-15 19:53:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-15 19:53:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify sinovac' is present
+
+2022-07-15 19:53:01 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:53:01 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:53:03 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-15 19:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-15 19:53:16 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i)): Text 'dosis 1' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-15 19:53:17 - [MESSAGE][PASSED] - Text 'dosis 1' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-15 19:53:17 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-15 19:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-15 19:53:18 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): null
+
+2022-07-15 19:53:18 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-07-15 19:53:18 - [TEST_STEP][PASSED] - else if (i == 4): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify dosis 1' is present
+
+2022-07-15 19:53:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify dosis 1"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify dosis 1' is present
+
+2022-07-15 19:53:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-15 19:53:18 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify dosis 1' is present
+
+2022-07-15 19:53:18 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:53:19 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:53:21 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-15 19:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-15 19:53:35 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i)): Text '15' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-15 19:53:36 - [MESSAGE][PASSED] - Text '15' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-15 19:53:36 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-15 19:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-15 19:53:37 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): null
+
+2022-07-15 19:53:37 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-07-15 19:53:37 - [TEST_STEP][PASSED] - else if (i == 4): null
+
+2022-07-15 19:53:37 - [TEST_STEP][PASSED] - else: Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify tgl 15' is present
+
+2022-07-15 19:53:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify tgl 15"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify tgl 15' is present
+
+2022-07-15 19:53:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-15 19:53:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify tgl 15' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/TC_Tambah Data Sesi" time="33.131" classname="Test Cases/ADMIN/KELOLA SESI/TC_Tambah Data Sesi" status="PASSED">
+         <system-out><![CDATA[2022-07-15 19:53:37 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/TC_Tambah Data Sesi: Test Cases/ADMIN/KELOLA SESI/TC_Tambah Data Sesi
+
+2022-07-15 19:53:38 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:53:38 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/button_Tambah Data")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-15 19:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-15 19:53:39 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/select vaksin")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/select vaksin' is clicked on
+
+2022-07-15 19:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/select vaksin' is clicked on
+
+2022-07-15 19:53:39 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_SINOVAC")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_SINOVAC' is clicked on
+
+2022-07-15 19:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_SINOVAC' is clicked on
+
+2022-07-15 19:53:40 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date' is clicked on
+
+2022-07-15 19:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date' is clicked on
+
+2022-07-15 19:53:41 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_27")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_27' is clicked on
+
+2022-07-15 19:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/div_27' is clicked on
+
+2022-07-15 19:53:41 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-15 19:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-15 19:53:42 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/jam 7")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/jam 7' is clicked on
+
+2022-07-15 19:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/jam 7' is clicked on
+
+2022-07-15 19:53:42 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_OK")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_OK' is clicked on
+
+2022-07-15 19:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_OK' is clicked on
+
+2022-07-15 19:53:43 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end' is clicked on
+
+2022-07-15 19:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end' is clicked on
+
+2022-07-15 19:53:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/jam 15"), 0): Scroll to object 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/jam 15' successfully
+
+2022-07-15 19:53:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-15 19:53:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/jam 15' successfully
+
+2022-07-15 19:53:44 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/jam 15")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/jam 15' is clicked on
+
+2022-07-15 19:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/jam 15' is clicked on
+
+2022-07-15 19:53:44 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/ok jam sesudah")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/ok jam sesudah' is clicked on
+
+2022-07-15 19:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/ok jam sesudah' is clicked on
+
+2022-07-15 19:53:45 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Dosis 1_ant-radio-input")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Dosis 1_ant-radio-input' is clicked on
+
+2022-07-15 19:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Dosis 1_ant-radio-input' is clicked on
+
+2022-07-15 19:53:46 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Kuota_quota"), "100"): Text '100' is set on object 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'
+
+2022-07-15 19:53:47 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'
+
+2022-07-15 19:53:47 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Tambah Sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Tambah Sesi' is clicked on
+
+2022-07-15 19:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Tambah Sesi' is clicked on
+
+2022-07-15 19:53:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Data berhasil ditambahkan"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Data berhasil ditambahkan' is present
+
+2022-07-15 19:53:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-15 19:54:10 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/span_Data berhasil ditambahkan' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi" time="41.767" classname="Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at TC_Edit Sesi.run(TC_Edit Sesi:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9' located by '/html/body/div[3]/div/div/div/div/div[1]/div/ul[1]/li[10]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-15 19:54:10 - [TEST_CASE][FAILED] - Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi: Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at TC_Edit Sesi.run(TC_Edit Sesi:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9' located by '/html/body/div[3]/div/div/div/div/div[1]/div/ul[1]/li[10]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-15 19:54:11 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-15 19:54:11 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:54:14 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/EDIT SESI/icon detail")): Object: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/icon detail' is clicked on
+
+2022-07-15 19:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/icon detail' is clicked on
+
+2022-07-15 19:54:20 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-15 19:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-15 19:54:20 - [TEST_STEP][FAILED] - click(findTestObject("ADMIN/Kelola Sesi/EDIT SESI/jam 9"), STOP_ON_FAILURE): Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at TC_Edit Sesi.run(TC_Edit Sesi:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9' located by '/html/body/div[3]/div/div/div/div/div[1]/div/ul[1]/li[10]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1657878417934.run(Script1657878417934.groovy:28)
+	... 13 more
+)
+
+2022-07-15 19:54:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[3]/div/div/div/div/div[1]/div/ul[1]/li[10]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-15 19:54:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at TC_Edit Sesi.run(TC_Edit Sesi:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9' located by '/html/body/div[3]/div/div/div/div/div[1]/div/ul[1]/li[10]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1657878417934.run(Script1657878417934.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Thinkpad X260\\git\\CapstoneWEBSITE\\Reports\\20220715_195150\\TS_KELOLA SESI\\20220715_195150\\1657889692356.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-15 19:54:10 - [TEST_CASE][FAILED] - Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi: Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at TC_Edit Sesi.run(TC_Edit Sesi:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9' located by '/html/body/div[3]/div/div/div/div/div[1]/div/ul[1]/li[10]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/TC_View Detail Sesi" time="8.157" classname="Test Cases/ADMIN/KELOLA SESI/TC_View Detail Sesi" status="PASSED">
+         <system-out><![CDATA[2022-07-15 19:54:52 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/TC_View Detail Sesi: Test Cases/ADMIN/KELOLA SESI/TC_View Detail Sesi
+
+2022-07-15 19:54:53 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/Detail Sesi/icon detail")): Object: 'Object Repository/ADMIN/Kelola Sesi/Detail Sesi/icon detail' is clicked on
+
+2022-07-15 19:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/Detail Sesi/icon detail' is clicked on
+
+2022-07-15 19:54:58 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/Detail Sesi/verify detail sesi page")): Object: 'Object Repository/ADMIN/Kelola Sesi/Detail Sesi/verify detail sesi page' is clicked on
+
+2022-07-15 19:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/Detail Sesi/verify detail sesi page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/TC_Delete" time="39.195" classname="Test Cases/ADMIN/KELOLA SESI/TC_Delete" status="FAILED">
+         <failure type="FAILED" message="Test Cases/ADMIN/KELOLA SESI/TC_Delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC_Delete.run(TC_Delete:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete' located by '/html/body/div[5]/div/div[2]/div/div[2]/div/div/div[2]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-15 19:55:00 - [TEST_CASE][FAILED] - Test Cases/ADMIN/KELOLA SESI/TC_Delete: Test Cases/ADMIN/KELOLA SESI/TC_Delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC_Delete.run(TC_Delete:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete' located by '/html/body/div[5]/div/div[2]/div/div[2]/div/div/div[2]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-15 19:55:01 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-15 19:55:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/verify kelola page"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/verify kelola page' is present
+
+2022-07-15 19:55:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-15 19:55:08 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/verify kelola page' is present
+
+2022-07-15 19:55:08 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/DELETE SESI/icon delete")): Object: 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/icon delete' is clicked on
+
+2022-07-15 19:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/icon delete' is clicked on
+
+2022-07-15 19:55:08 - [TEST_STEP][FAILED] - click(findTestObject("ADMIN/Kelola Sesi/DELETE SESI/yes delete")): Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC_Delete.run(TC_Delete:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete' located by '/html/body/div[5]/div/div[2]/div/div[2]/div/div/div[2]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1657884012660.run(Script1657884012660.groovy:26)
+	... 13 more
+)
+
+2022-07-15 19:55:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[5]/div/div[2]/div/div[2]/div/div/div[2]/button[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-15 19:55:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC_Delete.run(TC_Delete:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete' located by '/html/body/div[5]/div/div[2]/div/div[2]/div/div/div[2]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1657884012660.run(Script1657884012660.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Thinkpad X260\\git\\CapstoneWEBSITE\\Reports\\20220715_195150\\TS_KELOLA SESI\\20220715_195150\\1657889739850.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-15 19:55:00 - [TEST_CASE][FAILED] - Test Cases/ADMIN/KELOLA SESI/TC_Delete: Test Cases/ADMIN/KELOLA SESI/TC_Delete FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC_Delete.run(TC_Delete:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete' located by '/html/body/div[5]/div/div[2]/div/div[2]/div/div/div[2]/button[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-15 19:51:55 - [TEST_SUITE][FAILED] - TS_KELOLA SESI: Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at TC_Edit Sesi.run(TC_Edit Sesi:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9' located by '/html/body/div[3]/div/div/div/div/div[1]/div/ul[1]/li[10]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-07-15 19:51:55 - [TEST_SUITE][FAILED] - TS_KELOLA SESI: Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at TC_Edit Sesi.run(TC_Edit Sesi:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1657889510621.run(TempTestSuite1657889510621.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/jam 9' located by '/html/body/div[3]/div/div/div/div/div[1]/div/ul[1]/li[10]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
