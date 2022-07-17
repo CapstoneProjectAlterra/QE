@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("Object Repository/ADMIN/Kelola Vaksin/Page_Dashboard Admin  GetVaccine/span_Kelola Vaksin"))
+
+2
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/span_Tambah Data"))
+
+3
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/span_Jenis Vaksin_ant-select-selection-search"))
+
+4
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/div_MODERNA"))
+
+5
+00:00:00,000 --> 00:00:00,000
+17. setText(findTestObject("Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota"), "100")
+
+6
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/btn tambah"))
+
+7
+00:00:00,000 --> 00:00:00,000
+25. verifyElementText(findTestObject("Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin"), "Stok Vaksin")
+

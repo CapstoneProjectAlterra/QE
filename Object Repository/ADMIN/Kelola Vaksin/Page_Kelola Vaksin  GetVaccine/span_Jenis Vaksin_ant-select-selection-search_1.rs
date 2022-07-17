@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Kelola Vaksin</name>
+   <name>span_Jenis Vaksin_ant-select-selection-search_1</name>
    <tag></tag>
-   <elementGuidId>79e1696c-9efd-4e80-b753-17a383ecb56c</elementGuidId>
+   <elementGuidId>ef87a253-20b2-44bd-9200-9849e54ed991</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/ul/div/div[3]/li/a/span</value>
+         <value>(//form[@id='addForm']/div/div[2]/div/div/div/div/span)[5]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.ant-select.ant-select-in-form-item.ant-select-single.ant-select-show-arrow.ant-select-open.ant-select-show-search > div.ant-select-selector > span.ant-select-selection-search</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,76 +28,55 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sidebar_textMenu__I9y1d</value>
+      <value>ant-select-selection-search</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Kelola Vaksin</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;ant-row layout-admin&quot;]/div[@class=&quot;ant-col ant-col-xs-3 ant-col-sm-3 ant-col-md-3 ant-col-lg-5&quot;]/div[@class=&quot;ant-row sidebar_nav__8YRmQ&quot;]/div[@class=&quot;ant-col ant-col-24&quot;]/ul[1]/div[@class=&quot;ant-space ant-space-vertical&quot;]/div[@class=&quot;ant-space-item&quot;]/li[1]/a[@class=&quot;sidebar_menu__6Zd4X&quot;]/span[@class=&quot;sidebar_textMenu__I9y1d&quot;]</value>
+      <value>/html[1]/body[@class=&quot;ant-scrolling-effect&quot;]/div[5]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap&quot;]/div[@class=&quot;ant-modal VaccineModalEdit_modal__uXqWQ&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/form[@id=&quot;addForm&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-form-item-control&quot;]/div[@class=&quot;ant-form-item-control-input&quot;]/div[@class=&quot;ant-form-item-control-input-content&quot;]/div[@class=&quot;ant-select ant-select-in-form-item ant-select-single ant-select-show-arrow ant-select-open ant-select-show-search&quot;]/div[@class=&quot;ant-select-selector&quot;]/span[@class=&quot;ant-select-selection-search&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/ul/div/div[3]/li/a/span</value>
+      <value>(//form[@id='addForm']/div/div[2]/div/div/div/div/span)[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kelola Sesi'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Vaksin'])[3]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit Data Vaksin'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profil Admin'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SINOPHARM'])[2]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::span[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Kelola Vaksin']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kuota'])[2]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/li/a/span</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//span[(text() = 'Kelola Vaksin' or . = 'Kelola Vaksin')]</value>
+      <value>//div[2]/div/div[2]/div[2]/form/div/div[2]/div/div/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

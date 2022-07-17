@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. for ([i = 1, i <= 2, (i++)])
+
+2
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search"))
+
+3
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search"), findTestData("ADMIN/search vaksin").getValue(1, i))
+
+4
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/icon search"))
+
+5
+00:00:00,000 --> 00:00:00,000
+13. if (i == 1)
+
+6
+00:00:00,000 --> 00:00:00,000
+1. verifyElementPresent(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/no data"), 0)
+

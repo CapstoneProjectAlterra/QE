@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. callTestCase(findTestCase("ADMIN/AUTH/Positif/TC_LoginPositif"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,000 --> 00:00:00,000
+1. openBrowser("https://dev-getvaccine-16.netlify.app/admin/")
+
+3
+00:00:00,000 --> 00:00:00,000
+5. maximizeWindow()
+
+4
+00:00:00,000 --> 00:00:00,000
+9. verifyElementPresent(findTestObject("ADMIN/Adm-Login/verify login page"), 0)
+
+5
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("ADMIN/Adm-Login/username"))
+
+6
+00:00:00,000 --> 00:00:00,000
+17. setText(findTestObject("ADMIN/Adm-Login/username"), "harnanda")
+
+7
+00:00:00,000 --> 00:00:00,000
+21. click(findTestObject("ADMIN/Adm-Login/password"))
+
+8
+00:00:00,000 --> 00:00:00,000
+25. setText(findTestObject("ADMIN/Adm-Login/password"), "haha")
+
+9
+00:00:00,000 --> 00:00:00,000
+29. click(findTestObject("ADMIN/Adm-Login/eye"))
+
+10
+00:00:00,000 --> 00:00:00,000
+33. click(findTestObject("ADMIN/Adm-Login/btn login"))
+
+11
+00:00:00,000 --> 00:00:00,000
+5. click(findTestObject("Object Repository/ADMIN/Kelola Vaksin/Page_Dashboard Admin  GetVaccine/span_Kelola Vaksin"))
+
+12
+00:00:00,000 --> 00:00:00,000
+9. click(findTestObject("Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/button_Tambah Data"))
+
+13
+00:00:00,000 --> 00:00:00,000
+13. click(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/select vaksin"))
+
+14
+00:00:00,000 --> 00:00:00,000
+17. click(findTestObject("Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/div_SINOPHARM"))
+
+15
+00:00:00,000 --> 00:00:00,000
+21. setText(findTestObject("Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota"), "100")
+
+16
+00:00:00,000 --> 00:00:00,000
+25. click(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/btn tambah"))
+

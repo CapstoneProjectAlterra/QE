@@ -1,0 +1,8 @@
+1
+00:00:00,000 --> 00:00:00,000
+1. click(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/edit"))
+
+2
+00:00:00,000 --> 00:00:00,000
+5. setText(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota"), "123")
+

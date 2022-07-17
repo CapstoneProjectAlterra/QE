@@ -17,20 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ADMIN/AUTH/Positif/TC_LoginPositif'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/edit'))
 
-WebUI.click(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Dashboard Admin  GetVaccine/span_Kelola Vaksin'))
+WebUI.setText(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota'), '123')
 
-WebUI.click(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/button_Tambah Data'))
+WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/update vaksin'))
 
-WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/select vaksin'))
-
-WebUI.click(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/div_SINOPHARM'))
-
-WebUI.setText(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota'), 
-    '100')
-
-WebUI.click(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/span_Tambah Vaksin'))
-
-WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/gagal tambah'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin'), 
+    'Stok Vaksin')
 
