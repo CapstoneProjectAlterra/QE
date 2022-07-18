@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;date_of_birth\&quot;: \&quot;04-02-2005\&quot;,\n  \&quot;email\&quot;: \&quot;kris@hihi.com\&quot;,\n  \&quot;name\&quot; : \&quot;Krishna A\&quot;,\n  \&quot;gender\&quot;: \&quot;LAKI_LAKI\&quot;,\n  \&quot;id_card_address\&quot;: \&quot;cibinong\&quot;,\n  \&quot;nik\&quot;: \&quot;161043872187702\&quot;,\n  \&quot;phone_number\&quot;: \&quot;08824122344\&quot;,\n  \&quot;profile\&quot;: {\n    \&quot;user_id\&quot;: 9\n  },\n  \&quot;residence_address\&quot;: \&quot;Sentul\&quot;,\n  \&quot;status_in_family\&quot;: \&quot;ANAK\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;date_of_birth\&quot;: \&quot;04-02-2005\&quot;,\n  \&quot;email\&quot;: \&quot;kris@hihi.com\&quot;,\n  \&quot;name\&quot; : \&quot;Krishna A\&quot;,\n  \&quot;gender\&quot;: \&quot;LAKI_LAKI\&quot;,\n  \&quot;id_card_address\&quot;: \&quot;cibinong\&quot;,\n  \&quot;nik\&quot;: \&quot;161043872187702\&quot;,\n  \&quot;phone_number\&quot;: \&quot;08824122344\&quot;,\n  \&quot;profile\&quot;: {\n    \&quot;user_id\&quot;: 3\n  },\n  \&quot;residence_address\&quot;: \&quot;Sentul\&quot;,\n  \&quot;status_in_family\&quot;: \&quot;ANAK\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/family/16</restUrl>
+   <restUrl>${GlobalVariable.url}/family/4</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

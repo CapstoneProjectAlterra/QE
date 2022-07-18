@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;username\&quot;: \&quot;1234567890123456\&quot;,\n            \&quot;name\&quot;: \&quot;yusuf Achmad\&quot;,\n            \&quot;email\&quot;: \&quot;haha@hihi.com\&quot;,\n      \&quot;password\&quot;:\&quot;Haha_123\&quot;,\n      \&quot;profile\&quot;:{\n        \&quot;role\&quot;:\&quot;USER\&quot;\n      }\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;username\&quot;:\&quot;krisna\&quot;,\n    \&quot;name\&quot;:\&quot;krishna Adyatama\&quot;,\n    \&quot;email\&quot;:\&quot;email@krish.com\&quot;,\n    \&quot;password\&quot;:\&quot;hehe\&quot;,\n    \&quot;profile\&quot;:{\n        \&quot;role\&quot;:\&quot;ADMIN\&quot;\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/user/9</restUrl>
+   <restUrl>${GlobalVariable.url}/user/2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

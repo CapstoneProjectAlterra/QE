@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/stock/update?facility_id=3&amp;vaccine_id=1</restUrl>
+   <restUrl>${GlobalVariable.url}/stock/update?facility_id=1&amp;vaccine_id=1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

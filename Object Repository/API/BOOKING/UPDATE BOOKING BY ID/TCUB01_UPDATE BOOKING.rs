@@ -10,7 +10,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;booking_pass\&quot; : 1,\n  \&quot;booking_date\&quot;:\&quot;16-09-2022 16:29:02\&quot;,\n    \&quot;user\&quot;:{\n        \&quot;id\&quot;:1\n    },\n    \&quot;schedule\&quot;:{\n        \&quot;id\&quot;:3\n    }\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;booking_pass\&quot; : 1,\n  \&quot;booking_date\&quot;:\&quot;18-07-2022 16:29:02\&quot;,\n    \&quot;user\&quot;:{\n        \&quot;id\&quot;:3\n    },\n    \&quot;schedule\&quot;:{\n        \&quot;id\&quot;:1\n    }\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -33,7 +33,7 @@
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.url}/booking/2</restUrl>
+   <restUrl>${GlobalVariable.url}/booking/1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
