@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_AUTH,Chrome 103.0.5060.114,,,2022-07-18 17:56:52,2022-07-18 18:05:24,8m - 32.153s,FAILED
+,,,,,,,
+Test Cases/CITIZEN/AUTH/TC_Register,Chrome 103.0.5060.114,,,2022-07-18 17:56:52,2022-07-18 18:03:12,6m - 19.337s,PASSED
+"for ([i = 1, i <= 6, (i++)])",Chrome 103.0.5060.114,,,2022-07-18 17:56:54,2022-07-18 18:01:45,4m - 51.441s,PASSED
+"for ([i = 7, i <= 9, (i++)])",Chrome 103.0.5060.114,,,2022-07-18 18:01:45,2022-07-18 18:03:12,1m - 26.494s,PASSED
+,,,,,,,
+Test Cases/CITIZEN/AUTH/TC_Login,Chrome 103.0.5060.114,,,2022-07-18 18:03:12,2022-07-18 18:05:23,2m - 10.990s,PASSED
+"for ([i = 1, i <= 5, (i++)])",Chrome 103.0.5060.114,,,2022-07-18 18:03:12,2022-07-18 18:05:23,2m - 10.213s,PASSED
+,,,,,,,
+Test Cases/CITIZEN/AUTH/Logout,Chrome 103.0.5060.114,,,2022-07-18 18:05:23,2022-07-18 18:05:24,0.998s,FAILED
+"click(findTestObject(""CITIZEN/Page_Home  GetVaccine/profilobject""))",Chrome 103.0.5060.114,,,2022-07-18 18:05:24,2022-07-18 18:05:24,0.152s,FAILED

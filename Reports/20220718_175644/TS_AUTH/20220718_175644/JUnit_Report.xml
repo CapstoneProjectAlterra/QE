@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_AUTH" time="512.153" tests="3" failures="1" errors="0">
+   <testsuite name="TS_AUTH" tests="3" failures="1" errors="0" time="512.153" skipped="0" timestamp="2022-07-18 17:56:52" hostname="Thinkpad X260 - DESKTOP-D9B57TC" id="Test Suites/TS_AUTH">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thinkpad X260\\git\\CapstoneWEBSITE\\Reports\\20220718_175644\\TS_AUTH\\20220718_175644"/>
+         <property name="logFiles" value="C:\\Users\\Thinkpad X260\\git\\CapstoneWEBSITE\\Reports\\20220718_175644\\TS_AUTH\\20220718_175644\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Thinkpad X260 - DESKTOP-D9B57TC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="sessionId" value="aaa8454743c0fd987c6884517af7b85f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CITIZEN/AUTH/TC_Register" time="379.337" classname="Test Cases/CITIZEN/AUTH/TC_Register" status="PASSED">
+         <system-out><![CDATA[2022-07-18 17:56:52 - [TEST_CASE][PASSED] - Test Cases/CITIZEN/AUTH/TC_Register: Test Cases/CITIZEN/AUTH/TC_Register
+
+2022-07-18 17:56:54 - [TEST_STEP][PASSED] - for ([i = 1, i <= 6, (i++)]): Browser is closed
+
+2022-07-18 17:56:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 17:56:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 17:56:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 17:57:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 17:57:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 17:57:01 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 17:57:01 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 17:58:26 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 17:58:26 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/a_Register")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 17:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 17:58:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/h2_Register")): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 17:58:28 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 17:58:28 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Register").getValue(1, i)): Text '1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 17:58:30 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 17:58:30 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname"), findTestData("CITIZEN/Register").getValue(2, i)): Text 'Harnanada' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 17:58:32 - [MESSAGE][PASSED] - Text 'Harnanada' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 17:58:32 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email"), findTestData("CITIZEN/Register").getValue(3, i)): Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 17:58:33 - [MESSAGE][PASSED] - Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 17:58:33 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password"), findTestData("CITIZEN/Register").getValue(4, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 17:58:35 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 17:58:35 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:58:36 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword"), findTestData("CITIZEN/Register").getValue(5, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 17:58:37 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 17:58:37 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:58:37 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/button_Register")): Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 17:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 17:58:38 - [TEST_STEP][PASSED] - if (i == 1): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Masukkan minimal 16 karakter' is visible
+
+2022-07-18 17:58:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/div_Masukkan minimal 16 karakter"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Masukkan minimal 16 karakter' is visible
+
+2022-07-18 17:58:39 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Masukkan minimal 16 karakter' is visible
+
+2022-07-18 17:58:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 17:58:40 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 17:58:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 17:58:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 17:58:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 17:58:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 17:58:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 17:58:43 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 17:58:43 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 17:58:54 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 17:58:54 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/a_Register")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 17:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 17:58:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/h2_Register")): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 17:58:56 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 17:58:56 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Register").getValue(1, i)): Text '1234A' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 17:58:57 - [MESSAGE][PASSED] - Text '1234A' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 17:58:57 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname"), findTestData("CITIZEN/Register").getValue(2, i)): Text 'Harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 17:58:58 - [MESSAGE][PASSED] - Text 'Harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 17:58:58 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email"), findTestData("CITIZEN/Register").getValue(3, i)): Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 17:58:59 - [MESSAGE][PASSED] - Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 17:58:59 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password"), findTestData("CITIZEN/Register").getValue(4, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 17:59:00 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 17:59:00 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:59:01 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword"), findTestData("CITIZEN/Register").getValue(5, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 17:59:02 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 17:59:02 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:59:03 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/button_Register")): Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 17:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 17:59:03 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-18 17:59:03 - [TEST_STEP][PASSED] - else if (i == 2): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Inputan Harus Berupa Angka' is visible
+
+2022-07-18 17:59:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/div_Inputan Harus Berupa Angka"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Inputan Harus Berupa Angka' is visible
+
+2022-07-18 17:59:04 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Inputan Harus Berupa Angka' is visible
+
+2022-07-18 17:59:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 17:59:05 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 17:59:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 17:59:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 17:59:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 17:59:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 17:59:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 17:59:07 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 17:59:07 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 17:59:38 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 17:59:38 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/a_Register")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 17:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 17:59:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/h2_Register")): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 17:59:40 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 17:59:40 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Register").getValue(1, i)): Text '1234567890123456' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 17:59:42 - [MESSAGE][PASSED] - Text '1234567890123456' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 17:59:42 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname"), findTestData("CITIZEN/Register").getValue(2, i)): Text 'Harnanda1' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 17:59:43 - [MESSAGE][PASSED] - Text 'Harnanda1' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 17:59:43 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email"), findTestData("CITIZEN/Register").getValue(3, i)): Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 17:59:45 - [MESSAGE][PASSED] - Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 17:59:45 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password"), findTestData("CITIZEN/Register").getValue(4, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 17:59:46 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 17:59:46 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:59:47 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword"), findTestData("CITIZEN/Register").getValue(5, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 17:59:49 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 17:59:49 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 17:59:50 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/button_Register")): Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 17:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 17:59:51 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-18 17:59:51 - [TEST_STEP][PASSED] - else if (i == 2): null
+
+2022-07-18 17:59:51 - [TEST_STEP][PASSED] - else if (i == 3): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Karakter yang diizinkan spasi, huruf ka_922eed' is visible
+
+2022-07-18 17:59:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/div_Karakter yang diizinkan spasi, huruf ka_922eed"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Karakter yang diizinkan spasi, huruf ka_922eed' is visible
+
+2022-07-18 17:59:51 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Karakter yang diizinkan spasi, huruf ka_922eed' is visible
+
+2022-07-18 17:59:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 17:59:52 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 17:59:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 17:59:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 17:59:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 17:59:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 17:59:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 17:59:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 17:59:55 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:00:11 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:00:11 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/a_Register")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:00:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/h2_Register")): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:00:12 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:00:12 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Register").getValue(1, i)): Text '1234567890123456' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:00:14 - [MESSAGE][PASSED] - Text '1234567890123456' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:00:14 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname"), findTestData("CITIZEN/Register").getValue(2, i)): Text 'Harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:00:15 - [MESSAGE][PASSED] - Text 'Harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:00:15 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email"), findTestData("CITIZEN/Register").getValue(3, i)): Text 'harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:00:16 - [MESSAGE][PASSED] - Text 'harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:00:16 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password"), findTestData("CITIZEN/Register").getValue(4, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:00:17 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:00:17 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:00:18 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword"), findTestData("CITIZEN/Register").getValue(5, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:00:19 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:00:19 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:00:20 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/button_Register")): Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:00:20 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-18 18:00:20 - [TEST_STEP][PASSED] - else if (i == 2): null
+
+2022-07-18 18:00:20 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-07-18 18:00:20 - [TEST_STEP][PASSED] - else if (i == 4): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Format Email tidak valid' is visible
+
+2022-07-18 18:00:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/div_Format Email tidak valid"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Format Email tidak valid' is visible
+
+2022-07-18 18:00:21 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Format Email tidak valid' is visible
+
+2022-07-18 18:00:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:00:22 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 18:00:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 18:00:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 18:00:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 18:00:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 18:00:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 18:00:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 18:00:25 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:00:59 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:00:59 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/a_Register")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:01:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/h2_Register")): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:01:01 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:01:01 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Register").getValue(1, i)): Text '1234567890123456' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:01:03 - [MESSAGE][PASSED] - Text '1234567890123456' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:01:03 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname"), findTestData("CITIZEN/Register").getValue(2, i)): Text 'Harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:01:04 - [MESSAGE][PASSED] - Text 'Harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:01:04 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email"), findTestData("CITIZEN/Register").getValue(3, i)): Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:01:05 - [MESSAGE][PASSED] - Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:01:05 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password"), findTestData("CITIZEN/Register").getValue(4, i)): Text 'haha123' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:01:06 - [MESSAGE][PASSED] - Text 'haha123' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:01:06 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:01:07 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword"), findTestData("CITIZEN/Register").getValue(5, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:01:08 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:01:08 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:01:08 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/button_Register")): Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:01:09 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-18 18:01:09 - [TEST_STEP][PASSED] - else if (i == 2): null
+
+2022-07-18 18:01:09 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-07-18 18:01:09 - [TEST_STEP][PASSED] - else if (i == 4): null
+
+2022-07-18 18:01:09 - [TEST_STEP][PASSED] - else if (i == 5): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Password yang dimasukkan tidak sama den_ea25f1' is visible
+
+2022-07-18 18:01:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/div_Password harus berupa kombinasi huruf b_9d7790"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Password harus berupa kombinasi huruf b_9d7790' is visible
+
+2022-07-18 18:01:09 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Password harus berupa kombinasi huruf b_9d7790' is visible
+
+2022-07-18 18:01:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/div_Password minimal 8 karakter"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Password minimal 8 karakter' is visible
+
+2022-07-18 18:01:10 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Password minimal 8 karakter' is visible
+
+2022-07-18 18:01:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/div_Password yang dimasukkan tidak sama den_ea25f1"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Password yang dimasukkan tidak sama den_ea25f1' is visible
+
+2022-07-18 18:01:10 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_Password yang dimasukkan tidak sama den_ea25f1' is visible
+
+2022-07-18 18:01:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:01:11 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 18:01:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 18:01:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 18:01:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 18:01:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 18:01:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 18:01:13 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 18:01:13 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:01:30 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:01:30 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/a_Register")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:01:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/h2_Register")): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:01:33 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:01:33 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Register").getValue(1, i)): Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:01:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:01:35 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname"), findTestData("CITIZEN/Register").getValue(2, i)): Text 'Harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:01:36 - [MESSAGE][PASSED] - Text 'Harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:01:36 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email"), findTestData("CITIZEN/Register").getValue(3, i)): Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:01:38 - [MESSAGE][PASSED] - Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:01:38 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password"), findTestData("CITIZEN/Register").getValue(4, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:01:39 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:01:39 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:01:40 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword"), findTestData("CITIZEN/Register").getValue(5, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:01:41 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:01:41 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:01:42 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/button_Register")): Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:01:43 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-18 18:01:43 - [TEST_STEP][PASSED] - else if (i == 2): null
+
+2022-07-18 18:01:43 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-07-18 18:01:43 - [TEST_STEP][PASSED] - else if (i == 4): null
+
+2022-07-18 18:01:43 - [TEST_STEP][PASSED] - else if (i == 5): null
+
+2022-07-18 18:01:43 - [TEST_STEP][PASSED] - else: Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_NIK Tidak Boleh Kosong' is visible
+
+2022-07-18 18:01:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/div_NIK Tidak Boleh Kosong"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_NIK Tidak Boleh Kosong' is visible
+
+2022-07-18 18:01:44 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/div_NIK Tidak Boleh Kosong' is visible
+
+2022-07-18 18:01:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:01:45 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 18:01:45 - [TEST_STEP][PASSED] - for ([i = 7, i <= 9, (i++)]): Browser is closed
+
+2022-07-18 18:01:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 18:01:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 18:01:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 18:01:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 18:01:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 18:01:48 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 18:01:48 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:01:53 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:01:53 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/a_Register")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/h2_Register")): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:01:54 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Register").getValue(1, i)): Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:01:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname"), findTestData("CITIZEN/Register").getValue(2, i)): Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:01:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:01:57 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email"), findTestData("CITIZEN/Register").getValue(3, i)): Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:01:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:01:58 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password"), findTestData("CITIZEN/Register").getValue(4, i)): Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:01:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:01:59 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword"), findTestData("CITIZEN/Register").getValue(5, i)): Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:02:00 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:02:00 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/button_Register")): Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:02:01 - [TEST_STEP][PASSED] - if (i == 7): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/alert blank field' is visible
+
+2022-07-18 18:02:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/alert blank field"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/alert blank field' is visible
+
+2022-07-18 18:02:01 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/alert blank field' is visible
+
+2022-07-18 18:02:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:02:03 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 18:02:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 18:02:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 18:02:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 18:02:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 18:02:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 18:02:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 18:02:05 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:02:37 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:02:37 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/a_Register")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:02:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/h2_Register")): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:02:38 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:02:38 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Register").getValue(1, i)): Text '1234567890123456' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:02:40 - [MESSAGE][PASSED] - Text '1234567890123456' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:02:40 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname"), findTestData("CITIZEN/Register").getValue(2, i)): Text 'Harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:02:42 - [MESSAGE][PASSED] - Text 'Harnanda' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:02:42 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email"), findTestData("CITIZEN/Register").getValue(3, i)): Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:02:44 - [MESSAGE][PASSED] - Text 'harnanda@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:02:44 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password"), findTestData("CITIZEN/Register").getValue(4, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:02:45 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:02:45 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword"), findTestData("CITIZEN/Register").getValue(5, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:02:46 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:02:46 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/button_Register")): Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:02:47 - [TEST_STEP][PASSED] - if (i == 7): null
+
+2022-07-18 18:02:47 - [TEST_STEP][PASSED] - else if (i == 8): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/nik exist' is visible
+
+2022-07-18 18:02:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/nik exist"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/nik exist' is visible
+
+2022-07-18 18:02:49 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/nik exist' is visible
+
+2022-07-18 18:02:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:02:50 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 18:02:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 18:02:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 18:02:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 18:02:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 18:02:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 18:02:53 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 18:02:53 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:02:59 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:02:59 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/a_Register")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/a_Register' is clicked on
+
+2022-07-18 18:03:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/h2_Register")): Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:03:01 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/h2_Register' is visible
+
+2022-07-18 18:03:01 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Register").getValue(1, i)): Text '1234567891234567' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:03:02 - [MESSAGE][PASSED] - Text '1234567891234567' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname"), findTestData("CITIZEN/Register").getValue(2, i)): Text 'Regita' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:03:03 - [MESSAGE][PASSED] - Text 'Regita' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Nama Lengkap_basic_fullname'
+
+2022-07-18 18:03:03 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email"), findTestData("CITIZEN/Register").getValue(3, i)): Text 'regita@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:03:05 - [MESSAGE][PASSED] - Text 'regita@email.com' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Email_basic_email'
+
+2022-07-18 18:03:05 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password"), findTestData("CITIZEN/Register").getValue(4, i)): Text 'Regita1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:03:06 - [MESSAGE][PASSED] - Text 'Regita1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Password_basic_password'
+
+2022-07-18 18:03:06 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword"), findTestData("CITIZEN/Register").getValue(5, i)): Text 'Regita1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:03:08 - [MESSAGE][PASSED] - Text 'Regita1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/input_Confirm Password_basic_confirmPassword'
+
+2022-07-18 18:03:08 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/button_Register")): Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/button_Register' is clicked on
+
+2022-07-18 18:03:08 - [TEST_STEP][PASSED] - if (i == 7): null
+
+2022-07-18 18:03:08 - [TEST_STEP][PASSED] - else if (i == 8): null
+
+2022-07-18 18:03:08 - [TEST_STEP][PASSED] - else: Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:03:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Login  GetVaccine/VerifyLoginPage"), CONTINUE_ON_FAILURE): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:03:11 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:03:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:03:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CITIZEN/AUTH/TC_Login" time="130.99" classname="Test Cases/CITIZEN/AUTH/TC_Login" status="PASSED">
+         <system-out><![CDATA[2022-07-18 18:03:12 - [TEST_CASE][PASSED] - Test Cases/CITIZEN/AUTH/TC_Login: Test Cases/CITIZEN/AUTH/TC_Login
+
+2022-07-18 18:03:12 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): Browser is closed
+
+2022-07-18 18:03:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 18:03:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 18:03:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 18:03:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 18:03:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 18:03:15 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 18:03:15 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:04:23 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:04:23 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/login btn")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/login btn' is clicked on
+
+2022-07-18 18:04:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/login btn' is clicked on
+
+2022-07-18 18:04:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Login  GetVaccine/VerifyLoginPage")): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:04:25 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:04:25 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Login").getValue(1, i)): Text '1234A' is set on object 'Object Repository/CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:04:26 - [MESSAGE][PASSED] - Text '1234A' is set on object 'Object Repository/CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:04:26 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/password"), findTestData("CITIZEN/Login").getValue(2, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/password'
+
+2022-07-18 18:04:28 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/password'
+
+2022-07-18 18:04:28 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:04:29 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/button_Login")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/button_Login' is clicked on
+
+2022-07-18 18:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/button_Login' is clicked on
+
+2022-07-18 18:04:29 - [TEST_STEP][PASSED] - if (i == 1): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/div_Input harus berupa angka' is present
+
+2022-07-18 18:04:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CITIZEN/Page_Login  GetVaccine/div_Input harus berupa angka"), 0): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/div_Input harus berupa angka' is present
+
+2022-07-18 18:04:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 18:04:30 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/div_Input harus berupa angka' is present
+
+2022-07-18 18:04:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:04:31 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 18:04:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 18:04:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 18:04:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 18:04:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 18:04:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 18:04:34 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 18:04:34 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:04:36 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:04:36 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/login btn")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/login btn' is clicked on
+
+2022-07-18 18:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/login btn' is clicked on
+
+2022-07-18 18:04:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Login  GetVaccine/VerifyLoginPage")): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:04:38 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:04:38 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Login").getValue(1, i)): Text '1234567890123456' is set on object 'Object Repository/CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:04:40 - [MESSAGE][PASSED] - Text '1234567890123456' is set on object 'Object Repository/CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:04:40 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/password"), findTestData("CITIZEN/Login").getValue(2, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/password'
+
+2022-07-18 18:04:41 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/password'
+
+2022-07-18 18:04:41 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:04:42 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/button_Login")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/button_Login' is clicked on
+
+2022-07-18 18:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/button_Login' is clicked on
+
+2022-07-18 18:04:42 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-18 18:04:42 - [TEST_STEP][PASSED] - else if (i == 2): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/div_NIK atau Password Salah' is present
+
+2022-07-18 18:04:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CITIZEN/Page_Login  GetVaccine/div_NIK atau Password Salah"), 0): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/div_NIK atau Password Salah' is present
+
+2022-07-18 18:04:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 18:04:44 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/div_NIK atau Password Salah' is present
+
+2022-07-18 18:04:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:04:45 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 18:04:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 18:04:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 18:04:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 18:04:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 18:04:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 18:04:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 18:04:47 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:04:51 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:04:51 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/login btn")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/login btn' is clicked on
+
+2022-07-18 18:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/login btn' is clicked on
+
+2022-07-18 18:04:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Login  GetVaccine/VerifyLoginPage")): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:04:52 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:04:52 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Login").getValue(1, i)): Text '' is set on object 'Object Repository/CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:04:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:04:54 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/password"), findTestData("CITIZEN/Login").getValue(2, i)): Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/password'
+
+2022-07-18 18:04:55 - [MESSAGE][PASSED] - Text 'Haha1234' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/password'
+
+2022-07-18 18:04:55 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:04:56 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/button_Login")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/button_Login' is clicked on
+
+2022-07-18 18:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/button_Login' is clicked on
+
+2022-07-18 18:04:56 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-18 18:04:56 - [TEST_STEP][PASSED] - else if (i == 2): null
+
+2022-07-18 18:04:56 - [TEST_STEP][PASSED] - else if (i == 3): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/alert nik kosong' is present
+
+2022-07-18 18:04:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CITIZEN/Page_Login  GetVaccine/alert nik kosong"), 0): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/alert nik kosong' is present
+
+2022-07-18 18:04:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 18:04:57 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/alert nik kosong' is present
+
+2022-07-18 18:04:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:04:58 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 18:04:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 18:04:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 18:04:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 18:05:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 18:05:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 18:05:00 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 18:05:00 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:05:02 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:05:02 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/login btn")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/login btn' is clicked on
+
+2022-07-18 18:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/login btn' is clicked on
+
+2022-07-18 18:05:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Login  GetVaccine/VerifyLoginPage")): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:05:03 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:05:03 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Login").getValue(1, i)): Text '' is set on object 'Object Repository/CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:05:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:05:05 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/password"), findTestData("CITIZEN/Login").getValue(2, i)): Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/password'
+
+2022-07-18 18:05:06 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/password'
+
+2022-07-18 18:05:06 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:05:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:05:06 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/button_Login")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/button_Login' is clicked on
+
+2022-07-18 18:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/button_Login' is clicked on
+
+2022-07-18 18:05:07 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-18 18:05:07 - [TEST_STEP][PASSED] - else if (i == 2): null
+
+2022-07-18 18:05:07 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-07-18 18:05:07 - [TEST_STEP][PASSED] - else if (i == 4): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/alert pass kosong' is present
+
+2022-07-18 18:05:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CITIZEN/Page_Login  GetVaccine/alert nik kosong"), 0): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/alert nik kosong' is present
+
+2022-07-18 18:05:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 18:05:08 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/alert nik kosong' is present
+
+2022-07-18 18:05:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CITIZEN/Page_Login  GetVaccine/alert pass kosong"), 0): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/alert pass kosong' is present
+
+2022-07-18 18:05:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 18:05:08 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/alert pass kosong' is present
+
+2022-07-18 18:05:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:05:09 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-18 18:05:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-18 18:05:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-18 18:05:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-18 18:05:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-18 18:05:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-18 18:05:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-18 18:05:11 - [TEST_STEP][PASSED] - navigateToUrl("https://dev-getvaccine-16.netlify.app/"): Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:05:15 - [MESSAGE][PASSED] - Navigate to 'https://dev-getvaccine-16.netlify.app/' successfully
+
+2022-07-18 18:05:15 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/login btn")): Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/login btn' is clicked on
+
+2022-07-18 18:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Home  GetVaccine/login btn' is clicked on
+
+2022-07-18 18:05:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("CITIZEN/Page_Login  GetVaccine/VerifyLoginPage")): Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:05:16 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Login  GetVaccine/VerifyLoginPage' is visible
+
+2022-07-18 18:05:16 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik"), findTestData("CITIZEN/Login").getValue(1, i)): Text '1234123412341234' is set on object 'Object Repository/CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:05:17 - [MESSAGE][PASSED] - Text '1234123412341234' is set on object 'Object Repository/CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'
+
+2022-07-18 18:05:17 - [TEST_STEP][PASSED] - setText(findTestObject("CITIZEN/Page_Registrasi  GetVaccine/password"), findTestData("CITIZEN/Login").getValue(2, i)): Text 'Haechan123' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/password'
+
+2022-07-18 18:05:18 - [MESSAGE][PASSED] - Text 'Haechan123' is set on object 'Object Repository/CITIZEN/Page_Registrasi  GetVaccine/password'
+
+2022-07-18 18:05:18 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/eye")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/eye' is clicked on
+
+2022-07-18 18:05:19 - [TEST_STEP][PASSED] - click(findTestObject("CITIZEN/Page_Login  GetVaccine/button_Login")): Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/button_Login' is clicked on
+
+2022-07-18 18:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CITIZEN/Page_Login  GetVaccine/button_Login' is clicked on
+
+2022-07-18 18:05:20 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-18 18:05:20 - [TEST_STEP][PASSED] - else if (i == 2): null
+
+2022-07-18 18:05:20 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-07-18 18:05:20 - [TEST_STEP][PASSED] - else if (i == 4): null
+
+2022-07-18 18:05:20 - [TEST_STEP][PASSED] - else: Object 'Object Repository/CITIZEN/Page_Home  GetVaccine/Verify Home' is present
+
+2022-07-18 18:05:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("CITIZEN/Page_Home  GetVaccine/Verify Home"), 0): Object 'Object Repository/CITIZEN/Page_Home  GetVaccine/Verify Home' is present
+
+2022-07-18 18:05:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-18 18:05:22 - [MESSAGE][PASSED] - Object 'Object Repository/CITIZEN/Page_Home  GetVaccine/Verify Home' is present
+
+2022-07-18 18:05:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-18 18:05:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CITIZEN/AUTH/Logout" time="0.998" classname="Test Cases/CITIZEN/AUTH/Logout" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CITIZEN/AUTH/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CITIZEN/Page_Home  GetVaccine/profilobject'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658141804034.run(TempTestSuite1658141804034.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-D9B57TC', ip: '192.168.100.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:905)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-18 18:05:23 - [TEST_CASE][FAILED] - Test Cases/CITIZEN/AUTH/Logout: Test Cases/CITIZEN/AUTH/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CITIZEN/Page_Home  GetVaccine/profilobject'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658141804034.run(TempTestSuite1658141804034.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-D9B57TC', ip: '192.168.100.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:905)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-18 18:05:24 - [TEST_STEP][FAILED] - click(findTestObject("CITIZEN/Page_Home  GetVaccine/profilobject")): Unable to click on object 'Object Repository/CITIZEN/Page_Home  GetVaccine/profilobject' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CITIZEN/Page_Home  GetVaccine/profilobject'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658141804034.run(TempTestSuite1658141804034.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-D9B57TC', ip: '192.168.100.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:905)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1657698773116.run(Script1657698773116.groovy:20)
+	... 13 more
+)
+
+2022-07-18 18:05:24 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2022-07-18 18:05:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CITIZEN/Page_Home  GetVaccine/profilobject' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CITIZEN/Page_Home  GetVaccine/profilobject'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658141804034.run(TempTestSuite1658141804034.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-D9B57TC', ip: '192.168.100.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:905)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1657698773116.run(Script1657698773116.groovy:20)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2022-07-18 18:05:23 - [TEST_CASE][FAILED] - Test Cases/CITIZEN/AUTH/Logout: Test Cases/CITIZEN/AUTH/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CITIZEN/Page_Home  GetVaccine/profilobject'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658141804034.run(TempTestSuite1658141804034.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-D9B57TC', ip: '192.168.100.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:905)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-18 17:56:52 - [TEST_SUITE][FAILED] - TS_AUTH: Test Cases/CITIZEN/AUTH/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CITIZEN/Page_Home  GetVaccine/profilobject'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658141804034.run(TempTestSuite1658141804034.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-D9B57TC', ip: '192.168.100.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:905)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-07-18 17:56:52 - [TEST_SUITE][FAILED] - TS_AUTH: Test Cases/CITIZEN/AUTH/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/CITIZEN/Page_Home  GetVaccine/profilobject'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Logout.run(Logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658141804034.run(TempTestSuite1658141804034.groovy:36)
+Caused by: org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-D9B57TC', ip: '192.168.100.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1016)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:905)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:889)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:885)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1365)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
