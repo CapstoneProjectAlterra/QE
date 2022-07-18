@@ -17,10 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CITIZEN/VAKSINASI/Positif/TC_Search Positif'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/yonkes'))
 
-WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Search/verify hasil rumah sakit'))
-
-WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/verify rs muhamadiyah'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_undefined  GetVaccine/verify yonkes'), 0)
 

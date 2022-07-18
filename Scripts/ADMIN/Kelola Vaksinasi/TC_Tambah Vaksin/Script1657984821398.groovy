@@ -32,3 +32,5 @@ WebUI.setText(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Kelola 
 
 WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/btn tambah'))
 
+WebUI.click(findTestObject(null))
+

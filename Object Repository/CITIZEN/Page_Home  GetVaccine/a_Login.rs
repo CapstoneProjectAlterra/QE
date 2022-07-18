@@ -6,12 +6,12 @@
    <elementGuidId>328eaa78-7b68-46ad-bae4-2ae43e833614</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.ant-btn.ant-btn-default.MainNavbar_btn__LE0hK.MainNavbar_login__Pl4q0 > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/nav/button/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ant-btn.ant-btn-default.MainNavbar_btn__LE0hK.MainNavbar_login__Pl4q0 > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

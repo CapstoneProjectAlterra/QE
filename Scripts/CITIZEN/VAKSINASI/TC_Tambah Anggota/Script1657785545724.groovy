@@ -17,12 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CITIZEN/AUTH/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/vaksinasi menu'))
-
-WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Search/verify hasil rumah sakit'))
-
 for (i = 1; i <= 7; i++) {
     WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Tambah Anggota/fasilitas kesehatan'))
 

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/edit'))
 
-WebUI.setText(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota'), '123')
+WebUI.setText(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input edit'), '123')
 
 WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/update vaksin'))
 

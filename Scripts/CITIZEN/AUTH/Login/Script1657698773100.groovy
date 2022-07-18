@@ -27,7 +27,7 @@ WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/login btn'))
 
 WebUI.verifyElementVisible(findTestObject('CITIZEN/Page_Login  GetVaccine/VerifyLoginPage'))
 
-WebUI.setText(findTestObject('CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'), '1234123412341234')
+WebUI.setText(findTestObject('CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik'), '7890789078907890')
 
 WebUI.setText(findTestObject('CITIZEN/Page_Login  GetVaccine/input_Password_basic_password'), 'Haechan123')
 

@@ -17,13 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('ADMIN/AUTH/Positif/TC_LoginPositif'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Dashboard Admin  GetVaccine/span_Kelola Vaksin'))
 
 WebUI.click(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/span_Tambah Data'))
 
 WebUI.click(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/span_Jenis Vaksin_ant-select-selection-search'))
 
-WebUI.click(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/div_MODERNA'))
+WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/div_ASTRAZENECA'))
 
 WebUI.setText(findTestObject('Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota'), 
     '100')

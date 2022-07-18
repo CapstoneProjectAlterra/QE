@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>ea6d83be-1ddb-477c-ad3c-d1bb49c2084a</testSuiteGuid>
    <testCaseLink>
-      <guid>aa4c3779-569a-4f11-9399-d6509125a560</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Kelola Vaksinasi/TC_Tambah Vaksin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a5289282-ec6f-47a3-b956-5d7bc3f3a952</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

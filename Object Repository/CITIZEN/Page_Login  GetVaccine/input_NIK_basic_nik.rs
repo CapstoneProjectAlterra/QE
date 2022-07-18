@@ -6,12 +6,12 @@
    <elementGuidId>43c7e8a6-4b72-4d19-b743-249e8d4e3c41</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#basic_nik</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='basic_nik']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#basic_nik</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

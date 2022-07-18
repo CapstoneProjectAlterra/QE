@@ -6,12 +6,12 @@
    <elementGuidId>13edbf7f-ddf0-4a17-ada8-960c5b2e64c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#basic_password</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='basic_password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#basic_password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>N</value>
+      <value>H</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

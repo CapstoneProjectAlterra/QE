@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CITIZEN/AUTH/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/Tiket Menu'))
 
 WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Tiket/verify tiket page'), 0)
