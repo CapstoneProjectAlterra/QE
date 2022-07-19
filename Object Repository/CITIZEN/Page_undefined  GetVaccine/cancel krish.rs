@@ -6,14 +6,21 @@
    <elementGuidId>ac34b458-9c10-4638-a03e-1093d1afc552</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[2]/div/div[2]/div[3]/button[1]/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[2]/div/div[2]/div[3]/button[1]</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'ant-btn ant-btn-default']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn ant-btn-default</value>
+   </webElementProperties>
 </WebElementEntity>

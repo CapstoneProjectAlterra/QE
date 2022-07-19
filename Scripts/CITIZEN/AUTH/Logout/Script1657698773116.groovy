@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/profilobject'))
+WebUI.click(findTestObject('Object Repository/CITIZEN/Page_Tiket Vaksin  GetVaccine/svg_Tiket_ant-dropdown-trigger ant-dropdown_754753'))
 
-WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/Logout'))
+WebUI.click(findTestObject('Object Repository/CITIZEN/Page_Tiket Vaksin  GetVaccine/span_Logout'))
 
 WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Home  GetVaccine/a_Login'), 0)
 

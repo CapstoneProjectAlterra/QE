@@ -17,17 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('CITIZEN/Page_Detail Fasilitas Kesehatan  GetVaccine/detail krishna'))
-
 WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/edit krish'))
 
-WebUI.click(findTestObject('Object Repository/CITIZEN/Page_Vaksinasi GetVaccine/Page_Detail Fasilitas Kesehatan  GetVaccine/button_Submit'))
+WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/button-edit'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/CITIZEN/Page_Vaksinasi GetVaccine/Page_Detail Fasilitas Kesehatan  GetVaccine/div_Masukkan minimal 16 karakter'), 
-    0)
+WebUI.click(findTestObject('Object Repository/CITIZEN/Page_Detail Fasilitas Kesehatan  GetVaccine/button_Submit'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/CITIZEN/Page_Vaksinasi GetVaccine/Page_Detail Fasilitas Kesehatan  GetVaccine/div_place_of_birth is required'), 
-    0)
+WebUI.click(findTestObject('Object Repository/CITIZEN/Page_Detail Fasilitas Kesehatan  GetVaccine/div_place_of_birth is required'))
 
 WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/cancel krish'))
 

@@ -17,19 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/date'))
+WebUI.click(findTestObject('Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/input'))
 
-WebUI.click(findTestObject('CITIZEN/Page_Detail Fasilitas Kesehatan  GetVaccine/div_22'))
+WebUI.click(findTestObject('Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/div_22'))
 
-WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_undefined  GetVaccine/card jadwal'), 0)
-
-WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/card jadwal'))
-
-WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/card jadwal'))
+WebUI.click(findTestObject('Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/div_083142 - 163142SINOPHARMDOSIS_1200'))
 
 WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/haechan'))
 
 WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/btn-pesan vaksinasi'))
+
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/btn lanjutkan'))
+
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/lihat tiket'))
 
 WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_undefined  GetVaccine/tiket page'), 0)
 

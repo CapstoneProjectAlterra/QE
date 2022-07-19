@@ -23,8 +23,6 @@ WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Tiket/verify tiket page'
 
 WebUI.click(findTestObject('CITIZEN/Page_Tiket/Detail Tiket'))
 
-WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Tiket/verify detail'), 0)
-
 WebUI.click(findTestObject('CITIZEN/Page_Tiket/close detail'))
 
 WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Tiket/verify tiket page'), 0)

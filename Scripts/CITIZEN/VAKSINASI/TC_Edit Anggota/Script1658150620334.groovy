@@ -21,10 +21,12 @@ WebUI.click(findTestObject('CITIZEN/Page_Detail Fasilitas Kesehatan  GetVaccine/
 
 WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/btn edit haechan'))
 
-WebUI.setText(findTestObject('Object Repository/CITIZEN/Page_Vaksinasi GetVaccine/Page_Detail Fasilitas Kesehatan  GetVaccine/input_Nama Lengkap_edit family member_name'), 
+WebUI.clearText(findTestObject('CITIZEN/Page_Detail Fasilitas Kesehatan  GetVaccine/input_Nama Lengkap_edit family member_name'))
+
+WebUI.setText(findTestObject('Object Repository/CITIZEN/Page_Detail Fasilitas Kesehatan  GetVaccine/input_Nama Lengkap_edit family member_name'), 
     'Lee Haechan')
 
-WebUI.click(findTestObject('Object Repository/CITIZEN/Page_Vaksinasi GetVaccine/Page_Detail Fasilitas Kesehatan  GetVaccine/span_Submit'))
+WebUI.click(findTestObject('Object Repository/CITIZEN/Page_Detail Fasilitas Kesehatan  GetVaccine/button_Submit'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/CITIZEN/Page_Vaksinasi GetVaccine/Page_Detail Fasilitas Kesehatan  GetVaccine/span_Data telah berhasil diupdate'), 
     0)

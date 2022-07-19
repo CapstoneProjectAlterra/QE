@@ -45,19 +45,19 @@
       <guid>6fea23a1-bc93-4290-b878-2eb7ab429f1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CITIZEN/VAKSINASI/TC_Tambah Anggota</testCaseId>
+      <testCaseId>Test Cases/CITIZEN/ANGGOTA/TC_Tambah Anggota</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>76c6e36c-d427-40a3-b4b3-12ab7f1a7b2a</guid>
+      <guid>51376dde-f9ab-4de5-b933-4a87a80952e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CITIZEN/VAKSINASI/TC_Edit Anggota Negatif</testCaseId>
+      <testCaseId>Test Cases/CITIZEN/ANGGOTA/TC_View Detail Anggota</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e3fe3bd0-545d-41fd-af53-395bcb759aeb</guid>
+      <guid>224b005c-a8e7-44c6-8748-1700c8e92281</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CITIZEN/VAKSINASI/TC_Edit Anggota</testCaseId>
+      <testCaseId>Test Cases/CITIZEN/ANGGOTA/TC_Edit Anggota</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4d2ad04b-ebf2-41f6-8fad-2a3ad8f7bb36</guid>
@@ -70,5 +70,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CITIZEN/TIKET/TC_View Tiket</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dd92b91d-a0cb-4ee8-b46f-7780295eb8f8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CITIZEN/AUTH/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mau daftar vaksin?'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alternatif'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,12 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/vaccine' and (text() = 'Vaksinasi' or . = 'Vaksinasi')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mau daftar vaksin?'])[1]/preceding::a[2]</value>
    </webElementXpaths>
 </WebElementEntity>
