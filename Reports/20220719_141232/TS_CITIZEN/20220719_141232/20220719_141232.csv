@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_CITIZEN,Chrome 103.0.5060.114,,,2022-07-19 14:12:36,2022-07-19 14:24:27,11m - 50.902s,FAILED
+,,,,,,,
+Test Cases/CITIZEN/AUTH/TC_Register,Chrome 103.0.5060.114,,,2022-07-19 14:12:37,2022-07-19 14:16:26,3m - 48.952s,PASSED
+"for ([i = 1, i <= 6, (i++)])",Chrome 103.0.5060.114,,,2022-07-19 14:12:37,2022-07-19 14:15:30,2m - 53.108s,PASSED
+"for ([i = 7, i <= 9, (i++)])",Chrome 103.0.5060.114,,,2022-07-19 14:15:30,2022-07-19 14:16:26,55.173s,PASSED
+,,,,,,,
+Test Cases/CITIZEN/AUTH/TC_Login,Chrome 103.0.5060.114,,,2022-07-19 14:16:26,2022-07-19 14:19:03,2m - 37.701s,FAILED
+"for ([i = 1, i <= 5, (i++)])",Chrome 103.0.5060.114,,,2022-07-19 14:16:26,2022-07-19 14:19:03,2m - 37.157s,FAILED
+,,,,,,,
+Test Cases/CITIZEN/AUTH/Login,Chrome 103.0.5060.114,,,2022-07-19 14:19:03,2022-07-19 14:19:14,10.710s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-19 14:19:04,2022-07-19 14:19:06,2.336s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-19 14:19:06,2022-07-19 14:19:06,0.146s,PASSED
+"navigateToUrl(""https://dev-getvaccine-16.netlify.app/"")",Chrome 103.0.5060.114,,,2022-07-19 14:19:06,2022-07-19 14:19:07,1.253s,PASSED
+"click(findTestObject(""CITIZEN/Page_Home  GetVaccine/login btn""))",Chrome 103.0.5060.114,,,2022-07-19 14:19:07,2022-07-19 14:19:08,0.842s,PASSED
+"verifyElementVisible(findTestObject(""CITIZEN/Page_Login  GetVaccine/VerifyLoginPage""))",Chrome 103.0.5060.114,,,2022-07-19 14:19:08,2022-07-19 14:19:09,0.796s,PASSED
+"setText(findTestObject(""CITIZEN/Page_Login  GetVaccine/input_NIK_basic_nik""), ""7890789078907890"")",Chrome 103.0.5060.114,,,2022-07-19 14:19:09,2022-07-19 14:19:10,1.083s,PASSED
+"setText(findTestObject(""CITIZEN/Page_Login  GetVaccine/input_Password_basic_password""), ""Haechan123"")",Chrome 103.0.5060.114,,,2022-07-19 14:19:10,2022-07-19 14:19:11,0.858s,PASSED
+"click(findTestObject(""CITIZEN/Page_Login  GetVaccine/eye""))",Chrome 103.0.5060.114,,,2022-07-19 14:19:11,2022-07-19 14:19:12,0.526s,PASSED
+"click(findTestObject(""CITIZEN/Page_Login  GetVaccine/button_Login""))",Chrome 103.0.5060.114,,,2022-07-19 14:19:12,2022-07-19 14:19:12,0.534s,PASSED
+"verifyElementPresent(findTestObject(""CITIZEN/Page_Home  GetVaccine/navbar""), 0, STOP_ON_FAILURE)",Chrome 103.0.5060.114,,,2022-07-19 14:19:12,2022-07-19 14:19:14,1.891s,PASSED
+,,,,,,,
+Test Cases/CITIZEN/VAKSINASI/TC_Search,Chrome 103.0.5060.114,,,2022-07-19 14:19:14,2022-07-19 14:20:10,56.226s,PASSED
+"for ([i = 1, i <= 7, (i++)])",Chrome 103.0.5060.114,,,2022-07-19 14:19:15,2022-07-19 14:20:10,55.454s,PASSED
+,,,,,,,
+Test Cases/CITIZEN/VAKSINASI/TC_Health Facility,Chrome 103.0.5060.114,,,2022-07-19 14:20:10,2022-07-19 14:20:13,2.492s,PASSED
+"click(findTestObject(""CITIZEN/Page_undefined  GetVaccine/yonkes""))",Chrome 103.0.5060.114,,,2022-07-19 14:20:11,2022-07-19 14:20:11,0.511s,PASSED
+"verifyElementPresent(findTestObject(""CITIZEN/Page_undefined  GetVaccine/verify yonkes""), 0)",Chrome 103.0.5060.114,,,2022-07-19 14:20:11,2022-07-19 14:20:13,1.281s,PASSED
+,,,,,,,
+Test Cases/CITIZEN/VAKSINASI/TC_Tambah Anggota,Chrome 103.0.5060.114,,,2022-07-19 14:20:13,2022-07-19 14:22:32,2m - 19.594s,PASSED
+"for ([i = 1, i <= 7, (i++)])",Chrome 103.0.5060.114,,,2022-07-19 14:20:13,2022-07-19 14:22:32,2m - 19.110s,PASSED
+,,,,,,,
+Test Cases/TC_Edit Anggota,Chrome 103.0.5060.114,,,2022-07-19 14:22:32,2022-07-19 14:22:57,24.233s,PASSED
+"click(findTestObject(""CITIZEN/Page_Home  GetVaccine/home menu""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:33,2022-07-19 14:22:33,0.506s,PASSED
+"click(findTestObject(""CITIZEN/Page_Home  GetVaccine/a_Vaksinasi""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:33,2022-07-19 14:22:43,9.687s,PASSED
+"click(findTestObject(""CITIZEN/Page_undefined  GetVaccine/yonkes""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:43,2022-07-19 14:22:45,1.837s,PASSED
+"click(findTestObject(""Page_Detail Fasilitas Kesehatan  GetVaccine/button_ANAK_ant-btn ant-btn-default CustomB_6459a1""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:45,2022-07-19 14:22:47,2.433s,PASSED
+"click(findTestObject(""Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/button_Edit""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:47,2022-07-19 14:22:48,0.552s,PASSED
+"click(findTestObject(""Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/button_Submit""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:48,2022-07-19 14:22:49,0.647s,PASSED
+"click(findTestObject(""Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/div_place_of_birth is required""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:49,2022-07-19 14:22:49,0.612s,PASSED
+"click(findTestObject(""Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/button_Cancel""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:49,2022-07-19 14:22:50,0.570s,PASSED
+"click(findTestObject(""CITIZEN/Page_undefined  GetVaccine/a_Fasilitas Kesehatan""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:50,2022-07-19 14:22:51,1.465s,PASSED
+"click(findTestObject(""CITIZEN/Page_Detail Fasilitas Kesehatan  GetVaccine/detail haechan""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:51,2022-07-19 14:22:52,1.194s,PASSED
+"click(findTestObject(""Page_Detail Fasilitas Kesehatan  GetVaccine/button_Edit""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:52,2022-07-19 14:22:53,0.614s,PASSED
+"click(findTestObject(""Page_Detail Fasilitas Kesehatan  GetVaccine/edit haechan""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:53,2022-07-19 14:22:54,0.622s,PASSED
+"setText(findTestObject(""Page_Detail Fasilitas Kesehatan  GetVaccine/edit haechan""), "" Lee"")",Chrome 103.0.5060.114,,,2022-07-19 14:22:54,2022-07-19 14:22:55,0.996s,PASSED
+"click(findTestObject(""Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/button_Submit""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:55,2022-07-19 14:22:55,0.667s,PASSED
+"click(findTestObject(""Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/span_Data telah berhasil diupdate""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:55,2022-07-19 14:22:57,1.272s,PASSED
+,,,,,,,
+Test Cases/CITIZEN/VAKSINASI/TC_Pesan Vaksinasi,Chrome 103.0.5060.114,,,2022-07-19 14:22:57,2022-07-19 14:23:31,34.706s,FAILED
+"click(findTestObject(""Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/input""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:57,2022-07-19 14:22:58,0.506s,PASSED
+"click(findTestObject(""Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/div_22""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:58,2022-07-19 14:22:58,0.535s,PASSED
+"click(findTestObject(""Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/div_083142 - 163142SINOPHARMDOSIS_1200""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:58,2022-07-19 14:22:59,0.507s,PASSED
+"click(findTestObject(""CITIZEN/Page_undefined  GetVaccine/haechan""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:59,2022-07-19 14:22:59,0.583s,PASSED
+"click(findTestObject(""CITIZEN/Page_undefined  GetVaccine/btn-pesan vaksinasi""))",Chrome 103.0.5060.114,,,2022-07-19 14:22:59,2022-07-19 14:23:00,0.518s,PASSED
+"verifyElementPresent(findTestObject(""CITIZEN/Page_undefined  GetVaccine/tiket page""), 0)",Chrome 103.0.5060.114,,,2022-07-19 14:23:00,2022-07-19 14:23:31,31.589s,FAILED
+,,,,,,,
+Test Cases/CITIZEN/TIKET/TC_View Tiket,Chrome 103.0.5060.114,,,2022-07-19 14:23:31,2022-07-19 14:24:25,53.580s,FAILED
+"click(findTestObject(""CITIZEN/Page_Home  GetVaccine/Tiket Menu""))",Chrome 103.0.5060.114,,,2022-07-19 14:23:32,2022-07-19 14:23:32,0.504s,PASSED
+"verifyElementPresent(findTestObject(""CITIZEN/Page_Tiket/verify tiket page""), 0)",Chrome 103.0.5060.114,,,2022-07-19 14:23:32,2022-07-19 14:23:53,20.580s,PASSED
+"click(findTestObject(""CITIZEN/Page_Tiket/Detail Tiket""))",Chrome 103.0.5060.114,,,2022-07-19 14:23:53,2022-07-19 14:23:53,0.426s,PASSED
+"verifyElementPresent(findTestObject(""CITIZEN/Page_Tiket/verify detail""), 0)",Chrome 103.0.5060.114,,,2022-07-19 14:23:53,2022-07-19 14:24:25,31.596s,FAILED
+,,,,,,,
+Test Cases/CITIZEN/AUTH/Logout,Chrome 103.0.5060.114,,,2022-07-19 14:24:25,2022-07-19 14:24:27,2.199s,PASSED
+"click(findTestObject(""Object Repository/CITIZEN/Page_Tiket Vaksin  GetVaccine/svg_Tiket_ant-dropdown-trigger ant-dropdown_754753""))",Chrome 103.0.5060.114,,,2022-07-19 14:24:25,2022-07-19 14:24:26,0.417s,PASSED
+"click(findTestObject(""Object Repository/CITIZEN/Page_Tiket Vaksin  GetVaccine/span_Logout""))",Chrome 103.0.5060.114,,,2022-07-19 14:24:26,2022-07-19 14:24:27,0.821s,PASSED
+"verifyElementPresent(findTestObject(""CITIZEN/Page_Home  GetVaccine/a_Login""), 0)",Chrome 103.0.5060.114,,,2022-07-19 14:24:27,2022-07-19 14:24:27,0.513s,PASSED

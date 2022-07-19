@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_083142 - 163142SINOPHARMDOSIS_1200</name>
+   <tag></tag>
+   <elementGuidId>8050e0e1-71d2-470f-842a-0012812ed2d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/div[2]/div/div/div/form/div[2]/div/label/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.VaccineDetails_schedule_item_card__bdhm0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>VaccineDetails_schedule_item_card__bdhm0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>08:31:42 - 16:31:42SINOPHARMDOSIS_1200</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/main[@class=&quot;layout-padding&quot;]/div[@class=&quot;ant-row ant-row-center&quot;]/div[@class=&quot;ant-col VaccineDetails_bodyCard__ScLdx&quot;]/div[@class=&quot;VaccineDetails_dataset_detail__0aXzU&quot;]/div[@class=&quot;VaccineDetails_datasetDetailData__Kkkcn&quot;]/form[1]/div[@class=&quot;VaccineDetails_schedule_list_container__FxOF5&quot;]/div[@class=&quot;VaccineDetails_schedule_item_container__cp9GB&quot;]/label[1]/div[@class=&quot;VaccineDetails_schedule_item_card__bdhm0&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/div[2]/div/div/div/form/div[2]/div/label/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Tanggal'])[1]/following::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '08:31:42 - 16:31:42SINOPHARMDOSIS_1200' or . = '08:31:42 - 16:31:42SINOPHARMDOSIS_1200')]</value>
+   </webElementXpaths>
+</WebElementEntity>
