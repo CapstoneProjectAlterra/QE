@@ -6,12 +6,12 @@
    <elementGuidId>31c1b14e-7080-4d85-bab5-d860cedccc1f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div[2]/ul/div/div/li/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.sidebar_menu__6Zd4X</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/ul/div/div/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

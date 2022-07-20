@@ -18,6 +18,12 @@
       <testCaseId>Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>53171c34-3b82-414a-bec3-98cd315d87f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/OVERVIEW/TC_Search</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>65e3d078-ac01-481f-9f0f-ace85bce049a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -66,6 +72,24 @@
       <testCaseId>Test Cases/ADMIN/KELOLA SESI/TC_View Detail Sesi</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>afd3bb26-8e86-47f0-a061-e4f98d45774b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/DETAIL SESI/TC_Download</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d76783c9-b1a4-4718-b904-8b428f9c7f01</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/DETAIL SESI/TC_Search</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>38782897-974d-4f77-b2cd-6ca6463add1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/DETAIL SESI/TC_View Detail Pendaftar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2dc60d63-5bee-4a63-bbe3-4041468f9edb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -112,5 +136,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Kelola Vaksinasi/TC_Delete</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f0c4d3ef-1710-42fd-acb3-4e1c4add19ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/PROFIL/TC_View Profile</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d778dd9-74d6-4350-b2c9-a4e86ff40c0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/PROFIL/TC_Edit Profile</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

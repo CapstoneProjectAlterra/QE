@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi'))
+
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a'))
+
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/div_Download'))
+
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Download'))
+

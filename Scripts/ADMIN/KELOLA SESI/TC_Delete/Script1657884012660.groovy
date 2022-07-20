@@ -23,7 +23,7 @@ WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/verify kelola page'
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/DELETE SESI/icon delete'))
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/DELETE SESI/yes delete'))
+WebUI.verifyElementClickable(findTestObject('ADMIN/Kelola Sesi/DELETE SESI/yes delete'))
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/verify kelola page'), 0)
 
