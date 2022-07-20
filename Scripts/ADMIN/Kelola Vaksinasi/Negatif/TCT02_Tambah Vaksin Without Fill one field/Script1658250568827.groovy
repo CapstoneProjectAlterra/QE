@@ -30,5 +30,5 @@ WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Vaksin  GetVacci
 WebUI.verifyElementPresent(findTestObject('Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Jenis vaksin harus diisi'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/span_No Data_ant-modal-close-x'))
+WebUI.click(findTestObject('Page_Kelola Sesi  GetVaccine/close page'))
 

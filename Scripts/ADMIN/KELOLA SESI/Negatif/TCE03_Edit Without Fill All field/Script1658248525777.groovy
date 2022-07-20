@@ -25,8 +25,6 @@ WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine
 
 WebUI.setText(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'), '')
 
-WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Update Sesi'))
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Tanggal sesi harus diisi'), 
     0)
 

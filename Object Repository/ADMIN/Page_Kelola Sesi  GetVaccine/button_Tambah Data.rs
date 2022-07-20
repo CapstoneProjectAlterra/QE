@@ -6,12 +6,12 @@
    <elementGuidId>a7610070-3ea9-4eda-bd6f-d9471d623cab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='button']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.ant-btn.ant-btn-default.CustomButton_btn__I8aDc.CustomButton_primary__c3-xI</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -57,13 +57,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;ant-row layout-admin&quot;]/div[@class=&quot;ant-col ant-col-xs-21 ant-col-sm-21 ant-col-md-21 ant-col-lg-19&quot;]/main[@class=&quot;layout-main-admin&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-24&quot;]/div[@class=&quot;AdminSession_content__1kF5b&quot;]/div[@class=&quot;ant-row ant-row-space-between ant-row-middle&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-md-12&quot;]/button[@class=&quot;ant-btn ant-btn-default CustomButton_btn__I8aDc CustomButton_primary__c3-xI&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ant-click-animating-without-extra-node</name>
-      <type>Main</type>
-      <value>false</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

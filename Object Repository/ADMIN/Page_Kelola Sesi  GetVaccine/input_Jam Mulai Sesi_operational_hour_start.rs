@@ -6,12 +6,12 @@
    <elementGuidId>9855198c-c896-4677-b069-56bf9faaf4c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='operational_hour_start']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#operational_hour_start</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='operational_hour_start']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

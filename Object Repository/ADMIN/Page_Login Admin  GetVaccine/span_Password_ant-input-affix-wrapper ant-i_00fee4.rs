@@ -6,12 +6,12 @@
    <elementGuidId>4a78f239-cb90-4841-b16a-c774950f2e85</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/form/div/div[2]/div/div[2]/div/div/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ant-input-affix-wrapper.ant-input-password.input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/form/div/div[2]/div/div[2]/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

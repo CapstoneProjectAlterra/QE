@@ -6,12 +6,12 @@
    <elementGuidId>73ee8a2a-51c9-45c4-85d0-bce6c91a3d34</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='quota']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#quota</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='quota']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -47,13 +47,6 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-valuenow</name>
-      <type>Main</type>
-      <value>99</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>step</name>
       <type>Main</type>
       <value>1</value>
@@ -63,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Input</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,13 +71,6 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-input-number-input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>99</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -113,13 +99,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@placeholder = 'Input' and @id = 'quota']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

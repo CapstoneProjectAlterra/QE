@@ -6,12 +6,12 @@
    <elementGuidId>2bbceca9-b32a-44e2-93c2-fa5604e6c9f8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='operational_hour_end']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#operational_hour_end</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='operational_hour_end']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,14 +24,14 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>operational_hour_end</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -59,7 +59,7 @@
       <value>id(&quot;operational_hour_end&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>

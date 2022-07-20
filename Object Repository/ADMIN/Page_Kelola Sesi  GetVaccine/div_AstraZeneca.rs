@@ -6,12 +6,12 @@
    <elementGuidId>46e977a4-44c9-45d2-930f-d50f85300b03</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sinovac'])[2]/following::div[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.ant-select-item.ant-select-item-option.ant-select-item-option-active > div.ant-select-item-option-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sinovac'])[2]/following::div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

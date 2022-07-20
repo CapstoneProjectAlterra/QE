@@ -18,6 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 for (i = 1; i <= 2; i++) {
+    WebUI.click(findTestObject('ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview'))
+
+    WebUI.click(findTestObject('ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin'))
+
     WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search'))
 
     WebUI.setText(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search'), findTestData('ADMIN/search vaksin').getValue(

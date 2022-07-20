@@ -27,5 +27,5 @@ WebUI.setText(findTestObject('Object Repository/ADMIN/Page_Kelola Vaksin  GetVac
 
 WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Update Vaksin'))
 
-WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/span_Data berhasil diubah'))
+WebUI.verifyElementPresent(findTestObject('ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin'), 0)
 

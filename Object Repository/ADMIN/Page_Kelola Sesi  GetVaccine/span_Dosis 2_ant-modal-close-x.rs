@@ -6,12 +6,12 @@
    <elementGuidId>9b9578df-7e8e-4cfa-ac3e-567d73891042</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dosis 2'])[1]/following::span[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ant-modal-close-x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dosis 2'])[1]/following::span[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

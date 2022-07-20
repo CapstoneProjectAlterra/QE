@@ -17,27 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview'))
+WebUI.click(findTestObject('Page_Dashboard Admin  GetVaccine/a_Overview'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/button_Tambah Data_1'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/div_Pilih vaksin'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_MODERNA'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/div_Moderna'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_20'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/div_07'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/span_OK'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_07'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/input_Kuota_quota_1'), '100')
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_OK'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/span_Tambah Sesi'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end'))
 
-WebUI.click(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/div_Tanggal sesi harus diisi'))
+WebUI.setText(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'), '100')
 
-WebUI.click(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/span_Dosis 2_ant-modal-close-x'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi'))
+
+WebUI.verifyElementPresent(findTestObject('Page_Kelola Sesi  GetVaccine/alert jam sesi harus diisi'), 0)
+
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Dosis 2_ant-modal-close-x'))
 

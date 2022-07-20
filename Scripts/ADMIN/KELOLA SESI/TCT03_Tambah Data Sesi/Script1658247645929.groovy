@@ -17,19 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('ADMIN/AUTH/Positif/TC_LoginPositif'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview'))
 
-WebUI.click(findTestObject('Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview'))
-
-WebUI.click(findTestObject('Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/span_Kelola Sesi'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi'))
 
 WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data'))
 
-WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_AstraZeneca'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_MODERNA'))
 
 WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date'))
 
-WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/td_20'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_20'))
 
 WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start'))
 
@@ -39,13 +37,9 @@ WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine
 
 WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end'))
 
-WebUI.scrollToElement(findTestObject('Page_Kelola Sesi  GetVaccine/div_15'), 0)
-
-WebUI.click(findTestObject('Object Repository/Page_Kelola Sesi  GetVaccine/div_15'))
-
-WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_OK'))
-
-WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Dosis 2_ant-radio-input'))
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a_Now'))
 
 WebUI.setText(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'), '100')
+
+WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi'))
 

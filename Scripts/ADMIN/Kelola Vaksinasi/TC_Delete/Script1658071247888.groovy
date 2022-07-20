@@ -17,9 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/btn delete'))
+WebUI.callTestCase(findTestCase('ADMIN/AUTH/Positif/TC_LoginPositif'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/button_Yes'))
+WebUI.click(findTestObject('ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview'))
+
+WebUI.click(findTestObject('ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin'))
+
+WebUI.click(findTestObject('Page_Kelola Sesi  GetVaccine/btn_delete sinovac'))
+
+WebUI.verifyElementClickable(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/button_Yes'))
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin'), 0)
 

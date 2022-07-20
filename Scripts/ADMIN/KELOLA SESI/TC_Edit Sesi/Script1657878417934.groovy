@@ -29,7 +29,7 @@ WebUI.click(findTestObject('ADMIN/Page_Kelola Sesi  GetVaccine/div_10'), Failure
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/BTN ON'))
 
-WebUI.click(findTestObject('ADMIN/Page_Kelola Sesi  GetVaccine/button_Update Sesi'))
+WebUI.verifyElementClickable(findTestObject('ADMIN/Page_Kelola Sesi  GetVaccine/button_Update Sesi'))
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/verify berhasil edit'), 0)
 

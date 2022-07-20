@@ -27,7 +27,5 @@ WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine
 
 WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam mulai sesi harus diisi'))
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/btn-update sesi'))
-
 WebUI.click(findTestObject('Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Edit_ant-modal-close-x'))
 

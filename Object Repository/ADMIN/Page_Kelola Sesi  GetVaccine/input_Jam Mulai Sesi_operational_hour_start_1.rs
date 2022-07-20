@@ -6,12 +6,12 @@
    <elementGuidId>e4eb0e28-fdb9-4328-8854-346c0750cfba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='operational_hour_start']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#operational_hour_start</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='operational_hour_start']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -38,13 +38,6 @@
       <value>Pilih waktu</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>07:31:42</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>size</name>
@@ -61,16 +54,23 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;operational_hour_start&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
       <type>Main</type>
       <value>07:31:42</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>value</name>
       <type>Main</type>
-      <value>id(&quot;operational_hour_start&quot;)</value>
+      <value>07:31:42</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -92,6 +92,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'operational_hour_start' and @placeholder = 'Pilih waktu']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
