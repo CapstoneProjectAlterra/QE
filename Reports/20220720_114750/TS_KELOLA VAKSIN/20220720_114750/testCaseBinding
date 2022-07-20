@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif","testCaseId":"Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif"}
+{"testCaseName":"Test Cases/ADMIN/Kelola Vaksinasi/TCT01_Tambah Vaksin Vlid","testCaseId":"Test Cases/ADMIN/Kelola Vaksinasi/TCT01_Tambah Vaksin Vlid"}
+{"testCaseName":"Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT02_Tambah Vaksin Without Fill one field","testCaseId":"Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT02_Tambah Vaksin Without Fill one field"}
+{"testCaseName":"Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT03_Tambah Vaksin Without Fill All","testCaseId":"Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT03_Tambah Vaksin Without Fill All"}
+{"testCaseName":"Test Cases/ADMIN/Kelola Vaksinasi/TCE01_Edit Vaksin","testCaseId":"Test Cases/ADMIN/Kelola Vaksinasi/TCE01_Edit Vaksin"}
+{"testCaseName":"Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCE02_Edit Without one field","testCaseId":"Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCE02_Edit Without one field"}
+{"testCaseName":"Test Cases/ADMIN/Kelola Vaksinasi/TC_Search","testCaseId":"Test Cases/ADMIN/Kelola Vaksinasi/TC_Search"}
+{"testCaseName":"Test Cases/ADMIN/Kelola Vaksinasi/TC_Delete","testCaseId":"Test Cases/ADMIN/Kelola Vaksinasi/TC_Delete"}

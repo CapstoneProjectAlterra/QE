@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>e24da063-0557-49f5-9d0a-008af03bd0de</testSuiteGuid>
    <testCaseLink>
-      <guid>85ae7735-d5c2-4f72-808b-31de38049068</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/AUTH/TC_Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>10f272d2-bfb0-4b40-9726-deeec2e26df4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
