@@ -31,11 +31,11 @@ for (i = 1; i <= 5; i++) {
     if ((i == 1) | (i == 2)) {
         WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/SEARCH/verify no data'), 0)
     } else if (i == 3) {
-        WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/SEARCH/verify sinovac'), 0)
+        WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/SEARCH/sinopharm'), 0)
     } else if (i == 4) {
-        WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/SEARCH/verify dosis 1'), 0)
+        WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/SEARCH/sinopharm'), 0)
     } else {
-        WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/SEARCH/verify tgl 15'), 0)
+        WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/SEARCH/sinopharm'), 0)
     }
 }
 

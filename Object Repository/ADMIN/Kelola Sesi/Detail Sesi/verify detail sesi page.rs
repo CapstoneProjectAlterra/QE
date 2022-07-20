@@ -11,9 +11,16 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@class = 'AdminSessionDetail_subTitle__FlvT5']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>AdminSessionDetail_subTitle__FlvT5</value>
+   </webElementProperties>
 </WebElementEntity>

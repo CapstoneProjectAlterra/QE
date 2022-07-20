@@ -23,13 +23,11 @@ WebUI.click(findTestObject('Object Repository/Page_Detail Fasilitas Kesehatan  G
 
 WebUI.click(findTestObject('Object Repository/Page_Detail Fasilitas Kesehatan  GetVaccine/div_083142 - 163142SINOPHARMDOSIS_1200'))
 
-WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/haechan'))
+WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/card haechan'))
 
 WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/btn-pesan vaksinasi'))
 
 WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/btn lanjutkan'))
-
-WebUI.click(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/lihat tiket'))
 
 WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_undefined  GetVaccine/tiket page'), 0)
 

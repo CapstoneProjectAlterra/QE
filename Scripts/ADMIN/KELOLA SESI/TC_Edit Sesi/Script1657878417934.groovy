@@ -21,25 +21,15 @@ WebUI.click(findTestObject('ADMIN/Dashboard/overview'))
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/SEARCH/kelola sesi'))
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/icon detail'))
+WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/edit btn'))
 
 WebUI.click(findTestObject('ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start'))
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/Jam 10'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('ADMIN/Page_Kelola Sesi  GetVaccine/div_10'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/ok'))
+WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/BTN ON'))
 
-WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/button update'))
+WebUI.click(findTestObject('ADMIN/Page_Kelola Sesi  GetVaccine/button_Update Sesi'))
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/verify berhasil edit'), 0)
-
-not_run: for (i = 1; i <= 2; i++) {
-    not_run: if (i == 1) {
-        not_run: WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/alert kuota edit'), 0)
-
-        not_run: WebUI.click(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/button close'))
-    } else {
-        not_run: WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Sesi/EDIT SESI/verify berhasil edit'), 0)
-    }
-}
 

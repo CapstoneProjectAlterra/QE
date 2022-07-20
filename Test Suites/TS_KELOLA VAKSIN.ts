@@ -21,7 +21,7 @@
       <guid>2cff692e-5b26-4c84-a379-8103862d379c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Kelola Vaksinasi/TC_Edit Vaksin</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Kelola Vaksinasi/TCE01_Edit Vaksin</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2dd00a45-e321-420a-adec-30888666dff6</guid>

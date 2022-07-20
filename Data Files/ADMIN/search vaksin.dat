@@ -9,7 +9,7 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>search</data>
-   <data>sinopharm</data>
+   <data>astrazeneca</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>keyword</name>

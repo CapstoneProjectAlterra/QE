@@ -11,8 +11,8 @@
    <data>asd</data>
    <data>dosis+3</data>
    <data>sinovac</data>
-   <data>dosis+1</data>
-   <data>15</data>
+   <data>dosis</data>
+   <data>22</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>keyword</name>

@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>aria-valuenow</name>
       <type>Main</type>
-      <value>97</value>
+      <value>99</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>97</value>
+      <value>99</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -120,5 +120,12 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Input' and @id = 'quota']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'input' and @id = 'quota']</value>
    </webElementXpaths>
 </WebElementEntity>

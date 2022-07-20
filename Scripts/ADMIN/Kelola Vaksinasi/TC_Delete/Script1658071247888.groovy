@@ -19,9 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/btn delete'))
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/div_Apakah Anda yakin menghapus item vaksin_49c381'), 
-    0)
-
 WebUI.click(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/button_Yes'))
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin'), 0)

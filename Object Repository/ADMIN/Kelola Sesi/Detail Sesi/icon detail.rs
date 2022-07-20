@@ -11,9 +11,16 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@class = 'ant-btn ant-btn-default SessionTable_button__PZHIt SessionTable_secondary__urU6V']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn ant-btn-default SessionTable_button__PZHIt SessionTable_secondary__urU6V</value>
+   </webElementProperties>
 </WebElementEntity>

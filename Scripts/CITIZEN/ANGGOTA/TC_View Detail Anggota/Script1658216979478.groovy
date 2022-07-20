@@ -21,9 +21,9 @@ WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/home menu'))
 
 WebUI.click(findTestObject('CITIZEN/Page_Home  GetVaccine/a_Vaksinasi'))
 
-WebUI.click(findTestObject('Page_Detail Fasilitas Kesehatan  GetVaccine/button_ANAK_ant-btn ant-btn-default CustomB_6459a1'))
+WebUI.click(findTestObject('CITIZEN/Page_undefined  GetVaccine/yonkes'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Detail Fasilitas Kesehatan  GetVaccine/input_Nama Lengkap_edit family member_name'), 
+WebUI.verifyElementPresent(findTestObject('CITIZEN/Page_Vaksinasi GetVaccine/Detail Health Facility dan Pesan Vaksinasi/edit nama disable'), 
     0)
 
 WebUI.click(findTestObject('Page_Detail Fasilitas Kesehatan  GetVaccine/button_Cancel'))
