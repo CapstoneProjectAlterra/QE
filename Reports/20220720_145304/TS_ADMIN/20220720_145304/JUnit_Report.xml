@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_ADMIN" time="1742.804" tests="23" failures="0" errors="0">
+   <testsuite name="TS_ADMIN" tests="23" failures="0" errors="0" time="1742.804" skipped="0" timestamp="2022-07-20 14:53:09" hostname="Thinkpad X260 - DESKTOP-D9B57TC" id="Test Suites/TS_ADMIN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Thinkpad X260\\git\\CapstoneWEBSITE\\Reports\\20220720_145304\\TS_ADMIN\\20220720_145304"/>
+         <property name="logFiles" value="C:\\Users\\Thinkpad X260\\git\\CapstoneWEBSITE\\Reports\\20220720_145304\\TS_ADMIN\\20220720_145304\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Thinkpad X260 - DESKTOP-D9B57TC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.100.66"/>
+         <property name="sessionId" value="eecefd29dfd4488f9210c003fa640c3c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif" time="14.774" classname="Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:53:10 - [TEST_CASE][PASSED] - Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif: Test Cases/ADMIN/AUTH/Positif/TC_LoginPositif
+
+2022-07-20 14:53:11 - [TEST_STEP][PASSED] - openBrowser("https://dev-getvaccine-16.netlify.app/admin/"): Browser is opened with url: 'https://dev-getvaccine-16.netlify.app/admin/'
+
+2022-07-20 14:53:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-20 14:53:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-20 14:53:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dev-getvaccine-16.netlify.app/admin/'
+
+2022-07-20 14:53:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-20 14:53:20 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-20 14:53:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Adm-Login/verify login page"), 0): Object 'Object Repository/ADMIN/Adm-Login/verify login page' is present
+
+2022-07-20 14:53:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:53:21 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Adm-Login/verify login page' is present
+
+2022-07-20 14:53:21 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Adm-Login/username")): Object: 'Object Repository/ADMIN/Adm-Login/username' is clicked on
+
+2022-07-20 14:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Adm-Login/username' is clicked on
+
+2022-07-20 14:53:21 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Adm-Login/username"), "harnanda"): Text 'harnanda' is set on object 'Object Repository/ADMIN/Adm-Login/username'
+
+2022-07-20 14:53:22 - [MESSAGE][PASSED] - Text 'harnanda' is set on object 'Object Repository/ADMIN/Adm-Login/username'
+
+2022-07-20 14:53:22 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Adm-Login/password")): Object: 'Object Repository/ADMIN/Adm-Login/password' is clicked on
+
+2022-07-20 14:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Adm-Login/password' is clicked on
+
+2022-07-20 14:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Adm-Login/password"), "haha"): Text 'haha' is set on object 'Object Repository/ADMIN/Adm-Login/password'
+
+2022-07-20 14:53:24 - [MESSAGE][PASSED] - Text 'haha' is set on object 'Object Repository/ADMIN/Adm-Login/password'
+
+2022-07-20 14:53:24 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Adm-Login/eye")): Object: 'Object Repository/ADMIN/Adm-Login/eye' is clicked on
+
+2022-07-20 14:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Adm-Login/eye' is clicked on
+
+2022-07-20 14:53:24 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Adm-Login/btn login")): Object: 'Object Repository/ADMIN/Adm-Login/btn login' is clicked on
+
+2022-07-20 14:53:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Adm-Login/btn login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/OVERVIEW/TC_Search" time="10.887" classname="Test Cases/ADMIN/OVERVIEW/TC_Search" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:53:25 - [TEST_CASE][PASSED] - Test Cases/ADMIN/OVERVIEW/TC_Search: Test Cases/ADMIN/OVERVIEW/TC_Search
+
+2022-07-20 14:53:26 - [TEST_STEP][PASSED] - for ([i = 1, i <= 2, (i++)]): Object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search haechan' is present
+
+2022-07-20 14:53:26 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:53:27 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:53:29 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/search overview"), findTestData("ADMIN/search pendaftar").getValue(1, i)): Text 'coba' is set on object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search overview'
+
+2022-07-20 14:53:30 - [MESSAGE][PASSED] - Text 'coba' is set on object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search overview'
+
+2022-07-20 14:53:30 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/icon search")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/icon search' is clicked on
+
+2022-07-20 14:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/icon search' is clicked on
+
+2022-07-20 14:53:31 - [TEST_STEP][PASSED] - if (i == 1): Object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search null' is present
+
+2022-07-20 14:53:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/search null"), 0): Object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search null' is present
+
+2022-07-20 14:53:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:53:31 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search null' is present
+
+2022-07-20 14:53:31 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:53:32 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:53:33 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/search overview"), findTestData("ADMIN/search pendaftar").getValue(1, i)): Text 'haechan' is set on object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search overview'
+
+2022-07-20 14:53:35 - [MESSAGE][PASSED] - Text 'haechan' is set on object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search overview'
+
+2022-07-20 14:53:35 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/icon search")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/icon search' is clicked on
+
+2022-07-20 14:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/icon search' is clicked on
+
+2022-07-20 14:53:35 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-20 14:53:35 - [TEST_STEP][PASSED] - else: Object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search haechan' is present
+
+2022-07-20 14:53:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/search haechan"), 0): Object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search haechan' is present
+
+2022-07-20 14:53:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:53:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/search haechan' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/Negatif/TCT01_Tambah Sesi Without fill one field" time="13.139" classname="Test Cases/ADMIN/KELOLA SESI/Negatif/TCT01_Tambah Sesi Without fill one field" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:53:36 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/Negatif/TCT01_Tambah Sesi Without fill one field: Test Cases/ADMIN/KELOLA SESI/Negatif/TCT01_Tambah Sesi Without fill one field
+
+2022-07-20 14:53:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:53:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:53:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 14:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 14:53:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_MODERNA")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_MODERNA' is clicked on
+
+2022-07-20 14:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_MODERNA' is clicked on
+
+2022-07-20 14:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date' is clicked on
+
+2022-07-20 14:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date' is clicked on
+
+2022-07-20 14:53:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_20")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_20' is clicked on
+
+2022-07-20 14:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_20' is clicked on
+
+2022-07-20 14:53:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-20 14:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-20 14:53:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_07")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_07' is clicked on
+
+2022-07-20 14:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_07' is clicked on
+
+2022-07-20 14:53:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_OK")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_OK' is clicked on
+
+2022-07-20 14:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_OK' is clicked on
+
+2022-07-20 14:53:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end' is clicked on
+
+2022-07-20 14:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end' is clicked on
+
+2022-07-20 14:53:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota"), "100"): Text '100' is set on object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'
+
+2022-07-20 14:53:47 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'
+
+2022-07-20 14:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi' is clicked on
+
+2022-07-20 14:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi' is clicked on
+
+2022-07-20 14:53:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Kelola Sesi  GetVaccine/alert jam sesi harus diisi"), 0): Object 'Object Repository/Page_Kelola Sesi  GetVaccine/alert jam sesi harus diisi' is present
+
+2022-07-20 14:53:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:53:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Kelola Sesi  GetVaccine/alert jam sesi harus diisi' is present
+
+2022-07-20 14:53:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Dosis 2_ant-modal-close-x")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Dosis 2_ant-modal-close-x' is clicked on
+
+2022-07-20 14:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Dosis 2_ant-modal-close-x' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/Negatif/TCT02_Tambah without fill all field" time="8.534" classname="Test Cases/ADMIN/KELOLA SESI/Negatif/TCT02_Tambah without fill all field" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:53:49 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/Negatif/TCT02_Tambah without fill all field: Test Cases/ADMIN/KELOLA SESI/Negatif/TCT02_Tambah without fill all field
+
+2022-07-20 14:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:53:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:53:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 14:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 14:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi' is clicked on
+
+2022-07-20 14:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi' is clicked on
+
+2022-07-20 14:53:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jenis vaksin harus diisi")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jenis vaksin harus diisi' is clicked on
+
+2022-07-20 14:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jenis vaksin harus diisi' is clicked on
+
+2022-07-20 14:53:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Tanggal sesi harus diisi")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Tanggal sesi harus diisi' is clicked on
+
+2022-07-20 14:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Tanggal sesi harus diisi' is clicked on
+
+2022-07-20 14:53:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam mulai sesi harus diisi")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam mulai sesi harus diisi' is clicked on
+
+2022-07-20 14:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam mulai sesi harus diisi' is clicked on
+
+2022-07-20 14:53:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam selesai sesi harus diisi")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam selesai sesi harus diisi' is clicked on
+
+2022-07-20 14:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam selesai sesi harus diisi' is clicked on
+
+2022-07-20 14:53:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Kuota vaksinasi harus diisi")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Kuota vaksinasi harus diisi' is clicked on
+
+2022-07-20 14:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Kuota vaksinasi harus diisi' is clicked on
+
+2022-07-20 14:53:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_No Data_ant-modal-close-x")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_No Data_ant-modal-close-x' is clicked on
+
+2022-07-20 14:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_No Data_ant-modal-close-x' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/TCT03_Tambah Data Sesi" time="15.472" classname="Test Cases/ADMIN/KELOLA SESI/TCT03_Tambah Data Sesi" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:53:57 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/TCT03_Tambah Data Sesi: Test Cases/ADMIN/KELOLA SESI/TCT03_Tambah Data Sesi
+
+2022-07-20 14:53:58 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:53:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:54:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 14:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 14:54:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_MODERNA")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_MODERNA' is clicked on
+
+2022-07-20 14:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_MODERNA' is clicked on
+
+2022-07-20 14:54:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date' is clicked on
+
+2022-07-20 14:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Tanggal Sesi_vaccination_date' is clicked on
+
+2022-07-20 14:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_20")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_20' is clicked on
+
+2022-07-20 14:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_20' is clicked on
+
+2022-07-20 14:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-20 14:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-20 14:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_07")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_07' is clicked on
+
+2022-07-20 14:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_07' is clicked on
+
+2022-07-20 14:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_OK")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_OK' is clicked on
+
+2022-07-20 14:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_OK' is clicked on
+
+2022-07-20 14:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end' is clicked on
+
+2022-07-20 14:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Selesai Sesi_operational_hour_end' is clicked on
+
+2022-07-20 14:54:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a_Now")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a_Now' is clicked on
+
+2022-07-20 14:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a_Now' is clicked on
+
+2022-07-20 14:54:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota"), "100"): Text '100' is set on object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'
+
+2022-07-20 14:54:12 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'
+
+2022-07-20 14:54:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi' is clicked on
+
+2022-07-20 14:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Tambah Sesi' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi" time="7.287" classname="Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:54:13 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi: Test Cases/ADMIN/KELOLA SESI/TC_Edit Sesi
+
+2022-07-20 14:54:13 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:54:15 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:54:16 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/EDIT SESI/edit btn")): Object: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/edit btn' is clicked on
+
+2022-07-20 14:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/edit btn' is clicked on
+
+2022-07-20 14:54:18 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start")): Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-20 14:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/TAMBAH DATA/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-20 14:54:18 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Kelola Sesi  GetVaccine/div_10"), STOP_ON_FAILURE): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_10' is clicked on
+
+2022-07-20 14:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_10' is clicked on
+
+2022-07-20 14:54:19 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/EDIT SESI/BTN ON")): Object: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/BTN ON' is clicked on
+
+2022-07-20 14:54:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/BTN ON' is clicked on
+
+2022-07-20 14:54:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ADMIN/Page_Kelola Sesi  GetVaccine/button_Update Sesi")): Object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Update Sesi' is clickable
+
+2022-07-20 14:54:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Update Sesi' is clickable
+
+2022-07-20 14:54:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/EDIT SESI/verify berhasil edit"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/verify berhasil edit' is present
+
+2022-07-20 14:54:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:54:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/EDIT SESI/verify berhasil edit' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/Negatif/TCE03_Edit Without Fill All field" time="16.754" classname="Test Cases/ADMIN/KELOLA SESI/Negatif/TCE03_Edit Without Fill All field" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:54:20 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/Negatif/TCE03_Edit Without Fill All field: Test Cases/ADMIN/KELOLA SESI/Negatif/TCE03_Edit Without Fill All field
+
+2022-07-20 14:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:54:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/svg")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/svg' is clicked on
+
+2022-07-20 14:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/svg' is clicked on
+
+2022-07-20 14:54:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota"), ""): Text '' is set on object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'
+
+2022-07-20 14:54:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Kuota_quota'
+
+2022-07-20 14:54:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Tanggal sesi harus diisi"), 0): Object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Tanggal sesi harus diisi' is present
+
+2022-07-20 14:54:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:54:33 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Tanggal sesi harus diisi' is present
+
+2022-07-20 14:54:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam mulai sesi harus diisi"), 0): Object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam mulai sesi harus diisi' is present
+
+2022-07-20 14:54:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:54:34 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam mulai sesi harus diisi' is present
+
+2022-07-20 14:54:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam selesai sesi harus diisi"), 0): Object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam selesai sesi harus diisi' is present
+
+2022-07-20 14:54:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:54:35 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam selesai sesi harus diisi' is present
+
+2022-07-20 14:54:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Kuota vaksinasi harus diisi"), 0): Object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Kuota vaksinasi harus diisi' is present
+
+2022-07-20 14:54:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:54:36 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Kuota vaksinasi harus diisi' is present
+
+2022-07-20 14:54:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Edit_ant-modal-close-x")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Edit_ant-modal-close-x' is clicked on
+
+2022-07-20 14:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Edit_ant-modal-close-x' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/Negatif/TCE02_Edit Without Fill one field" time="30.215" classname="Test Cases/ADMIN/KELOLA SESI/Negatif/TCE02_Edit Without Fill one field" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:54:37 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/Negatif/TCE02_Edit Without Fill one field: Test Cases/ADMIN/KELOLA SESI/Negatif/TCE02_Edit Without Fill one field
+
+2022-07-20 14:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Dosis 2_ant-btn ant-btn-default Sess_f4103d")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Dosis 2_ant-btn ant-btn-default Sess_f4103d' is clicked on
+
+2022-07-20 14:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/button_Dosis 2_ant-btn ant-btn-default Sess_f4103d' is clicked on
+
+2022-07-20 14:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-20 14:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/input_Jam Mulai Sesi_operational_hour_start' is clicked on
+
+2022-07-20 14:55:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam mulai sesi harus diisi")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam mulai sesi harus diisi' is clicked on
+
+2022-07-20 14:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/div_Jam mulai sesi harus diisi' is clicked on
+
+2022-07-20 14:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Edit_ant-modal-close-x")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Edit_ant-modal-close-x' is clicked on
+
+2022-07-20 14:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/span_Edit_ant-modal-close-x' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/TC_Search" time="30.323" classname="Test Cases/ADMIN/KELOLA SESI/TC_Search" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:55:07 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/TC_Search: Test Cases/ADMIN/KELOLA SESI/TC_Search
+
+2022-07-20 14:55:08 - [TEST_STEP][PASSED] - for ([i = 1, i <= 5, (i++)]): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/sinopharm' is present
+
+2022-07-20 14:55:08 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:55:08 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:10 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-20 14:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-20 14:55:12 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i)): Text 'asd' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-20 14:55:13 - [MESSAGE][PASSED] - Text 'asd' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-20 14:55:13 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-20 14:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-20 14:55:13 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-20 14:55:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify no data"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-20 14:55:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:55:14 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-20 14:55:14 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:55:15 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:16 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-20 14:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-20 14:55:18 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i)): Text 'dosis 3' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-20 14:55:19 - [MESSAGE][PASSED] - Text 'dosis 3' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-20 14:55:19 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-20 14:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-20 14:55:19 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-20 14:55:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/verify no data"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-20 14:55:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:55:20 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/verify no data' is present
+
+2022-07-20 14:55:20 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:55:20 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:22 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-20 14:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-20 14:55:23 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i)): Text 'sinovac' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-20 14:55:24 - [MESSAGE][PASSED] - Text 'sinovac' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-20 14:55:24 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-20 14:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-20 14:55:25 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): null
+
+2022-07-20 14:55:25 - [TEST_STEP][PASSED] - else if (i == 3): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/sinopharm' is present
+
+2022-07-20 14:55:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/sinopharm"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/sinopharm' is present
+
+2022-07-20 14:55:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:55:25 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/sinopharm' is present
+
+2022-07-20 14:55:25 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:55:26 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:28 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-20 14:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-20 14:55:30 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i)): Text 'dosis' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-20 14:55:31 - [MESSAGE][PASSED] - Text 'dosis' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-20 14:55:31 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-20 14:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-20 14:55:32 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): null
+
+2022-07-20 14:55:32 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-07-20 14:55:32 - [TEST_STEP][PASSED] - else if (i == 4): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/sinopharm' is present
+
+2022-07-20 14:55:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/sinopharm"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/sinopharm' is present
+
+2022-07-20 14:55:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:55:32 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/sinopharm' is present
+
+2022-07-20 14:55:32 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Dashboard/overview")): Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Dashboard/overview' is clicked on
+
+2022-07-20 14:55:33 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:34 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-20 14:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar' is clicked on
+
+2022-07-20 14:55:36 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Sesi/SEARCH/Search bar"), findTestData("ADMIN/Search Sesi").getValue(1, i)): Text '22' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-20 14:55:36 - [MESSAGE][PASSED] - Text '22' is set on object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/Search bar'
+
+2022-07-20 14:55:36 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/btn search")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-20 14:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/btn search' is clicked on
+
+2022-07-20 14:55:37 - [TEST_STEP][PASSED] - if (i == 1 | i == 2): null
+
+2022-07-20 14:55:37 - [TEST_STEP][PASSED] - else if (i == 3): null
+
+2022-07-20 14:55:37 - [TEST_STEP][PASSED] - else if (i == 4): null
+
+2022-07-20 14:55:37 - [TEST_STEP][PASSED] - else: Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/sinopharm' is present
+
+2022-07-20 14:55:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/SEARCH/sinopharm"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/sinopharm' is present
+
+2022-07-20 14:55:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/SEARCH/sinopharm' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/TC_View Detail Sesi" time="2.215" classname="Test Cases/ADMIN/KELOLA SESI/TC_View Detail Sesi" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:55:37 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/TC_View Detail Sesi: Test Cases/ADMIN/KELOLA SESI/TC_View Detail Sesi
+
+2022-07-20 14:55:38 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/Detail Sesi/icon detail")): Object: 'Object Repository/ADMIN/Kelola Sesi/Detail Sesi/icon detail' is clicked on
+
+2022-07-20 14:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/Detail Sesi/icon detail' is clicked on
+
+2022-07-20 14:55:38 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/Detail Sesi/verify detail sesi page")): Object: 'Object Repository/ADMIN/Kelola Sesi/Detail Sesi/verify detail sesi page' is clicked on
+
+2022-07-20 14:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/Detail Sesi/verify detail sesi page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/DETAIL SESI/TC_Download" time="3.617" classname="Test Cases/ADMIN/DETAIL SESI/TC_Download" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:55:40 - [TEST_CASE][PASSED] - Test Cases/ADMIN/DETAIL SESI/TC_Download: Test Cases/ADMIN/DETAIL SESI/TC_Download
+
+2022-07-20 14:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:55:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a' is clicked on
+
+2022-07-20 14:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a' is clicked on
+
+2022-07-20 14:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/div_Download")): Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/div_Download' is clicked on
+
+2022-07-20 14:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/div_Download' is clicked on
+
+2022-07-20 14:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Download")): Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Download' is clicked on
+
+2022-07-20 14:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Download' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/DETAIL SESI/TC_Search" time="9.263" classname="Test Cases/ADMIN/DETAIL SESI/TC_Search" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:55:43 - [TEST_CASE][PASSED] - Test Cases/ADMIN/DETAIL SESI/TC_Search: Test Cases/ADMIN/DETAIL SESI/TC_Search
+
+2022-07-20 14:55:44 - [TEST_STEP][PASSED] - for ([i = 1, i <= 2, (i++)]): Object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/td_Haechann' is present
+
+2022-07-20 14:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a' is clicked on
+
+2022-07-20 14:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a' is clicked on
+
+2022-07-20 14:55:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/input_Download_keyword"), findTestData("ADMIN/search pendaftar").getValue(1, i)): Text 'coba' is set on object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/input_Download_keyword'
+
+2022-07-20 14:55:48 - [MESSAGE][PASSED] - Text 'coba' is set on object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/input_Download_keyword'
+
+2022-07-20 14:55:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Download_ant-btn ant-btn-default")): Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Download_ant-btn ant-btn-default' is clicked on
+
+2022-07-20 14:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Download_ant-btn ant-btn-default' is clicked on
+
+2022-07-20 14:55:48 - [TEST_STEP][PASSED] - if (i == 1): Object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/div_No Data' is present
+
+2022-07-20 14:55:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/div_No Data"), 0): Object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/div_No Data' is present
+
+2022-07-20 14:55:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:55:49 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/div_No Data' is present
+
+2022-07-20 14:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Sesi' is clicked on
+
+2022-07-20 14:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a")): Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a' is clicked on
+
+2022-07-20 14:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Sesi  GetVaccine/a' is clicked on
+
+2022-07-20 14:55:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/input_Download_keyword"), findTestData("ADMIN/search pendaftar").getValue(1, i)): Text 'haechan' is set on object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/input_Download_keyword'
+
+2022-07-20 14:55:52 - [MESSAGE][PASSED] - Text 'haechan' is set on object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/input_Download_keyword'
+
+2022-07-20 14:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Download_ant-btn ant-btn-default")): Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Download_ant-btn ant-btn-default' is clicked on
+
+2022-07-20 14:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Download_ant-btn ant-btn-default' is clicked on
+
+2022-07-20 14:55:52 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-20 14:55:52 - [TEST_STEP][PASSED] - else: Object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/td_Haechann' is present
+
+2022-07-20 14:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/td_Haechann"), 0): Object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/td_Haechann' is present
+
+2022-07-20 14:55:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/td_Haechann' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/DETAIL SESI/TC_View Detail Pendaftar" time="1.533" classname="Test Cases/ADMIN/DETAIL SESI/TC_View Detail Pendaftar" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:55:53 - [TEST_CASE][PASSED] - Test Cases/ADMIN/DETAIL SESI/TC_View Detail Pendaftar: Test Cases/ADMIN/DETAIL SESI/TC_View Detail Pendaftar
+
+2022-07-20 14:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Haechann_ant-btn ant-btn-default Ses_3c6c21")): Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Haechann_ant-btn ant-btn-default Ses_3c6c21' is clicked on
+
+2022-07-20 14:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Haechann_ant-btn ant-btn-default Ses_3c6c21' is clicked on
+
+2022-07-20 14:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Selesai")): Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Selesai' is clicked on
+
+2022-07-20 14:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Detail Sesi  GetVaccine/button_Selesai' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/KELOLA SESI/TC_Delete" time="25.049" classname="Test Cases/ADMIN/KELOLA SESI/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:55:54 - [TEST_CASE][PASSED] - Test Cases/ADMIN/KELOLA SESI/TC_Delete: Test Cases/ADMIN/KELOLA SESI/TC_Delete
+
+2022-07-20 14:55:55 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/SEARCH/kelola sesi")): Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/SEARCH/kelola sesi' is clicked on
+
+2022-07-20 14:55:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/verify kelola page"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/verify kelola page' is present
+
+2022-07-20 14:55:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:56:18 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/verify kelola page' is present
+
+2022-07-20 14:56:18 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Sesi/DELETE SESI/icon delete")): Object: 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/icon delete' is clicked on
+
+2022-07-20 14:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/icon delete' is clicked on
+
+2022-07-20 14:56:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ADMIN/Kelola Sesi/DELETE SESI/yes delete")): Object 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete' is clickable
+
+2022-07-20 14:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/DELETE SESI/yes delete' is clickable
+
+2022-07-20 14:56:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Sesi/verify kelola page"), 0): Object 'Object Repository/ADMIN/Kelola Sesi/verify kelola page' is present
+
+2022-07-20 14:56:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Sesi/verify kelola page' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT02_Tambah Vaksin Without Fill one field" time="188.614" classname="Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT02_Tambah Vaksin Without Fill one field" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:56:19 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT02_Tambah Vaksin Without Fill one field: Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT02_Tambah Vaksin Without Fill one field
+
+2022-07-20 14:56:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:56:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 14:56:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 14:56:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Data")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 14:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 14:56:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota"), "100"): Text '100' is set on object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota'
+
+2022-07-20 14:57:57 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota'
+
+2022-07-20 14:57:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Vaksin")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Vaksin' is clicked on
+
+2022-07-20 14:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Vaksin' is clicked on
+
+2022-07-20 14:58:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Jenis vaksin harus diisi"), 0): Object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Jenis vaksin harus diisi' is present
+
+2022-07-20 14:58:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 14:58:58 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Jenis vaksin harus diisi' is present
+
+2022-07-20 14:58:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Kelola Sesi  GetVaccine/close page")): Object: 'Object Repository/Page_Kelola Sesi  GetVaccine/close page' is clicked on
+
+2022-07-20 14:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kelola Sesi  GetVaccine/close page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT03_Tambah Vaksin Without Fill All" time="185.873" classname="Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT03_Tambah Vaksin Without Fill All" status="PASSED">
+         <system-out><![CDATA[2022-07-20 14:59:28 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT03_Tambah Vaksin Without Fill All: Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCT03_Tambah Vaksin Without Fill All
+
+2022-07-20 14:59:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 14:59:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:00:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Data")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 15:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 15:00:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Vaksin")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Vaksin' is clicked on
+
+2022-07-20 15:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Vaksin' is clicked on
+
+2022-07-20 15:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Kuota vaksinasi harus diisi")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Kuota vaksinasi harus diisi' is clicked on
+
+2022-07-20 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Kuota vaksinasi harus diisi' is clicked on
+
+2022-07-20 15:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Jenis vaksin harus diisi")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Jenis vaksin harus diisi' is clicked on
+
+2022-07-20 15:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Jenis vaksin harus diisi' is clicked on
+
+2022-07-20 15:02:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Kelola Sesi  GetVaccine/close page")): Object: 'Object Repository/Page_Kelola Sesi  GetVaccine/close page' is clicked on
+
+2022-07-20 15:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kelola Sesi  GetVaccine/close page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Kelola Vaksinasi/TCT01_Tambah Vaksin Vlid" time="274.936" classname="Test Cases/ADMIN/Kelola Vaksinasi/TCT01_Tambah Vaksin Vlid" status="PASSED">
+         <system-out><![CDATA[2022-07-20 15:02:34 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Kelola Vaksinasi/TCT01_Tambah Vaksin Vlid: Test Cases/ADMIN/Kelola Vaksinasi/TCT01_Tambah Vaksin Vlid
+
+2022-07-20 15:02:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:03:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:03:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Data")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 15:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Data' is clicked on
+
+2022-07-20 15:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Select Vaccine")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Select Vaccine' is clicked on
+
+2022-07-20 15:04:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Select Vaccine' is clicked on
+
+2022-07-20 15:04:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Jenis Vaksin_vaccine_id"), "moderna"): Text 'moderna' is set on object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Jenis Vaksin_vaccine_id'
+
+2022-07-20 15:05:08 - [MESSAGE][PASSED] - Text 'moderna' is set on object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Jenis Vaksin_vaccine_id'
+
+2022-07-20 15:05:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("ADMIN/Page_Kelola Vaksin  GetVaccine/input_Jenis Vaksin_vaccine_id"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Jenis Vaksin_vaccine_id'
+
+2022-07-20 15:05:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Jenis Vaksin_vaccine_id'
+
+2022-07-20 15:05:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota"), "100"): Text '100' is set on object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota'
+
+2022-07-20 15:06:38 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_kuota'
+
+2022-07-20 15:06:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Vaksin")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Vaksin' is clicked on
+
+2022-07-20 15:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Tambah Vaksin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCE02_Edit Without one field" time="186.31" classname="Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCE02_Edit Without one field" status="PASSED">
+         <system-out><![CDATA[2022-07-20 15:07:09 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCE02_Edit Without one field: Test Cases/ADMIN/Kelola Vaksinasi/Negatif/TCE02_Edit Without one field
+
+2022-07-20 15:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:07:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_AstraZeneca_ant-btn ant-btn-default _429647")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_AstraZeneca_ant-btn ant-btn-default _429647' is clicked on
+
+2022-07-20 15:08:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_AstraZeneca_ant-btn ant-btn-default _429647' is clicked on
+
+2022-07-20 15:08:14 - [TEST_STEP][PASSED] - clearText(findTestObject("ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_stock")): Text of object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_stock' is cleared
+
+2022-07-20 15:08:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_stock' is cleared
+
+2022-07-20 15:08:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Kuota vaksinasi harus diisi")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Kuota vaksinasi harus diisi' is clicked on
+
+2022-07-20 15:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/div_Kuota vaksinasi harus diisi' is clicked on
+
+2022-07-20 15:09:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Update Vaksin")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Update Vaksin' is clicked on
+
+2022-07-20 15:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Update Vaksin' is clicked on
+
+2022-07-20 15:09:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/span_Edit_ant-modal-close-x")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/span_Edit_ant-modal-close-x' is clicked on
+
+2022-07-20 15:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/span_Edit_ant-modal-close-x' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Kelola Vaksinasi/TCE01_Edit Vaksin" time="183.973" classname="Test Cases/ADMIN/Kelola Vaksinasi/TCE01_Edit Vaksin" status="PASSED">
+         <system-out><![CDATA[2022-07-20 15:10:15 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Kelola Vaksinasi/TCE01_Edit Vaksin: Test Cases/ADMIN/Kelola Vaksinasi/TCE01_Edit Vaksin
+
+2022-07-20 15:10:15 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_AstraZeneca_ant-btn ant-btn-default _429647")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_AstraZeneca_ant-btn ant-btn-default _429647' is clicked on
+
+2022-07-20 15:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_AstraZeneca_ant-btn ant-btn-default _429647' is clicked on
+
+2022-07-20 15:11:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_stock"), "500"): Text '500' is set on object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_stock'
+
+2022-07-20 15:12:18 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/input_Kuota_stock'
+
+2022-07-20 15:12:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Update Vaksin")): Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Update Vaksin' is clicked on
+
+2022-07-20 15:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Kelola Vaksin  GetVaccine/button_Update Vaksin' is clicked on
+
+2022-07-20 15:12:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin"), 0): Object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is present
+
+2022-07-20 15:12:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 15:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Kelola Vaksinasi/TC_Search" time="368.297" classname="Test Cases/ADMIN/Kelola Vaksinasi/TC_Search" status="PASSED">
+         <system-out><![CDATA[2022-07-20 15:13:19 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Kelola Vaksinasi/TC_Search: Test Cases/ADMIN/Kelola Vaksinasi/TC_Search
+
+2022-07-20 15:13:19 - [TEST_STEP][PASSED] - for ([i = 1, i <= 2, (i++)]): Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin' is present
+
+2022-07-20 15:13:19 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:13:50 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:13:53 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search")): Object: 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search' is clicked on
+
+2022-07-20 15:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search' is clicked on
+
+2022-07-20 15:14:23 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search"), findTestData("ADMIN/search vaksin").getValue(1, i)): Text 'search' is set on object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search'
+
+2022-07-20 15:15:23 - [MESSAGE][PASSED] - Text 'search' is set on object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search'
+
+2022-07-20 15:15:23 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/icon search")): Object: 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/icon search' is clicked on
+
+2022-07-20 15:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/icon search' is clicked on
+
+2022-07-20 15:15:54 - [TEST_STEP][PASSED] - if (i == 1): Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/no data' is present
+
+2022-07-20 15:15:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/no data"), 0): Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/no data' is present
+
+2022-07-20 15:15:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 15:16:24 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/no data' is present
+
+2022-07-20 15:16:24 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:16:54 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:16:56 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search")): Object: 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search' is clicked on
+
+2022-07-20 15:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search' is clicked on
+
+2022-07-20 15:17:26 - [TEST_STEP][PASSED] - setText(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search"), findTestData("ADMIN/search vaksin").getValue(1, i)): Text 'astrazeneca' is set on object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search'
+
+2022-07-20 15:18:27 - [MESSAGE][PASSED] - Text 'astrazeneca' is set on object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/input search'
+
+2022-07-20 15:18:27 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/icon search")): Object: 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/icon search' is clicked on
+
+2022-07-20 15:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/icon search' is clicked on
+
+2022-07-20 15:18:57 - [TEST_STEP][PASSED] - if (i == 1): null
+
+2022-07-20 15:18:57 - [TEST_STEP][PASSED] - else: Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin' is present
+
+2022-07-20 15:18:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin"), 0): Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin' is present
+
+2022-07-20 15:18:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 15:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/Kelola Vaksinasi/TC_Delete" time="123.722" classname="Test Cases/ADMIN/Kelola Vaksinasi/TC_Delete" status="PASSED">
+         <system-out><![CDATA[2022-07-20 15:19:27 - [TEST_CASE][PASSED] - Test Cases/ADMIN/Kelola Vaksinasi/TC_Delete: Test Cases/ADMIN/Kelola Vaksinasi/TC_Delete
+
+2022-07-20 15:19:28 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:19:58 - [TEST_STEP][PASSED] - click(findTestObject("ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Kelola Vaksin' is clicked on
+
+2022-07-20 15:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Kelola Sesi  GetVaccine/btn_delete sinovac")): Object: 'Object Repository/Page_Kelola Sesi  GetVaccine/btn_delete sinovac' is clicked on
+
+2022-07-20 15:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Kelola Sesi  GetVaccine/btn_delete sinovac' is clicked on
+
+2022-07-20 15:20:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/button_Yes")): Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/button_Yes' is clickable
+
+2022-07-20 15:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/button_Yes' is clickable
+
+2022-07-20 15:21:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin"), 0): Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin' is present
+
+2022-07-20 15:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 15:21:31 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Kelola Vaksin/Page_Kelola Vaksin  GetVaccine/h3_Stok Vaksin' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/PROFIL/TC_View Profile" time="35.718" classname="Test Cases/ADMIN/PROFIL/TC_View Profile" status="PASSED">
+         <system-out><![CDATA[2022-07-20 15:21:31 - [TEST_CASE][PASSED] - Test Cases/ADMIN/PROFIL/TC_View Profile: Test Cases/ADMIN/PROFIL/TC_View Profile
+
+2022-07-20 15:21:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Overview' is clicked on
+
+2022-07-20 15:22:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Profil Admin")): Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Profil Admin' is clicked on
+
+2022-07-20 15:22:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Dashboard Admin  GetVaccine/a_Profil Admin' is clicked on
+
+2022-07-20 15:22:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ADMIN/Page_Profil Admin  GetVaccine/h3_Informasi Fasilitas Kesehatan"), 0): Object 'Object Repository/ADMIN/Page_Profil Admin  GetVaccine/h3_Informasi Fasilitas Kesehatan' is present
+
+2022-07-20 15:22:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 15:22:07 - [MESSAGE][PASSED] - Object 'Object Repository/ADMIN/Page_Profil Admin  GetVaccine/h3_Informasi Fasilitas Kesehatan' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ADMIN/PROFIL/TC_Edit Profile" time="5.544" classname="Test Cases/ADMIN/PROFIL/TC_Edit Profile" status="PASSED">
+         <system-out><![CDATA[2022-07-20 15:22:07 - [TEST_CASE][PASSED] - Test Cases/ADMIN/PROFIL/TC_Edit Profile: Test Cases/ADMIN/PROFIL/TC_Edit Profile
+
+2022-07-20 15:22:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Profil Admin  GetVaccine/a_Edit")): Object: 'Object Repository/ADMIN/Page_Profil Admin  GetVaccine/a_Edit' is clicked on
+
+2022-07-20 15:22:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Profil Admin  GetVaccine/a_Edit' is clicked on
+
+2022-07-20 15:22:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/input_Nama_facility_name")): Object: 'Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/input_Nama_facility_name' is clicked on
+
+2022-07-20 15:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/input_Nama_facility_name' is clicked on
+
+2022-07-20 15:22:09 - [TEST_STEP][PASSED] - clearText(findTestObject("ADMIN/Page_Edit Profil Admin  GetVaccine/input_Nama_facility_name")): Text of object 'Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/input_Nama_facility_name' is cleared
+
+2022-07-20 15:22:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/input_Nama_facility_name' is cleared
+
+2022-07-20 15:22:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/input_Nama_facility_name"), "Klinik Yonkes Kostrad"): Text 'Klinik Yonkes Kostrad' is set on object 'Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/input_Nama_facility_name'
+
+2022-07-20 15:22:11 - [MESSAGE][PASSED] - Text 'Klinik Yonkes Kostrad' is set on object 'Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/input_Nama_facility_name'
+
+2022-07-20 15:22:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/button_Simpan")): Object: 'Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/button_Simpan' is clicked on
+
+2022-07-20 15:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ADMIN/Page_Edit Profil Admin  GetVaccine/button_Simpan' is clicked on
+
+2022-07-20 15:22:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-20 15:22:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-20 14:53:09 - [TEST_SUITE][PASSED] - TS_ADMIN: Test Cases/ADMIN/PROFIL/TC_Edit Profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
