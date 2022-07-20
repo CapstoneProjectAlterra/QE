@@ -1,0 +1,11 @@
+{"testCaseName":"Test Cases/CITIZEN/AUTH/TC_Register","testCaseId":"Test Cases/CITIZEN/AUTH/TC_Register"}
+{"testCaseName":"Test Cases/CITIZEN/AUTH/TC_Login","testCaseId":"Test Cases/CITIZEN/AUTH/TC_Login"}
+{"testCaseName":"Test Cases/CITIZEN/AUTH/Login","testCaseId":"Test Cases/CITIZEN/AUTH/Login"}
+{"testCaseName":"Test Cases/CITIZEN/VAKSINASI/TC_Search","testCaseId":"Test Cases/CITIZEN/VAKSINASI/TC_Search"}
+{"testCaseName":"Test Cases/CITIZEN/VAKSINASI/TC_Health Facility","testCaseId":"Test Cases/CITIZEN/VAKSINASI/TC_Health Facility"}
+{"testCaseName":"Test Cases/CITIZEN/ANGGOTA/TC_Tambah Anggota","testCaseId":"Test Cases/CITIZEN/ANGGOTA/TC_Tambah Anggota"}
+{"testCaseName":"Test Cases/CITIZEN/ANGGOTA/TC_View Detail Anggota","testCaseId":"Test Cases/CITIZEN/ANGGOTA/TC_View Detail Anggota"}
+{"testCaseName":"Test Cases/CITIZEN/ANGGOTA/TC_Edit Anggota","testCaseId":"Test Cases/CITIZEN/ANGGOTA/TC_Edit Anggota"}
+{"testCaseName":"Test Cases/CITIZEN/VAKSINASI/TC_Pesan Vaksinasi","testCaseId":"Test Cases/CITIZEN/VAKSINASI/TC_Pesan Vaksinasi"}
+{"testCaseName":"Test Cases/CITIZEN/TIKET/TC_View Tiket","testCaseId":"Test Cases/CITIZEN/TIKET/TC_View Tiket"}
+{"testCaseName":"Test Cases/CITIZEN/AUTH/Logout","testCaseId":"Test Cases/CITIZEN/AUTH/Logout"}
